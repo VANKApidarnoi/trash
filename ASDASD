@@ -8,3 +8,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+warn('SSEESNT')
