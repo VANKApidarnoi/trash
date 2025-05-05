@@ -1879,11 +1879,11 @@ function library:AddWindow(title, options)
 							if console_options.source == "Lua" then
 								highlight_lua("Text")
 								Source.Changed:Connect(highlight_lua)
-							elseif console_options.source == "Logs" then
-								Lines.Visible = false
+							--elseif console_options.source == "Logs" then
+								--Lines.Visible = false
 
-								highlight_logs("Text")
-								Source.Changed:Connect(highlight_logs)
+								--highlight_logs("Text")
+								--Source.Changed:Connect(highlight_logs)
 							end
 
 							function console_data:Set(code)
