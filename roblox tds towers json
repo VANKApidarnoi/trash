@@ -1,1 +1,2785 @@
-
+data = [[{
+"Warden":{
+"Skins":{
+"Korblox":true,"Dark Frost":true,"Freddy":true,"Baseball":true,"Galactic":true,"Ducky":true,"Default":true,"Pirate":true,"Isaac":true,"Slaughter":true,"Fallen":true,"Masquerade":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Range":5,"Attributes":{
+"AttackAngle":80,"StunLength":1,"CanBlock":false,"ParryCooldown":0.25,"MaxHits":1,"ParryLength":1.25,"CanStun":false},"Limit":15,"Price":1000,"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":0.55,"Damage":6},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"StunLength":1,"CanBlock":false,"ParryCooldown":0.25,"MaxHits":1,"ParryLength":1.25,"CanStun":false},"Range":6,"Extras":[],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.55,"Damage":8},"Image":11415010529,"Title":"Night Shift","Cost":400},{
+"Stats":{
+"Attributes":{
+"StunLength":2,"CanBlock":false,"ParryCooldown":0.25,"MaxHits":1,"ParryLength":1.25,"CanStun":false},"Range":6,"Extras":[],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.75,"Damage":18},"Image":11415012702,"Title":"Heavier Stick","Cost":1250},{
+"Stats":{
+"Attributes":{
+"StunLength":2,"CanBlock":false,"ParryCooldown":0.25,"MaxHits":1,"ParryLength":1.25,"CanStun":true},"Range":7,"Extras":["Stuns Enemies Every Hit"],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.75,"Damage":40},"Image":11415014676,"Title":"Stunning Blows","Cost":4500},{
+"Stats":{
+"Attributes":{
+"StunLength":2.5,"CanBlock":true,"ParryCooldown":0.25,"MaxHits":1,"ParryLength":1.25,"CanStun":true},"Range":7,"Extras":["Riot Shield: Block Stuns","Longer Stuns"],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.75,"Damage":115},"Image":11415015418,"Title":"Class Foxtrot Defense Level","Cost":15000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Hit and Stun nearby enemies with a baton! Deals Critical hits every 3rd swing.","Price":{
+"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":4000,"Eligible":null,"MapLocked":"Pizza Party"},"Class":"2","SkinData":{
+"Korblox":{
+"Icon":"rbxassetid://16742164799","Rarity":"7"},"Dark Frost":{
+"Icon":"rbxassetid://137394918093332","Rarity":"2"},"Default":{
+"Icon":"rbxassetid://16742164273","Rarity":"1"},"Baseball":{
+"Icon":"rbxassetid://16742164022","Rarity":"3"},"Fallen":{
+"Icon":"rbxassetid://18960948589","Rarity":"3"},"Ducky":{
+"Icon":"rbxassetid://16742051899","Rarity":"2"},"Freddy":{
+"Icon":"rbxassetid://106739389283977","Rarity":"2"},"Pirate":{
+"Icon":"rbxassetid://16742165168","Rarity":"3"},"Isaac":{
+"Icon":"rbxassetid://16742164667","Rarity":"4"},"Slaughter":{
+"Icon":"rbxassetid://16742165310","Rarity":"6"},"Galactic":{
+"Icon":"rbxassetid://16742164510","Rarity":"3"},"Masquerade":{
+"Icon":"rbxassetid://16742165002","Rarity":"7"}},"Role":"1","BoundarySize":1,"Category":"3","Height":0,"Gamepass":{
+"Id":99570026},"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742164273","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Minigunner":{
+"Skins":{
+"Community":true,"Phantom":true,"Sweaking":true,"Gardener":true,"Nutcracker":true,"Fallen":true,"Blue":true,"Bunny":true,"Green":true,"Crusader":true,"Road Rage":true,"Ghost":true,"Hazmat":true,"Frost":true,"Chad":true,"Xmas":true,"Holiday":true,"Warlord":true,"Golden Plushie":true,"Plushie":true,"Twitter":true,"Beach":true,"Winter":true,"Black Ops":true,"Space Elite":true,"Heavy":true,"Golden":true,"Ducky":true,"Default":true,"Pumpkin":true,"Toy":true,"Party":true,"Wraith":true,"Trucker":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"3":false,"2":false},"Attributes":{
+"RevTime":1.4,"SlowTime":1},"Price":1850,"Cooldown":0.15,"Range":15,"Damage":2},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"RevTime":1.2},"Extras":["Faster Rev Time (1.2)"],"Cooldown":0.12,"Range":15,"Damage":2},"Image":15184753790,"Title":"Improved Handling","Cost":400},{
+"Stats":{
+"Detections":{
+"2":true},"Cooldown":0.12,"Hidden":true,"Range":18,"Damage":3},"Image":15184753514,"Title":"Specialized Tech","Cost":1500},{
+"Stats":{
+"Attributes":{
+"RevTime":1},"Extras":["Faster Rev Time (1)"],"Range":18,"Cooldown":0.1,"Damage":7},"Image":15184753289,"Title":"Geared Up","Cost":7000},{
+"Stats":{
+"Attributes":{
+"RevTime":1},"Extras":["Faster Rev Time (1)"],"Cooldown":0.1,"Range":20,"Damage":17},"Image":15184752970,"Title":"Futuristic Armory","Cost":17500}]},"Golden":{
+"Paths":0,"Defaults":{
+"Limit":12,"Detections":{
+"3":false,"2":false},"Attributes":{
+"RevTime":1.4,"SlowTime":1},"Price":3000,"Cooldown":0.12,"Range":15,"Damage":3},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"RevTime":1.2},"Extras":["Faster Rev Time (1.2)"],"Cooldown":0.12,"Range":15,"Damage":4},"Image":15184753790,"Title":"Improved Handling","Cost":900},{
+"Stats":{
+"Cooldown":0.12,"Range":18,"Detections":{
+"2":true},"Damage":5},"Image":15184753514,"Title":"Thermal Vision","Cost":2000},{
+"Stats":{
+"Attributes":{
+"RevTime":1},"Range":18,"Cooldown":0.1,"Damage":10},"Image":15184753289,"Title":"High Tech Armory","Cost":8500},{
+"Stats":{
+"Attributes":{
+"RevTime":1},"Cooldown":0.1,"Range":20,"Damage":28},"Image":15184752970,"Title":"24 Karat Gatling Gun","Cost":30000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"A high-firerate tower that carries a M61 Vulcan Gatling Gun","Price":{
+"Value":8000,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Community":{
+"Icon":"rbxassetid://16742104107","Rarity":"6"},"Twitter":{
+"Icon":"rbxassetid://16742108697","Rarity":"6"},"Winter":{
+"Icon":4343076813,"Rarity":"7"},"Black Ops":{
+"Icon":"rbxassetid://16742103323","Rarity":"1"},"Nutcracker":{
+"Icon":"rbxassetid://123307115343441","Rarity":"2"},"Party":{
+"Icon":"rbxassetid://16742106926","Rarity":"6"},"Blue":{
+"Icon":"rbxassetid://16742103560","Rarity":"1"},"Bunny":{
+"Icon":"rbxassetid://16742103808","Rarity":"7"},"Green":{
+"Icon":"rbxassetid://16742105989","Rarity":"1"},"Crusader":{
+"Icon":"rbxassetid://16742104409","Rarity":"7"},"Road Rage":{
+"Icon":"rbxassetid://127265987839477","Rarity":"3"},"Ghost":{
+"Icon":"rbxassetid://16742105452","Rarity":"7"},"Pumpkin":{
+"Icon":"rbxassetid://16742107785","Rarity":"7"},"Frost":{
+"Icon":"rbxassetid://16742105137","Rarity":"7"},"Golden Plushie":{
+"Icon":"rbxassetid://18563673298","Rarity":"6"},"Xmas":{
+"Icon":"rbxassetid://16742109340","Rarity":"7"},"Holiday":{
+"Icon":"rbxassetid://16742106731","Rarity":"7"},"Phantom":{
+"Icon":"rbxassetid://16742107196","Rarity":"3"},"Gardener":{
+"Icon":"rbxassetid://82544636570442","Rarity":"3"},"Fallen":{
+"Icon":"rbxassetid://18739982182","Rarity":"3"},"Chad":{
+"Icon":"rbxassetid://16997025666","Rarity":"4"},"Beach":{
+"Icon":"rbxassetid://16742103082","Rarity":"7"},"Sweaking":{
+"Icon":"rbxassetid://16742108280","Rarity":"3"},"Hazmat":{
+"Icon":"rbxassetid://16742106200","Rarity":"1"},"Warlord":{
+"Icon":"rbxassetid://16742108927","Rarity":"7"},"Heavy":{
+"Icon":"rbxassetid://16742106470","Rarity":"1"},"Golden":{
+"Icon":"rbxassetid://16742105731","Rarity":"5"},"Ducky":{
+"Icon":"rbxassetid://16742104895","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://16742104678","Rarity":"1"},"Space Elite":{
+"Icon":"rbxassetid://16742108056","Rarity":"2"},"Toy":{
+"Icon":"rbxassetid://16742108498","Rarity":"2"},"Plushie":{
+"Icon":"rbxassetid://16742107455","Rarity":"6"},"Wraith":{
+"Icon":"rbxassetid://16742109128","Rarity":"3"},"Trucker":{
+"Icon":"rbxassetid://16997026080","Rarity":"4"}},"Role":"1","Category":"3","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742104678","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Level":15,"BoundingSize":null}},"Mecha Base":{
+"Skins":{
+"Default":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"3":false,"2":false},"Limit":4,"Cooldown":0.5,"Price":5000,"Attributes":{
+"SpawnTime":60,"UnitToSend":"Mark1"},"Range":3,"Damage":0},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"SpawnTime":40,"UnitToSend":"Mark1Rocket"}},"Image":4119547116,"Title":"Mechanics","Cost":400},{
+"Stats":{
+"Attributes":{
+"UnitToSend":"Mark2"}},"Image":4119547593,"Title":"Missile Launcher","Cost":900},{
+"Stats":{
+"Attributes":{
+"UnitToSend":"Mark3"}},"Image":4119548000,"Title":"Minigun Mech","Cost":2400},{
+"Stats":{
+"Attributes":{
+"UnitToSend":"Mark4"}},"Image":4119548431,"Title":"Destroyer Mech","Cost":4500},{
+"Stats":{
+"Attributes":{
+"UnitToSend":"Mark5"}},"Image":4119548907,"Title":"Void Walker","Cost":6500}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Send out a mecha every couple of seconds to run over and shoot zombies.","Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://16742097118","Rarity":"1"}},"Role":"2","BoundarySize":2.25,"Category":"5","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742097118","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Level":50,"BoundingSize":null}},"Frost Blaster":{
+"Skins":{
+"Default":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Limit":10,"Detections":{
+"5":true,"3":false,"2":false},"Attributes":{
+"CanFreeze":true,"SlowPercent":30,"MaxHits":3,"DebuffDamage":0,"ProjectileSpeed":60,"DefenseMelt":0,"FreezeTime":0.5,"TickRate":0.25,"MaxSlow":30,"DebuffLength":2},"Price":850,"Cooldown":0.85,"Range":12,"Damage":2},"Upgrades":[{
+"Stats":{
+"Cooldown":0.75,"Detections":{
+"2":true}},"Image":15686412605,"Title":"Endurance","Cost":300},{
+"Stats":{
+"Extras":["Max Hits: 3 > 4"],"Attributes":{
+"DefenseMelt":10,"MaxHits":4},"Range":14,"Damage":4},"Image":15686412501,"Title":"Piercing Cold","Cost":950},{
+"Stats":{
+"Range":16,"Extras":["ðŸ§Š Freeze Time: 0.5 > 0.75","Max Hits: 4 -> 5"],"Attributes":{
+"MaxHits":5,"FreezeTime":0.75},"Damage":10},"Image":15686412400,"Title":"Frosty Gear","Cost":3500},{
+"Stats":{
+"Attributes":{
+"FreezeTime":1.25,"MaxHits":7,"ProjectileSpeed":90},"Cooldown":1.5,"Range":22,"Extras":["ðŸ§Š Freeze Time: 0.75 > 1.25","Max Hits: 5 -> 7","Faster projectile speed"],"Damage":35},"Image":15686412306,"Title":"Hyper Icer Trooper","Cost":10000}]}},"UpgradeOptions":[],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742074063","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"2","Description":"Pierce multiple enemies with an ice rifle, freezing them!","Category":"5","Height":0,"Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://16742074063","Rarity":"1"}},"BoundingSize":null}},"DJ Booth":{
+"Skins":{
+"Neon Rave":true,"Ghost":true,"Ducky":true,"Mako":true,"Masquerade":true,"Default":true,"Plushie":true,"Neko":true,"Garage Band":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Abilities":[{
+"Icon":132111474124053,"Level":3,"Name":"Drop The Beat","Debounce":30}],"Attributes":{
+"GreenTrackBuffs":{
+"Discount":5,"Range":0,"Damage":0},"PurpleTrackBuffs":{
+"Discount":0,"Range":12.5,"Damage":0}},"Limit":1,"Detections":{
+"3":false,"2":false},"Price":1200,"Cooldown":1,"Range":12,"Damage":0},"Upgrades":[{
+"Stats":{
+"Range":15,"Extras":[]},"Image":95144637961093,"Title":"Laptop Studio","Cost":300},{
+"Image":113548130163293,"Title":"Party Mode","Cost":1250,"Tooltips":[{
+"ButtonText":"<font color=\"rgb(255,185,0)\"><b>Unlock</b></font> <font color=\"rgb(255, 96, 96)\"><b>Red Track</b></font>","Header":"Track","Content":[{
+"Text":"Provides allied towers in range with a <font color=\"rgb(255,185,0)\"><b>10%</b></font> damage buff."}]}],"Stats":{
+"Attributes":{
+"RedTrackBuffs":{
+"Discount":0,"Range":0,"Damage":10},"PurpleTrackBuffs":{
+"Discount":0,"Range":15,"Damage":0},"GreenTrackBuffs":{
+"Discount":7.5,"Range":0,"Damage":0}},"Range":15,"Extras":["Purple Track Range 12.5 â†’ 15","Green Track Discount 5 â†’ 7.5"]}},{
+"Image":101877307760287,"Title":"Thrifty Music","Cost":3000,"Tooltips":[{
+"ButtonText":"<font color=\"rgb(255,185,0)\"><b>Unlock Drop The Beat</b></font>","Header":"Ability","Content":[{
+"Text":"Perform a powerful ability that differs based on what track is active. Scales with towers in range."}]},{
+"ButtonText":"<font color=\"rgb(255,185,0)\"><b>Drop The Beat (Purple)</b></font>","Header":"Ability","Content":[{
+"Text":"Knockback and apply a slowness debuff to enemies in range.\n\tâ€¢ Base Slowness: <font color=\"rgb(255,185,0)\"><b>20%</b></font>\n\tâ€¢ Slowness per Tower: <font color=\"rgb(255,185,0)\"><b>1%</b></font>\n\tâ€¢ Max Slowness: <font color=\"rgb(255,185,0)\"><b>40%</b></font>"}]},{
+"ButtonText":"<font color=\"rgb(255,185,0)\"><b>Drop The Beat (Green)</b></font>","Header":"Ability","Content":[{
+"Text":"Gain a cash payout based on the number of towers in range.\n\tâ€¢ Base cash: <font color=\"rgb(255,185,0)\"><b>$250</b></font>\n\tâ€¢ Cash per Tower: <font color=\"rgb(255,185,0)\"><b>$35</b></font>\n\tâ€¢ Max Payout: <font color=\"rgb(255,185,0)\"><b>$600</b></font>"}]},{
+"ButtonText":"<font color=\"rgb(255,185,0)\"><b>Drop The Beat (Red)</b></font>","Header":"Ability","Content":[{
+"Text":"Apply defense melt and deal damage to enemies in range.\n\tâ€¢ Base Defense Melt: <font color=\"rgb(255,185,0)\"><b>5%</b></font>\n\tâ€¢ Defense Melt per tower: <font color=\"rgb(255,185,0)\"><b>1%</b></font>\n\tâ€¢ Max Defense Melt: <font color=\"rgb(255,185,0)\"><b>25%</b></font>"}]}],"Stats":{
+"Attributes":{
+"RedTrackAbility":{
+"MaxDefMelt":25,"BaseDefenseMelt":5,"DefenseMeltPerTwr":1},"PurpleTrackBuffs":{
+"Discount":0,"Range":17.5,"Damage":0},"PulseCD":1.5,"GreenTrackBuffs":{
+"Discount":10,"Range":0,"Damage":0},"RedTrackBuffs":{
+"Discount":0,"Range":0,"Damage":12.5},"PulseCount":3,"GreenTrackAbility":{
+"MaxCash":600,"CashPerTower":35,"BaseCash":250},"PurpleTrackAbility":{
+"Knockback":20,"MaxHits":8,"SlowDebuffPerTwr":1,"MaxSlowDebuff":40,"SlowDuration":6,"BaseSlowDebuff":20}},"Extras":["Purple Track Range 15 â†’ 17.5","Green Track Discount 7.5 â†’ 10","Red Track Damage 10 â†’ 12.5"],"Range":15,"Damage":15}},{
+"Stats":{
+"Attributes":{
+"RedTrackAbility":{
+"MaxDefMelt":25,"BaseDefenseMelt":7,"DefenseMeltPerTwr":1},"PurpleTrackBuffs":{
+"Discount":0,"Range":22.5,"Damage":0},"GreenTrackBuffs":{
+"Discount":12.5,"Range":0,"Damage":0},"RedTrackBuffs":{
+"Discount":0,"Range":0,"Damage":15},"GreenTrackAbility":{
+"MaxCash":1250,"CashPerTower":50,"BaseCash":500},"PurpleTrackAbility":{
+"Knockback":22.5,"MaxHits":9,"SlowDebuffPerTwr":1,"MaxSlowDebuff":40,"SlowDuration":8,"BaseSlowDebuff":20}},"Extras":["Purple Track Range 17.5 â†’ 22.5","Green Track Discount 10 â†’ 12.5","Red Track Damage 10 â†’ 15"],"Range":16.5,"Damage":25},"Image":123117801948681,"Title":"Audio Visualizer","Cost":8000},{
+"Image":113854542319656,"Title":"Apocalypse Rave","Cost":20000,"Tooltips":[{
+"ButtonText":"<font color=\"rgb(255,185,0)\"><b>Unlock Trinity Buffs</b></font>","Header":"Passive Buffs","Content":[{
+"Text":"All tracks now apply all passive buffs."}]},{
+"ButtonText":"<font color=\"rgb(255,185,0)\"><b>Trinity Buffs (Purple)</b></font>","Header":"Purple Track Buffs","Content":[{
+"Text":"Range 22.5 â†’ <font color=\"rgb(255,185,0)\"><b>25%</b></font>"},{
+"Text":"Discount 0 â†’ <font color=\"rgb(255,185,0)\"><b>7.5%</b></font>"},{
+"Text":"Damage 0 â†’ <font color=\"rgb(255,185,0)\"><b>10%</b></font>"}]},{
+"ButtonText":"<font color=\"rgb(255,185,0)\"><b>Trinity Buffs (Green)</b></font>","Header":"Green Track Buffs","Content":[{
+"Text":"Range 0 â†’ <font color=\"rgb(255,185,0)\"><b>12.5%</b></font>"},{
+"Text":"Discount 12.5 â†’ <font color=\"rgb(255,185,0)\"><b>15%</b></font>"},{
+"Text":"Damage 0 â†’ <font color=\"rgb(255,185,0)\"><b>10%</b></font>"}]},{
+"ButtonText":"<font color=\"rgb(255,185,0)\"><b>Trinity Buffs (Red)</b></font>","Header":"Red Track Buffs","Content":[{
+"Text":"Range 0 â†’ <font color=\"rgb(255,185,0)\"><b>12.5%</b></font>"},{
+"Text":"Discount 0 â†’ <font color=\"rgb(255,185,0)\"><b>7.5%</b></font>"},{
+"Text":"Damage 15 â†’ <font color=\"rgb(255,185,0)\"><b>20%</b></font>"}]}],"Stats":{
+"Attributes":{
+"RedTrackAbility":{
+"MaxDefMelt":25,"BaseDefenseMelt":10,"DefenseMeltPerTwr":1},"PurpleTrackBuffs":{
+"Discount":7.5,"Range":25,"Damage":10},"PulseCD":1.5,"GreenTrackBuffs":{
+"Discount":15,"Range":12.5,"Damage":10},"RedTrackBuffs":{
+"Discount":7.5,"Range":12.5,"Damage":20},"PulseCount":4,"GreenTrackAbility":{
+"MaxCash":2250,"CashPerTower":75,"BaseCash":750},"PurpleTrackAbility":{
+"Knockback":20,"MaxHits":10,"SlowDebuffPerTwr":1,"MaxSlowDebuff":50,"SlowDuration":10,"BaseSlowDebuff":30}},"Extras":[],"Range":18.5,"Damage":50}}]}},"UpgradeOptions":[{
+"Values":[{
+"Name":"Purple","Value":"Purple","Level":0,"Icon":78057132346559,"Tooltip":{
+"Content":[{
+"Text":"Passive: Applies a range buff to nearby towers."},{
+"Text":"Active: Pushback and slow enemies in range."}],"Header":"Purple Track","Subject":"Buff"}},{
+"Name":"Green","Value":"Green","Level":0,"Icon":135909664575578,"Tooltip":{
+"Content":[{
+"Text":"Passive: Applies a discount buff to nearby towers."},{
+"Text":"Active: Earn a cash payout that scales with the number of towers in range."}],"Header":"Green Track","Subject":"Buff"}},{
+"Name":"Red","Value":"Red","Level":2,"Icon":124149992110066,"Tooltip":{
+"Content":[{
+"Text":"Passive: Applies a damage buff to nearby towers."},{
+"Text":"Active: Deal damage and apply defense melt to enemies in range."}],"Header":"Red Track","Subject":"Buff"}}],"Default":"Purple","Name":"Track","Icon":78057132346559}],"Properties":{
+"Description":"Who said you couldn't rave during the apocalypse? Buffs ally troop ranges and lowers upgrade prices.","Price":{
+"Value":5000,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Neon Rave":{
+"Icon":"rbxassetid://88395223637973","Rarity":"3"},"Plushie":{
+"Icon":"rbxassetid://16742061708","Rarity":"6"},"Ducky":{
+"Icon":"rbxassetid://108324875176244","Rarity":"3"},"Mako":{
+"Price":{
+"Value":749,"Type":"4","Id":1925912139,"GiftId":2835767831},"Icon":"rbxassetid://105492996309734","Rarity":"9"},"Default":{
+"Icon":"rbxassetid://90127560097295","Rarity":"1"},"Ghost":{
+"Icon":"rbxassetid://111981689753740","Rarity":"7"},"Garage Band":{
+"Icon":"rbxassetid://102404432745932","Rarity":"4"},"Neko":{
+"Icon":"rbxassetid://115310627249069","Rarity":"4"},"Masquerade":{
+"Icon":"rbxassetid://16742060736","Rarity":"7"}},"Role":"3","Category":"3","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://90127560097295","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundarySize":2.5,"BoundingSize":null}},"Commander":{
+"Skins":{
+"Lifeguard":true,"Holiday":true,"Pattern":true,"Ghost":true,"Gargoyle":true,"Eclipse":true,"War Lord":true,"Plushie":true,"Eggrypted":true,"Frost":true,"General":true,"Pirate":true,"Neko":true,"Valentines":true,"Santa":true,"Red":true,"Bunny":true,"Patriotic":true,"Maid":true,"Wasteland":true,"Victorian":true,"Phantom":true,"Bloxy":true,"Spring Time":true,"Brisk":true,"Ducky":true,"Default":true,"Green":true,"Vigilante":true,"Galactic":true,"Fallen":true,"Umbra":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Limit":4,"Detections":{
+"3":true,"2":true},"Abilities":[{
+"Icon":4594880289,"Level":2,"Name":"Call Of Arms","Debounce":30},{
+"Name":"Support Caravan","Debounce":60,"Price":2000,"Level":4,"Icon":17512145719}],"Cooldown":0,"Price":850,"Attributes":{
+"CTABuff":30,"FirerateBuff":12.5},"Range":9,"Damage":0},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"FirerateBuff":15},"Range":9,"Extras":["Firerate Buff: 12.5% > 15%"]},"Image":5525000768,"Title":"Leadership","Cost":300},{
+"Stats":{
+"Attributes":{
+"CTABuff":15},"Detections":{
+"5":true},"Extras":["Call to Arms (40s Cooldown)","Give surrounding towers +15% Firerate for 10s"],"Cooldown":0.6,"Range":11,"Damage":10},"Image":4594880289,"Title":"Call to Arms","Cost":2500},{
+"Stats":{
+"Range":12.5,"Attributes":{
+"CTABuff":22.5,"FirerateBuff":17.5},"Extras":["Firerate Buff: 15% > 17.5%","Call to Arms (22.5% Firerate Buff)"],"Damage":15},"Image":5525002879,"Title":"Intense Training","Cost":5500},{
+"Stats":{
+"Range":14,"Attributes":{
+"CTABuff":30,"FirerateBuff":20},"Extras":["Firerate Buff: 17.5% > 20%","Support Caravan (60 Seconds)","Call to Arms (30% Firerate Buff)"],"Damage":25},"Image":17512145719,"Title":"Strength in Numbers","Cost":15000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"A support tower that boosts the firerate of towers within its range.","Price":{
+"Value":4000,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Lifeguard":{
+"Icon":"rbxassetid://16742026508","Rarity":"7"},"Holiday":{
+"Icon":"rbxassetid://16742026260","Rarity":"7"},"General":{
+"Icon":"rbxassetid://17507647965","Rarity":"1"},"Ghost":{
+"Icon":"rbxassetid://17507648068","Rarity":"7"},"Gargoyle":{
+"Icon":"rbxassetid://17507647804","Rarity":"7"},"Eclipse":{
+"Icon":"rbxassetid://16742024255","Rarity":"7"},"Santa":{
+"Icon":"rbxassetid://117501182181139","Rarity":"3"},"Wasteland":{
+"Icon":"rbxassetid://93243165798255","Rarity":"4"},"Fallen":{
+"Icon":"rbxassetid://80567934657980","Rarity":"3"},"Frost":{
+"Icon":"rbxassetid://16742024893","Rarity":"7"},"Pattern":{
+"Icon":"rbxassetid://17507648760","Rarity":"2"},"Pirate":{
+"Icon":"rbxassetid://16742027462","Rarity":"3"},"Plushie":{
+"Icon":"rbxassetid://16742027624","Rarity":"6"},"Eggrypted":{
+"Icon":"rbxassetid://16742024613","Rarity":"3"},"Neko":{
+"Icon":"rbxassetid://17507648601","Rarity":"3"},"Red":{
+"Icon":"rbxassetid://17507648923","Rarity":"1"},"Phantom":{
+"Icon":"rbxassetid://16742027114","Rarity":"4"},"Patriotic":{
+"Icon":"rbxassetid://18323544710","Rarity":"4"},"Bloxy":{
+"Icon":"rbxassetid://16742023051","Rarity":"6"},"Bunny":{
+"Icon":"rbxassetid://17507647451","Rarity":"7"},"Victorian":{
+"Icon":"rbxassetid://17507649166","Rarity":"1"},"Brisk":{
+"Icon":"rbxassetid://16742023299","Rarity":"3"},"Maid":{
+"Icon":"rbxassetid://17507648382","Rarity":"4"},"Spring Time":{
+"Icon":"rbxassetid://17507649066","Rarity":"6"},"Valentines":{
+"Icon":"rbxassetid://16742028419","Rarity":"3"},"Ducky":{
+"Icon":"rbxassetid://16742023989","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://17507647561","Rarity":"1"},"Green":{
+"Icon":"rbxassetid://17507648232","Rarity":"1"},"Vigilante":{
+"Icon":"rbxassetid://17507649270","Rarity":"3"},"Galactic":{
+"Icon":"rbxassetid://17507647660","Rarity":"2"},"War Lord":{
+"Icon":"rbxassetid://16742028910","Rarity":"6"},"Umbra":{
+"Icon":"rbxassetid://16742028241","Rarity":"7"}},"Role":"3","Category":"3","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://17507647561","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Level":5,"BoundingSize":null}},"Biologist":{
+"Skins":{
+"Default":true,"Grim":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Limit":8,"Attributes":{
+"TreeCD":30,"IvyLvl":0,"NightshadeLvl":0,"TreeLvl":0,"ProjSpeed":5,"SecondQueue":false,"IvyCD":20,"SunflowerCD":20,"NightshadeCD":20,"ThirdQueue":false,"SunflowerLvl":0,"Deadzone":1.5},"Price":750,"Cooldown":1,"Range":4,"Damage":0},"Upgrades":[{
+"Image":95317340543936,"Title":"Bio Chemestry","Cost":600,"Tooltips":[{
+"ButtonText":"Sunflower <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Sunflower","Content":[{
+"Text":"Damage: 6 â†’ 10"},{
+"Text":"Range: 15"},{
+"Text":"Cooldown: 1.1s â†’ 1.1s"},{
+"Text":"Health: 50 â†’ 100"}]},{
+"ButtonText":"Ivy <b>Unlocked</b></font>","Header":"Ivy","Content":[{
+"Text":"Lead Detection"},{
+"Text":"Damage: 8"},{
+"Text":"Range: 14"},{
+"Text":"Cooldown: 2s"},{
+"Text":"Health: 100"},{
+"Text":"Explosion Radius: 3"},{
+"Text":"Poison Damage: 1"},{
+"Text":"Tick Rate: 0.75s"},{
+"Text":"Poison Length: 4.5s"},{
+"Text":"Slow: 5%"}]}],"Stats":{
+"Attributes":{
+"SunflowerLvl":1,"SecondQueue":false,"IvyLvl":0,"NightshadeLvl":0,"TreeLvl":0}}},{
+"Image":91087216328467,"Title":"Scientific Breakthrough","Cost":1850,"Tooltips":[{
+"ButtonText":"New Flower Slot <font color=\"rgb(255,185,0)\"><b>Unlocked</b></font>","Content":[{
+"Text":"Unlock a new unit queue."}]},{
+"ButtonText":"Sunflower <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Sunflower","Content":[{
+"Text":"Hidden Detection"},{
+"Text":"Damage: 10 â†’ 12"},{
+"Text":"Range: 15 â†’ 17"},{
+"Text":"Cooldown: 1.1s â†’ 1.1s"},{
+"Text":"Health: 100 â†’ 200"}]},{
+"ButtonText":"Ivy <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Ivy","Content":[{
+"Text":"Lead Detection"},{
+"Text":"Damage: 8 â†’ 12"},{
+"Text":"Range: 14 â†’ 15.5"},{
+"Text":"Cooldown: 2s â†’ 1.8s"},{
+"Text":"Health: 100 â†’ 200"},{
+"Text":"Explosion Radius: 3 â†’ 4"},{
+"Text":"Poison Damage: 1 â†’ 2"},{
+"Text":"Tick Rate: 0.75s"},{
+"Text":"Poison Length: 4.5s"},{
+"Text":"Slow: 5% â†’ 7.5%"}]}],"Stats":{
+"Attributes":{
+"SunflowerLvl":2,"SecondQueue":true,"IvyLvl":1,"NightshadeLvl":0,"TreeLvl":0}}},{
+"Image":101480107243808,"Title":"Flower Power","Cost":4500,"Tooltips":[{
+"ButtonText":"Sunflower <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Sunflower","Content":[{
+"Text":"Hidden Detection"},{
+"Text":"Damage: 12 â†’ 28"},{
+"Text":"Range: 17 â†’ 19.5"},{
+"Text":"Cooldown: 1s"},{
+"Text":"Health: 200 â†’ 400"}]},{
+"ButtonText":"Ivy <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Ivy","Content":[{
+"Text":"Lead Detection"},{
+"Text":"Damage: 12 â†’ 25"},{
+"Text":"Range: 15.5 â†’ 17"},{
+"Text":"Cooldown: 1.8s"},{
+"Text":"Health: 200 â†’ 400"},{
+"Text":"Explosion Radius: 4 â†’ 4.5"},{
+"Text":"Poison Damage: 2 â†’ 4"},{
+"Text":"Tick Rate: 0.75s â†’ 0.6s"},{
+"Text":"Poison Length: 4.5s"},{
+"Text":"Slow: 7.5% â†’ 7.5%"}]},{
+"ButtonText":"Nightshade <b>Unlocked</b></font>","Header":"Nightshade","Content":[{
+"Text":"Flying Detection"},{
+"Text":"Damage: 50"},{
+"Text":"Range: 30"},{
+"Text":"Cooldown: 35s"},{
+"Text":"Health: 400"},{
+"Text":"Confusion Duration: 1s"}]}],"Stats":{
+"Attributes":{
+"SunflowerLvl":3,"SecondQueue":true,"NightshadeLvl":0,"IvyLvl":2}}},{
+"Image":121014188542772,"Title":"Botanical Berserker!","Cost":20000,"Tooltips":[{
+"ButtonText":"New Flower Slot <font color=\"rgb(255,185,0)\"><b>Unlocked</b></font>","Content":[{
+"Text":"Unlock a new unit queue."}]},{
+"ButtonText":"Sunflower <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Sunflower","Content":[{
+"Text":"Hidden Detection"},{
+"Text":"Damage: 28 â†’ 55"},{
+"Text":"Range: 19.5 â†’ 22.5"},{
+"Text":"Cooldown: 1s â†’ 0.8s"},{
+"Text":"Health: 400 â†’ 800"}]},{
+"ButtonText":"Ivy <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Ivy","Content":[{
+"Text":"Lead Detection"},{
+"Text":"Damage: 25 â†’ 45"},{
+"Text":"Range: 17 â†’ 18.5"},{
+"Text":"Cooldown: 1.8s â†’ 1.5s"},{
+"Text":"Health: 400 â†’ 800"},{
+"Text":"Explosion Radius: 4.5 â†’ 4.5"},{
+"Text":"Poison Damage: 4 â†’ 5"},{
+"Text":"Tick Rate: 0.6s â†’ 0.65s"},{
+"Text":"Poison Length: 4.5s â†’ 5.2s"},{
+"Text":"Slow: 7.5% â†’ 12.5%"}]},{
+"ButtonText":"Nightshade <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Nightshade","Content":[{
+"Text":"Damage: 50 â†’ 135"},{
+"Text":"Range: 30 â†’ 35"},{
+"Text":"Cooldown: 3s â†’ 2.75s"},{
+"Text":"Health: 400 â†’ 800"},{
+"Text":"Confusion Duration: 1s â†’ 1.25s"}]}],"Stats":{
+"Attributes":{
+"SunflowerLvl":4,"TreeLvl":0,"IvyLvl":3,"ThirdQueue":true,"NightshadeLvl":1}}}]}},"UpgradeOptions":[{
+"Name":"Flower 1","QueueName":"Flower 1","Values":[{
+"Name":"Sunflower","Value":"Sunflower","Level":0,"Icon":71512077759397,"Tooltip":{
+"Content":[{
+"Text":"Deals high single target dps."}],"Header":"Sunflower","Subject":"Unit"}},{
+"Name":"Ivy","Value":"Ivy","Level":1,"Icon":131005847941590,"Tooltip":{
+"Content":[{
+"Text":"Deals single target poison dps."}],"Header":"Ivy","Subject":"Unit"}},{
+"Name":"Nightshade","Value":"Nightshade","Level":3,"Icon":74794261427217,"Tooltip":{
+"Content":[{
+"Text":"Deals single dps that inflicts confusion."}],"Header":"Nightshade","Subject":"Unit"}}],"Icon":17191733923},{
+"Name":"Flower 2","QueueName":"Flower 2","Values":[{
+"Name":"Sunflower","Value":"Sunflower","Level":0,"Icon":71512077759397,"Tooltip":{
+"Content":[{
+"Text":"Deals high single target dps."}],"Header":"Sunflower","Subject":"Unit"}},{
+"Name":"Ivy","Value":"Ivy","Level":1,"Icon":131005847941590,"Tooltip":{
+"Content":[{
+"Text":"Deals single target poison dps."}],"Header":"Ivy","Subject":"Unit"}},{
+"Name":"Nightshade","Value":"Nightshade","Level":3,"Icon":74794261427217,"Tooltip":{
+"Content":[{
+"Text":"Deals single dps that inflicts confusion."}],"Header":"Nightshade","Subject":"Unit"}}],"Icon":17191733923},{
+"Name":"Flower 3","QueueName":"Flower 3","Values":[{
+"Name":"Sunflower","Value":"Sunflower","Level":0,"Icon":71512077759397,"Tooltip":{
+"Content":[{
+"Text":"Deals high single target dps."}],"Header":"Sunflower","Subject":"Unit"}},{
+"Name":"Ivy","Value":"Ivy","Level":1,"Icon":131005847941590,"Tooltip":{
+"Content":[{
+"Text":"Deals single target poison dps."}],"Header":"Ivy","Subject":"Unit"}},{
+"Name":"Nightshade","Value":"Nightshade","Level":3,"Icon":74794261427217,"Tooltip":{
+"Content":[{
+"Text":"Deals single dps that inflicts confusion."}],"Header":"Nightshade","Subject":"Unit"}}],"Icon":17191733923}],"Properties":{
+"Description":"There's a zombie on your lawn.. This calls for all out, plants versus zombies warfare!","Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://101795075923269","Rarity":"1"},"Grim":{
+"Icon":"rbxassetid://126912872410229","Rarity":"3"}},"Role":"3","Category":"5","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://101795075923269","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundarySize":1.5,"BoundingSize":null}},"War Machine":{
+"Skins":{
+"Default":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"MissileTime":5,"DamageBuff":0,"ExplosionRadius":5,"Spread":10,"ExplosionDamage":20},"Detections":{
+"3":false,"2":false},"Cooldown":0.1,"Price":2000,"Limit":10,"Range":12,"Damage":2},"Upgrades":[{
+"Stats":{
+"Range":18},"Image":4989372339,"Title":"IMPROVED HANDLING","Cost":250},{
+"Stats":{
+"Range":22,"Damage":3},"Image":4989372568,"Title":"STARK MISSILE","Cost":650},{
+"Image":3584258139,"Title":"EPIC ARMOR PLATING","Cost":5000,"Tooltips":[{
+"ButtonText":"Unlock Damage Buff","Header":"Passive Buff","Content":[{
+"Text":"Nearby troops get 10% DMG buff"}]}],"Stats":{
+"Attributes":{
+"DamageBuff":10},"Damage":8}},{
+"Image":4989373124,"Title":"ULTRA CHARGED BODY ARMOR","Cost":12500,"Tooltips":[{
+"ButtonText":"Upgrade Missiles","Header":"Missiles","Content":[{
+"Text":"Quad Missiles"},{
+"Text":"Damage: 40"},{
+"Text":"Radius: 6"}]}],"Stats":{
+"Range":24,"Attributes":{
+"ExplosionDamage":40,"ExplosionRadius":6},"Damage":12}},{
+"Image":4989373460,"Title":"TO THE VOID AND BACK","Cost":50000,"Tooltips":[{
+"ButtonText":"Unlock Damage Buff","Header":"Passive Buff","Content":[{
+"Text":"Utilizes void energy to mow down the enemy and heavily supports ally units. Truly a one man army."},{
+"Text":"Nearby troops get 20% DMG buff"}]},{
+"ButtonText":"Upgrade Missiles","Header":"Missiles","Content":[{
+"Text":"Damage: 80"},{
+"Text":"Faster reloading"}]}],"Stats":{
+"Detections":{
+"5":true,"3":true,"2":true},"Range":26,"Attributes":{
+"MissileTime":4,"ExplosionRadius":6,"DamageBuff":20,"ExplosionDamage":80},"Damage":40}}]}},"UpgradeOptions":[],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742163808","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"1","Description":"A one man army. Utilizes an exoskeleton to shoot 2 miniguns and launch missiles.","Category":"5","Height":0,"Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://16742163808","Rarity":"1"}},"BoundingSize":null}},"Accelerator":{
+"Skins":{
+"Navy":true,"Speaker Titan":true,"Legend":true,"Eclipse":true,"Ghost Buster":true,"Elite":true,"Fallen":true,"Cupid":true,"Patient Zero":true,"Red":true,"Nuclear":true,"Dank":true,"Plushie":true,"Mage":true,"Ducky":true,"Default":true,"Vigilante":true,"Ice Witch":true,"Disco":true,"Senator":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"MaxAmmo":240,"Range":17.5,"Attributes":{
+"ChargeTime":2.5,"LaserCooldown":2.5,"LaserTime":6},"Limit":8,"Price":5000,"Detections":{
+"5":true,"3":false,"2":false},"Cooldown":0.2,"Damage":12},"Upgrades":[{
+"Stats":{
+"Detections":{
+"2":true},"Damage":20},"Image":11821094308,"Title":"Extra Juice","Cost":1200},{
+"Stats":{
+"MaxAmmo":420,"Extras":["Overcharge: 240 -> 420"],"Range":19},"Image":11821094198,"Title":"Second Energy Canister","Cost":2250},{
+"Stats":{
+"MaxAmmo":600,"Extras":["Overcharge: 420 -> 600"],"Damage":30},"Image":11821093989,"Title":"Powerhouse Armor","Cost":4000},{
+"Stats":{
+"MaxAmmo":1050,"Attributes":{
+"ChargeTime":1.5},"Range":20.5,"Extras":["Overcharge: 600 -> 1050","Faster Charge"],"Cooldown":0.15,"Damage":30},"Image":11821093828,"Title":"Supercharger","Cost":9500},{
+"Stats":{
+"MaxAmmo":4800,"Attributes":{
+"ChargeTime":1.5},"Range":22,"Extras":["Overcharge: 1050 -> 4600"],"Cooldown":0.1,"Damage":40},"Image":11821093672,"Title":"Vessel Of Infinite Destruction","Cost":30000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Charge a laser and release massive damage at deadly rates!","Price":{
+"Type":"3","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":2500,"Eligible":null,"PreviewText":"REACH LEVEL 50 TO UNLOCK TOWER!"},"Class":"2","SkinData":{
+"Navy":{
+"Icon":"rbxassetid://16742018971","Rarity":"3"},"Speaker Titan":{
+"Icon":"rbxassetid://16997023622","Rarity":"4"},"Legend":{
+"Icon":"rbxassetid://16742018621","Rarity":"7"},"Eclipse":{
+"Icon":"rbxassetid://16742017644","Rarity":"7"},"Ghost Buster":{
+"Icon":"rbxassetid://16742018196","Rarity":"6"},"Elite":{
+"Icon":"rbxassetid://16742017935","Rarity":"4"},"Fallen":{
+"Icon":"rbxassetid://18848269402","Rarity":"4"},"Cupid":{
+"Icon":"rbxassetid://16742017040","Rarity":"4"},"Patient Zero":{
+"Icon":"rbxassetid://88972169285855","Rarity":"6"},"Red":{
+"Icon":"rbxassetid://16742019754","Rarity":"3"},"Nuclear":{
+"Icon":"rbxassetid://16742019185","Rarity":"3"},"Dank":{
+"Icon":"rbxassetid://18549604688","Rarity":"4"},"Plushie":{
+"Icon":"rbxassetid://16742019393","Rarity":"6"},"Mage":{
+"Icon":"rbxassetid://16742018781","Rarity":"3"},"Ducky":{
+"Icon":"rbxassetid://16742017439","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://16742017289","Rarity":"1"},"Vigilante":{
+"Icon":"rbxassetid://16742019956","Rarity":"4"},"Disco":{
+"Icon":"rbxassetid://96135720673651","Rarity":"4"},"Senator":{
+"Icon":"rbxassetid://17363277841","Rarity":"4"},"Ice Witch":{
+"Icon":"rbxassetid://16742018426","Rarity":"4"}},"Role":"1","Category":"4","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742017289","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Level":50,"BoundingSize":null}},"Firework Technician":{
+"Skins":{
+"Default":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Price":1500,"Limit":1,"Attributes":{
+"Firework Damage":5,"Firework Burn Tick Rate":0.5,"Firework Burn Duration":5,"Detection Buff Duration":15,"Firework Chance Percentage Cap":0.5,"Firework Burn Damage":1,"Firework Radius":1},"Range":8},"Upgrades":[{
+"Image":113918271734207,"Title":"Pyrotechnics","Cost":2000,"Tooltips":[{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Fireworks</b></font>","Header":"Firework Upgrade","Content":[{
+"Text":"Detection Buff Duration: 15 -> 20 Seconds"},{
+"Text":"Firework Burn Damage: 1 -> 2"},{
+"Text":"Firework Shot Added Damage: 5 -> 10"},{
+"Text":"Increased Chance to Trigger Firework Shot"}]}],"Stats":{
+"Extras":[],"Attributes":{
+"Firework Damage":10,"Firework Burn Tick Rate":0.5,"Firework Burn Duration":5,"Detection Buff Duration":20,"Firework Chance Percentage Cap":0.6,"Firework Burn Damage":2,"Firework Radius":1},"Range":8}},{
+"Image":102159060729309,"Title":"Bigger Boom","Cost":6500,"Tooltips":[{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Fireworks</b></font>","Header":"Firework Upgrade","Content":[{
+"Text":"Detection Buff Duration: 20 -> 25 Seconds"},{
+"Text":"Firework Burn Tick Rate: 0.5 -> 0.25"},{
+"Text":"Firework Shot Added Damage: 10 -> 20"},{
+"Text":"Firework Shot Radius: 1 -> 2"},{
+"Text":"Increased Chance to Trigger Firework Shot"}]}],"Stats":{
+"Extras":[],"Attributes":{
+"Firework Damage":20,"Firework Burn Tick Rate":0.25,"Firework Burn Duration":5,"Detection Buff Duration":25,"Firework Chance Percentage Cap":0.7,"Firework Burn Damage":2,"Firework Radius":2},"Range":9}},{
+"Image":76789690706169,"Title":"Light the Sky","Cost":12000,"Tooltips":[{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Fireworks</b></font>","Header":"Firework Upgrade","Content":[{
+"Text":"Detection Buff Duration: 25 -> 30 Seconds"},{
+"Text":"Firework Burn Damage: 2 -> 4"},{
+"Text":"Firework Shot Added Damage: 20 -> 30"},{
+"Text":"Increased Chance to Trigger Firework Shot"}]}],"Stats":{
+"Extras":[],"Attributes":{
+"Firework Damage":30,"Firework Burn Tick Rate":0.25,"Firework Burn Duration":5,"Detection Buff Duration":30,"Firework Chance Percentage Cap":0.8,"Firework Burn Damage":4,"Firework Radius":2},"Range":9}},{
+"Image":83889465749773,"Title":"The Finale","Cost":22000,"Tooltips":[{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Fireworks</b></font>","Header":"Firework Upgrade","Content":[{
+"Text":"Detection Buff Duration: 30 -> 40 Seconds"},{
+"Text":"Firework Burn Damage: 4 -> 7"},{
+"Text":"Firework Shot Added Damage: 30 -> 45"},{
+"Text":"Firework Shot Radius: 2 -> 3"},{
+"Text":"Increased Chance to Trigger Firework Shot"}]}],"Stats":{
+"Extras":[],"Attributes":{
+"Firework Damage":45,"Firework Burn Tick Rate":0.25,"Firework Burn Duration":5,"Detection Buff Duration":40,"Firework Chance Percentage Cap":1,"Firework Burn Damage":7,"Firework Radius":3},"Range":10}}]}},"UpgradeOptions":[],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://113647654122910","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"3","Description":"A firework tech who supports the team by giving them detection and grants chance for towers to shoot a firework","Category":"5","Height":0,"Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://113647654122910","Rarity":"1"}},"BoundingSize":null}},"Pursuit":{
+"Skins":{
+"Default":true,"Eggy":true},"Stats":{
+"Default":{
+"Paths":2,"Defaults":{
+"Detections":{
+"3":true},"Price":3000,"Range":8,"MaxAmmo":35,"Limit":5,"Abilities":[{
+"Icon":108315390601615,"Level":0,"Name":"Patrol","Debounce":20}],"Attributes":{
+"RepulsionRadius":3,"Speed":25,"PatrolRange":14,"RevTime":0,"ReloadTime":4},"Cooldown":0.25,"Damage":6},"Upgrades":[{
+"Stats":{
+"MaxAmmo":35,"Attributes":{
+"Speed":16,"ReloadTime":4},"Detections":{
+"3":true,"5":true},"Range":8,"Cooldown":0.25,"Damage":8},"Image":117186100008439,"Title":".50 Caliber","Cost":1200},{
+"Image":117186100008439,"Title":"Enhanced Radar","Cost":1850,"Tooltips":[{
+"ButtonText":"Upgrade Patrol Zone","Header":"Active Ability","Content":[{
+"Text":"Range: 14 â†’ 16"}]}],"Stats":{
+"MaxAmmo":35,"Attributes":{
+"Speed":25,"PatrolRange":16,"ReloadTime":4},"Detections":{
+"3":true,"5":true},"Range":9.5,"Cooldown":0.25,"Damage":10}},{
+"Image":98101516586169,"Title":"Air to Ground Missiles","Cost":5000,"Tooltips":[{
+"ButtonText":"Upgrade Ammo","Header":"Passive Ability","Content":[{
+"Text":"Ammo: 35 â†’ 75"},{
+"Text":"Reload: 4 â†’ 3.5 seconds"}]},{
+"ButtonText":"Unlock Missiles","Header":"Passive Ability","Content":[{
+"Text":"Explosion Damage: 35"},{
+"Text":"Explosion Radius: 3"},{
+"Text":"Count: 2"},{
+"Text":"Burst Time: 0.5"},{
+"Text":"Cooldown: 7s"}]}],"Stats":{
+"MaxAmmo":75,"Attributes":{
+"MissileCount":2,"MissileSpeed":20,"MissileCooldown":7,"ReloadTime":3.5,"TimeBetweenMissiles":0.5,"Speed":25,"ExplosionRadius":3,"Spread":10,"ExplosionDamage":35},"Detections":{
+"3":true,"5":true},"Range":10.5,"Cooldown":0.2,"Damage":10}},[{
+"Image":110652411715254,"Title":"Tri-Barrel Minigun","Cost":16000,"Tooltips":[{
+"ButtonText":"Upgrade Patrol Zone","Header":"Active Ability","Content":[{
+"Text":"Range: 16 â†’ 18.5"}]},{
+"ButtonText":"Upgrade Ammo","Header":"Passive Ability","Content":[{
+"Text":"Ammo: 75 â†’ 150"},{
+"Text":"Reload: 3.5 â†’ 3 seconds"},{
+"Text":"Rev Time: 1.5 seconds"}]},{
+"ButtonText":"Upgrade Missiles","Header":"Passive Ability","Content":[{
+"Text":"Count: 2 â†’ 4"},{
+"Text":"Cooldown: 6s"}]}],"Stats":{
+"MaxAmmo":150,"Attributes":{
+"MissileCount":4,"PatrolRange":18.5,"MissileCooldown":6,"RevTime":1.5,"ReloadTime":3,"Speed":25,"ExplosionRadius":3,"TimeBetweenMissiles":0.5,"ExplosionDamage":35},"Detections":{
+"5":true,"3":true,"2":false},"Range":11,"Cooldown":0.1,"Damage":12}},{
+"Image":138033956206562,"Title":"Upgraded Payload","Cost":10000,"Tooltips":[{
+"ButtonText":"Upgrade Patrol Zone","Header":"Active Ability","Content":[{
+"Text":"Range: 16 â†’ 17.5"}]},{
+"ButtonText":"Upgrade Ammo","Header":"Passive Ability","Content":[{
+"Text":"Reload: 2.5 â†’ 3.5 seconds"}]},{
+"ButtonText":"Upgrade Missiles","Header":"Passive Ability","Content":[{
+"Text":"Explosion Damage: 35 -> 25"},{
+"Text":"Explosion Radius: 3 â†’ 6"},{
+"Text":"Count: 2 â†’ 6"},{
+"Text":"Burst Time: 0.5 â†’ 0.25"},{
+"Text":"Cooldown: 3s"}]}],"Stats":{
+"MaxAmmo":75,"Attributes":{
+"MissileCount":6,"PatrolRange":17.5,"MissileCooldown":3,"RevTime":0,"ReloadTime":3.5,"Speed":25,"ExplosionRadius":6,"TimeBetweenMissiles":0.25,"ExplosionDamage":25},"Detections":{
+"5":true,"3":true,"2":true},"Range":11,"Cooldown":0.2,"Damage":10}}],[{
+"Image":110652411715254,"Title":"Sky Shredder","Cost":42500,"Tooltips":[{
+"ButtonText":"Upgrade Patrol Zone","Header":"Active Ability","Content":[{
+"Text":"Range: 18.5 â†’ 21"}]},{
+"ButtonText":"Upgrade Ammo","Header":"Passive Ability","Content":[{
+"Text":"Ammo: 150 â†’ 200"},{
+"Text":"Reload: 2.25 â†’ 2.5 seconds"},{
+"Text":"Rev Time: 1.5 seconds"}]},{
+"ButtonText":"Upgrade Missiles","Header":"Passive Ability","Content":[{
+"Text":"Explosion Damage: 35"},{
+"Text":"Explosion Radius: 4"},{
+"Text":"Count: 4"},{
+"Text":"Burst Time: 0.35 â†’ 0.25"},{
+"Text":"Cooldown: 6s"}]}],"Stats":{
+"MaxAmmo":200,"Attributes":{
+"MissileCount":4,"PatrolRange":21,"MissileCooldown":6,"RevTime":1.5,"ReloadTime":2.5,"Speed":25,"ExplosionRadius":4,"TimeBetweenMissiles":0.25,"ExplosionDamage":35},"Detections":{
+"5":true,"3":true,"2":false},"Range":12,"Cooldown":0.085,"Damage":26}},{
+"MaxAmmo":75,"Image":138033956206562,"Title":"Demolition Gunship","Cost":28500,"Tooltips":[{
+"ButtonText":"Upgrade Patrol Zone","Header":"Active Ability","Content":[{
+"Text":"Range: 17.5 â†’ 19.5"}]},{
+"ButtonText":"Upgrade Missiles","Header":"Passive Ability","Content":[{
+"Text":"Explosion Damage: 45 â†’ 60"},{
+"Text":"Explosion Radius: 6"},{
+"Text":"Count: 6 â†’ 8"},{
+"Text":"Burst Time: 0.25 â†’ 0.15"},{
+"Text":"Cooldown: 6s â†’ 3s"}]}],"Stats":{
+"MaxAmmo":75,"Attributes":{
+"MissileCount":8,"ReloadTime":2.25,"PatrolRange":19.5,"TimeBetweenMissiles":0.15,"Speed":25,"ExplosionRadius":6,"MissileCooldown":3,"ExplosionDamage":60},"Detections":{
+"3":true,"5":true},"Range":12,"Cooldown":0.2,"Damage":12}}]]..']]'..[[}},"UpgradeOptions":[],"Properties":{
+"Description":"Roger that! A vehicle that follows a path and enemies.","Price":{
+"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":15000,"Eligible":null,"PreviewText":"REACH LEVEL 100 TO UNLOCK TOWER!"},"Class":"1","SkinData":{
+"Default":{
+"Icon":"rbxassetid://71565475215945","Rarity":"1"},"Eggy":{
+"Icon":"rbxassetid://129121886854482","Rarity":"2"}},"Role":"1","Category":"3","Height":0,"Gamepass":{
+"Id":9735384,"Value":1500},"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://71565475215945","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Rocketeer":{
+"Skins":{
+"Lovestriker":true,"Steampunk":true,"Duck":true,"Pumpkin":true,"Fortress":true,"Default":true,"Toy":true,"Xmas":true,"Bosanka":true,"Dark Matter":true,"Lunar":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"Deadzone":10,"Knockback":0,"Count":1,"Accuracy":1,"ExplosionRadius":3,"ProjSpeed":25},"Limit":8,"Detections":{
+"5":true,"3":false,"2":false},"Price":1500,"Range":22,"Cooldown":3.5,"Damage":30},"Upgrades":[{
+"Stats":{
+"Detections":{
+"5":true,"3":false,"2":false},"Attributes":{
+"Deadzone":10,"ExplosionRadius":3,"Count":1,"Knockback":0},"Range":22,"Cooldown":3,"Damage":30},"Image":84475876520565,"Title":"Faster Reloading","Cost":250},{
+"Stats":{
+"Detections":{
+"5":true,"3":false,"2":true},"Attributes":{
+"Deadzone":10,"ExplosionRadius":3,"Count":1,"Knockback":0},"Range":25,"Cooldown":3,"Damage":60},"Image":76900038470572,"Title":"Heavier Payload","Cost":1600},{
+"Stats":{
+"Detections":{
+"5":true,"3":false,"2":true},"Attributes":{
+"Deadzone":10,"ExplosionRadius":4,"Count":1,"Knockback":0},"Range":25,"Cooldown":3,"Damage":150},"Image":103303357353083,"Title":"Explosive Risks","Cost":7500},{
+"Image":133610100963797,"Title":"Missile Maelstrom","Cost":18500,"Tooltips":[{
+"ButtonText":"Quad Targeting","Header":"Passive Ability","Content":[{
+"Text":"Missile Count: 1 â†’ 4"},{
+"Text":"Spread Angle: 60Â°"},{
+"Text":"Slightly decreased accuracy"}]}],"Stats":{
+"Detections":{
+"5":true,"3":false,"2":true},"Attributes":{
+"Deadzone":10,"Knockback":0,"Count":4,"Accuracy":0.35,"ExplosionRadius":5,"SpreadAngle":60},"Range":30,"Cooldown":3,"Damage":90}}]}},"UpgradeOptions":[],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://72053097584198","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Height":0,"Description":"Shoot rockets that deal a large amount of damage across multiple enemies.","Category":"2","Price":{
+"Value":2500,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Lovestriker":{
+"Icon":"rbxassetid://122261435962808","Rarity":"4"},"Steampunk":{
+"Icon":"rbxassetid://132152532289629","Rarity":"2"},"Fortress":{
+"Icon":"rbxassetid://104029788106610","Rarity":"3"},"Pumpkin":{
+"Icon":"rbxassetid://103379695538461","Rarity":"7"},"Duck":{
+"Icon":"rbxassetid://82581428525440","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://72053097584198","Rarity":"1"},"Xmas":{
+"Icon":"rbxassetid://94263168154969","Rarity":"7"},"Toy":{
+"Icon":"rbxassetid://125539379459445","Rarity":"1"},"Bosanka":{
+"Icon":"rbxassetid://97562066551955","Rarity":"1"},"Dark Matter":{
+"Icon":"rbxassetid://82619969731160","Rarity":"3"},"Lunar":{
+"Icon":"rbxassetid://106246370633835","Rarity":"3"}},"BoundingSize":null}},"Executioner":{
+"Skins":{
+"Heartbreak":true,"Eclipse":true,"Default":true,"Vanquisher":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"3":true,"2":false},"Limit":8,"Cooldown":3,"Price":800,"Attributes":{
+"MaxHits":3,"MaxBounce":3,"TickRate":0.15},"Range":14,"Damage":4},"Upgrades":[{
+"Stats":{
+"Cooldown":2},"Image":129697807,"Title":"Improved Throwing","Cost":250},{
+"Stats":{
+"Damage":8},"Image":542098553,"Title":"Double Head Axe","Cost":750},{
+"Stats":{
+"Extras":["Bounces: 5"],"Attributes":{
+"MaxBounce":5},"Range":18,"Damage":15},"Image":6426220009,"Title":"Blood Seeking","Cost":2500},{
+"Stats":{
+"Detections":{
+"2":true},"Damage":30},"Image":27386833,"Title":"Tactical Ops","Cost":6000},{
+"Stats":{
+"Attributes":{
+"MaxBounce":7},"Extras":["Bounces: 7"],"Damage":80},"Image":143769378,"Title":"Head Chopping","Cost":12500}]}},"UpgradeOptions":[],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742069000","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"1","Description":"Boomerang, you always come back! Hit multiple enemies at once with area damage. (Detects flying enemies)","Category":"5","Height":0,"Class":"2","SkinData":{
+"Heartbreak":{
+"Icon":"rbxassetid://100643097900090","Rarity":"3"},"Eclipse":{
+"Icon":"rbxassetid://16742069213","Rarity":"7"},"Default":{
+"Icon":"rbxassetid://16742069000","Rarity":"1"},"Vanquisher":{
+"Icon":"rbxassetid://17363278858","Rarity":"3"}},"BoundingSize":null}},"Necromancer":{
+"Skins":{
+"Fallen":true,"Mage":true,"Default":true,"Duck":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"5":false,"3":true,"2":false},"Price":1650,"Range":21,"MaxAmmo":50,"Abilities":[{
+"Name":"Raise The Dead","Debounce":5,"Price":0,"Level":0,"Icon":15229477810}],"Limit":3,"Attributes":{
+"Max_Graves":2,"SpawnCount":2,"MaxHits":1,"Summon_Delay":0.4,"BuildTime":1.5,"ExplosionRadius":4,"Buildzone":6.5,"BuildDelay":0.4,"BookAim":0.4,"Summon_Debounce":0.1,"ProjectileSpeed":50,"SlowTime":1,"BookDebounce":0.76,"MustAim":true,"Max_Grave_Level":1,"Grave_Cooldown":2,"ExplosionDamage":500},"Cooldown":1.5,"Damage":10},"Upgrades":[{
+"Image":15332519996,"Title":"Spirit Tuning","Cost":1150,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Necromancy</b></font>","Content":[{
+"Text":"Max Hits 1 -> 2"},{
+"Text":"Soul Meter: 50 -> 60"},{
+"Text":"Max Graves: 2 -> 4"}]}],"Stats":{
+"MaxAmmo":60,"Attributes":{
+"BuildTime":1,"MaxHits":2,"Max_Graves":4},"Extras":[],"Range":21,"Cooldown":1.2,"Damage":12}},{
+"Image":15332520691,"Title":"Soul Forge","Cost":3950,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Necromancy</b></font>","Content":[{
+"Text":"Soul Meter: 60 -> 96"},{
+"Text":"Grave Spawn Count: 2 -> 3"},{
+"Text":"Max Graves: 4 -> 6"},{
+"Text":"Spawns: Sword Skeletons"}]},{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Sword Skeleton</b></font>","Header":"Sword Skeleton","Content":[{
+"Text":"Health: 90"},{
+"Text":"Damage: 15"},{
+"Text":"Cooldown: 0.8"},{
+"Text":"Range: 7.5"},{
+"Text":"Speed: 3.5"}]}],"Stats":{
+"MaxAmmo":96,"Detections":{
+"2":true},"Extras":[],"Attributes":{
+"BuildTime":1,"Max_Graves":6,"MaxHits":2,"SpawnCount":3},"Range":24,"Cooldown":1.2,"Damage":12}},{
+"Image":15332520335,"Title":"Skull Centrifuge","Cost":11320,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Necromancy</b></font>","Content":[{
+"Text":"Soul Meter: 96 -> 450"},{
+"Text":"Unlocks lv. 2 Gravestones"},{
+"Text":"Spawns: Giant Skeletons"},{
+"Text":"Spawns: Skeleton Knights"}]},{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Giant Skeleton</b></font>","Header":"Giant Skeleton","Content":[{
+"Text":"Health: 600"},{
+"Text":"Range: 2"},{
+"Text":"Speed: 2.4"}]},{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Skeleton Knight</b></font>","Header":"Skeleton Knight","Content":[{
+"Text":"Health: 250"},{
+"Text":"Damage: 90"},{
+"Text":"Cooldown: 0.65"},{
+"Text":"Range: 7.5"},{
+"Text":"Speed: 3.5"}]}],"Stats":{
+"MaxAmmo":450,"Attributes":{
+"BuildTime":0.8,"MaxHits":2,"Max_Graves":6,"Max_Grave_Level":2},"Extras":[],"Cooldown":0.8,"Range":26,"Damage":30}},{
+"Image":15332519505,"Title":"Apostle of Hades","Cost":44000,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Necromancy</b></font>","Content":[{
+"Text":"Primary attack becomes a laser that can split to attack 3 targets or stack on a single target if not enough targets are in range"},{
+"Text":"Max Hits: 2 -> 3"},{
+"Text":"Gravestones Explode (500 DMG)"},{
+"Text":"Soul Meter: 320 -> 1440"},{
+"Text":"Max Graves: 6 -> 9"},{
+"Text":"Unlocks lv. 3 gravestone"},{
+"Text":"Spawns: x1 Executioner Skeleton"},{
+"Text":"Spawns: Hallow Guards"}]},{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Hallow Guard</b></font>","Header":"Hallow Guard","Content":[{
+"Text":"Health: 1500"},{
+"Text":"Range: 2"},{
+"Text":"Speed: 2.4"}]},{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Executioner Skeleton</b></font>","Header":"Executioner Skeleton","Content":[{
+"Text":"Health: 3500"},{
+"Text":"Damage: 50"},{
+"Text":"Cooldown: 3"},{
+"Text":"Range: 30"},{
+"Text":"Speed: 1.2"}]}],"Stats":{
+"MaxAmmo":1440,"Attributes":{
+"BuildTime":0.8,"Max_Graves":9,"SpawnCount":3,"MaxHits":3,"Max_Grave_Level":3},"Extras":[],"Range":32,"Cooldown":0.4,"Damage":20}}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Deal damage to collect souls! Collected souls generate gravestones that can be used to resurrect the dead.","Price":{
+"Type":"3","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":2250,"Eligible":null,"PreviewText":"REACH LEVEL 50 TO UNLOCK TOWER!"},"Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://16742111373","Rarity":"1"},"Mage":{
+"Icon":"rbxassetid://16997026277","Rarity":"4"},"Duck":{
+"Icon":"rbxassetid://106663322139673","Rarity":"4"},"Fallen":{
+"Icon":"rbxassetid://18950652558","Rarity":"4"}},"Role":"2","Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742111373","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Category":"4","Height":0,"Gamepass":{
+"Id":643819691,"Price":1500},"Level":0,"BoundingSize":null}},"Archer":{
+"Skins":{
+"Huntsman":true,"Spooky":true,"Default":true,"Valentines":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Limit":15,"Detections":{
+"5":false,"3":true,"2":false},"Attributes":{
+"ExplosiveRadius":5,"EnemyBuff":0,"MinStun":0,"MaxStun":0,"MaxHits":2,"MaxHitsType":{
+"3":4,"4":2},"BurnDamage":0,"BurnTick":0,"ExplosiveDamage":35,"BurnTime":0},"Price":400,"Cooldown":1.7,"Range":18,"Damage":4},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"BurnDamage":0,"MaxHitsType":{
+"3":4,"4":1},"EnemyBuff":0,"MinStun":0,"MaxStun":0,"MaxHits":2,"BurnTick":0,"BurnTime":0},"Detections":{
+"5":false,"3":true,"2":false},"Range":19,"Cooldown":1.7,"Extras":[],"Damage":4},"Image":3280081327,"Title":"Eagle Eye","Cost":50},{
+"Stats":{
+"Attributes":{
+"BurnDamage":0,"MaxHitsType":{
+"3":4,"4":1},"EnemyBuff":0,"MinStun":0,"MaxStun":0,"MaxHits":3,"BurnTick":0,"BurnTime":0},"Detections":{
+"5":false,"3":true,"2":true},"Range":19,"Cooldown":1.6,"Extras":[],"Damage":6},"Image":524302408,"Title":"Deadshot","Cost":400},{
+"Image":141745478,"Title":"Flame-tipped Arrows","Cost":800,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(238, 137, 11)\"><b>Flame Arrows</b></font>","Header":"Flame Arrow","Content":[{
+"Text":"Burn Damage: 1"},{
+"Text":"Burn Duration: 2 Seconds"},{
+"Text":"Burn Tick Rate: 0.5"}]}],"Stats":{
+"Attributes":{
+"BurnDamage":1,"MaxHitsType":{
+"3":4,"4":1},"EnemyBuff":0,"MinStun":0,"MaxStun":0,"MaxHits":3,"BurnTick":0.5,"BurnTime":2},"Detections":{
+"5":false,"3":true,"2":true},"Range":22,"Cooldown":1.5,"Extras":["More penetration"],"Damage":8}},{
+"Image":456573844,"Title":"Mechanical Bow","Cost":2375,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(40, 94, 133)\"><b>Shock Arrows</b></font>","Header":"Shock Arrow","Content":[{
+"Text":"Stun Time: 0.25"},{
+"Text":"Max Hits: 3"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(238, 137, 11)\"><b>Flame Arrows</b></font>","Header":"Flame Arrow","Content":[{
+"Text":"Burn Damage: 1 -> 2"},{
+"Text":"Burn Duration: 2 -> 3 Seconds"},{
+"Text":"Burn Tick Rate: 0.5"},{
+"Text":"Max Hits: 3 --> 4"}]}],"Stats":{
+"Attributes":{
+"BurnDamage":2,"MaxHitsType":{
+"3":3,"4":1},"EnemyBuff":0,"MinStun":0.25,"MaxStun":0.25,"MaxHits":4,"BurnTick":0.5,"BurnTime":3},"Detections":{
+"5":false,"3":true,"2":true},"Range":23,"Cooldown":1.5,"Extras":[],"Damage":16}},{
+"Image":106341823,"Title":"Shot of the Century","Cost":7000,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(182, 49, 32)\"><b>Bomb Arrows</b></font>","Header":"Bomb Arrow","Content":[{
+"Text":"Explosion Damage: 48"},{
+"Text":"Explosion Radius: 5"},{
+"Text":"Max Hits: 1"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(40, 94, 133)\"><b>Shock Arrows</b></font>","Header":"Shock Arrow","Content":[{
+"Text":"Max Hits: 3 -> 5"},{
+"Text":"Stun Time: 0.25 -> 0.3"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(238, 137, 11)\"><b>Flame Arrows</b></font>","Header":"Flame Arrow","Content":[{
+"Text":"Burn Damage: 2 -> 4"},{
+"Text":"Burn Duration: 3 -> 4 Seconds"},{
+"Text":"Burn Tick Rate: 0.5"},{
+"Text":"Max Hits: 4 --> 6"}]}],"Stats":{
+"Attributes":{
+"ExplosiveRadius":5,"EnemyBuff":0,"MinStun":0.3,"MaxStun":0.3,"MaxHits":6,"MaxHitsType":{
+"3":5,"4":1},"BurnDamage":4,"BurnTick":0.5,"ExplosiveDamage":48,"BurnTime":4},"Detections":{
+"5":false,"3":true,"2":true},"Range":24,"Cooldown":1.25,"Extras":["More Penetration"],"Damage":32}}]}},"UpgradeOptions":[{
+"Name":"ArrowType","Values":[{
+"Value":"2","Level":3,"Name":"Flame","Icon":119109572019138},{
+"Value":"3","Level":4,"Name":"Shock","Icon":103509825924427},{
+"Value":"4","Level":5,"Name":"Explosive","Icon":107936780777670}],"Default":"1","Icon":130381507989498,"CoolDown":10}],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742022073","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"2","Description":"Shoot an arrow and requires time to aim. Exclusive tower.","Category":"5","Height":0,"Class":"2","SkinData":{
+"Huntsman":{
+"Icon":"rbxassetid://16742022237","Rarity":"1"},"Valentines":{
+"Icon":"rbxassetid://16742022599","Rarity":"7"},"Default":{
+"Icon":"rbxassetid://16742022073","Rarity":"1"},"Spooky":{
+"Icon":"rbxassetid://16742022416","Rarity":"7"}},"BoundingSize":null}},"Hallow Punk":{
+"Skins":{
+"Default":true,"Lunar":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"5":true},"Limit":12,"Attributes":{
+"ExplosionRadius":3.5,"RocketSpeed":20,"Knockback":10},"Price":300,"Range":18,"Cooldown":5,"Damage":3},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"Knockback":10,"ExplosionRadius":3.5},"Range":20,"Cooldown":3.75,"Damage":6},"Image":87280920444213,"Title":"Bigger Boom","Cost":450},{
+"Image":103271630916907,"Title":"Rapid Reload","Cost":2750,"Tooltips":[{
+"ButtonText":"Upgraded Explosion","Header":"Attributes","Content":[{
+"Text":"Explosion Radius: 3.5 â†’ 5"},{
+"Text":"Knockback: 10 â†’ 12.5"}]}],"Stats":{
+"Attributes":{
+"ExplosionRadius":5,"RocketSpeed":25,"Knockback":12.5},"Extras":["Rocket Speed: 20 â†’ 25"],"Range":22.5,"Cooldown":3.75,"Damage":25}},{
+"Image":98952678277583,"Title":"Vengeful Missiles","Cost":5000,"Tooltips":[{
+"ButtonText":"Explosion Upgrade","Header":"Attributes","Content":[{
+"Text":"Explosion Radius: 5 â†’ 5.5"},{
+"Text":"Knockback: 12.5 â†’ 17.5"}]},{
+"ButtonText":"Burn Effect","Header":"Attributes","Content":[{
+"Text":"Burn Duration: 16 Seconds"},{
+"Text":"Burn Damage: 3 Per Tick"},{
+"Text":"Burn Tick: 0.25 Seconds"}]}],"Stats":{
+"Attributes":{
+"Burn":{
+"Damage":3,"Duration":16,"RocketSpeed":30,"Tick":0.25},"ExplosionRadius":5.5,"Extras":["Rocket Speed: 25 â†’ 30"],"Knockback":17.5},"Detections":{
+"3":true},"Range":26,"Cooldown":3.75,"Damage":60}}]}},"UpgradeOptions":[],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://134504826386080","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"2","Description":"A mad explosives expert capable of knocking back and burning enemies.","Category":"5","Height":0,"Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://134504826386080","Rarity":"1"},"Lunar":{
+"Icon":"rbxassetid://108437763960397","Rarity":"3"}},"BoundingSize":null}},"Demoman":{
+"Skins":{
+"Blue":true,"Fortress":true,"Pumpkin":true,"Ducky":true,"Default":true,"Green":true,"Military":true,"Yellow":true,"Pirate":true,"Red":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"Velocity":30,"ExplosionRadius":3.5,"AimTime":1,"MustAim":true},"Range":9,"Price":575,"Detections":{
+"5":true,"3":false,"2":false},"Cooldown":2.6,"Damage":6},"Upgrades":[{
+"Stats":{
+"Cooldown":2.25,"Range":11},"Image":0,"Title":"Further Throwing","Cost":150},{
+"Stats":{
+"Attributes":{
+"ExplosionRadius":4},"Damage":10},"Image":5523227714,"Title":"Steil Grenade","Cost":475},{
+"Stats":{
+"Attributes":{
+"Velocity":20,"MustAim":false},"Range":14,"Extras":["Faster Projectile","No Aim Time"],"Cooldown":1.75,"Damage":18},"Image":5523228733,"Title":"Chinalake","Cost":1650},{
+"Stats":{
+"Attributes":{
+"ExplosionRadius":4.5},"Range":15,"Extras":["Bigger Explosion"],"Cooldown":1.5,"Damage":50},"Image":5523229364,"Title":"Collateral Damage","Cost":6250}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Ka-boooom! A great splash damage tower for beginners!","Price":{
+"Value":200,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Blue":{
+"Icon":"rbxassetid://16742061940","Rarity":"1"},"Fortress":{
+"Icon":"rbxassetid://16742062515","Rarity":"2"},"Pumpkin":{
+"Icon":"rbxassetid://16742063839","Rarity":"6"},"Military":{
+"Icon":"rbxassetid://16742063163","Rarity":"2"},"Default":{
+"Icon":"rbxassetid://16742062171","Rarity":"1"},"Green":{
+"Icon":"rbxassetid://16742062839","Rarity":"1"},"Ducky":{
+"Icon":"rbxassetid://112748767260662","Rarity":"2"},"Yellow":{
+"Icon":"rbxassetid://16742064313","Rarity":"1"},"Pirate":{
+"Icon":"rbxassetid://16742063574","Rarity":"1"},"Red":{
+"Icon":"rbxassetid://16742064120","Rarity":"1"}},"Role":"1","Category":"1","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742062171","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Sledger":{
+"Skins":{
+"Brave Soul":true,"Fallen":true,"Default":true,"Phantom":true,"Chocolatier":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"HitboxAngle":60,"SlowPercent":15,"MaxHits":2,"DebuffDamage":0,"CanFreeze":false,"FreezeTime":0,"Aftershock":false,"DefenseMelt":0,"FreezeBonus":false,"TickRate":0.25,"MaxSlow":45,"DebuffLength":4},"Detections":{
+"5":true,"3":false,"2":false},"Cooldown":1.2,"Price":950,"Limit":6,"Range":6.5,"Damage":8},"Upgrades":[{
+"Image":127760357589893,"Title":"Heavier Swings","Cost":400,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Max Hits</b></font>","Content":[{
+"Text":"Max Hits: 2 -> 3"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Chill</b></font>","Content":[{
+"Text":"Slow Debuff: 15% -> 25%"}]}],"Stats":{
+"Attributes":{
+"MaxHits":3,"SlowPercent":25,"FreezeTime":1.5},"Damage":12}},{
+"Image":129569296351035,"Title":"Better Sledge","Cost":1650,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Max Hits</b></font>","Content":[{
+"Text":"Max Hits: 3 -> 4"}]}],"Stats":{
+"Attributes":{
+"MaxHits":4,"FreezeTime":1.5,"Lead":true},"Detections":{
+"5":true},"Extra":[],"Range":7,"Cooldown":1.2,"Damage":25}},{
+"Image":90580826193030,"Title":"Freezing Point","Cost":3200,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Chill</b></font>","Content":[{
+"Text":"Slow Debuff: 25% -> 30%"},{
+"Text":"ðŸ§Š Freeze enemies on max chill"}]}],"Stats":{
+"Range":7,"Attributes":{
+"CanFreeze":true,"SlowPercent":30,"MaxSlow":60},"Damage":45}},{
+"Image":87639607914634,"Title":"Ice Breaker","Cost":8250,"Tooltips":[{
+"ButtonText":"Unlock Ice Breaker","Header":"Passive Ability","Content":[{
+"Text":"Deal x2 damage to frozen and chilled enemies."}]}],"Stats":{
+"Cooldown":1.2,"Range":7.5,"Attributes":{
+"SlowPercent":45,"FreezeBonus":true,"MaxHits":4,"DebuffLength":5,"MaxSlow":65},"Damage":75}},{
+"Image":92990655062231,"Title":"Arctic Aftershocks","Cost":16000,"Tooltips":[{
+"ButtonText":"Unlock Aftershock","Content":[{
+"Text":"Aftershock Delay: 0.4s"},{
+"Text":"Applies 20% base damage"},{
+"Text":"Applies chill"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Max Hits</b></font>","Content":[{
+"Text":"Max Hits: 4 -> 6"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Chill</b></font>","Content":[{
+"Text":"Slow Debuff: 45% -> 80%"},{
+"Text":"Max Slow: 65% -> 80%"},{
+"Text":"Freeze Time: 1.5 -> 1.75"}]}],"Stats":{
+"Attributes":{
+"AftershockDamageMult":0.2,"MaxSlow":80,"SlowPercent":80,"Aftershock":true,"AftershockTime":0.4,"MaxHits":6,"FreezeTime":1.75,"DebuffLength":6},"Range":7.5,"Cooldown":1.2,"Damage":140}}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Bash zombies with powerful blows and freeze them.","Class":"2","SkinData":{
+"Brave Soul":{
+"Icon":"rbxassetid://16742142332","Rarity":"4"},"Fallen":{
+"Icon":"rbxassetid://18961805501","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://75780199539960","Rarity":"1"},"Phantom":{
+"Icon":"rbxassetid://16742142970","Rarity":"4"},"Chocolatier":{
+"Icon":"rbxassetid://128749730055893","Rarity":"3"}},"Role":"1","Category":"5","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://75780199539960","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundarySize":1,"BoundingSize":null}},"Freezer":{
+"Skins":{
+"Cryptid":true,"Default":true,"Deep Freeze":true,"Frost Legion":true,"IcyTea":true,"Foam":true,"Mint Choco":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Abilities":[{
+"Name":"Frost Grenade","Debounce":15,"Price":0,"Level":4,"Icon":14606405886}],"Detections":{
+"5":false,"3":false,"2":false},"Attributes":{
+"CanFreeze":false,"GrenadeEquip":0.83,"Burst":1,"FreezeTime":0,"DebuffDamage":0,"MaxSlow":50,"Velocity":3,"MaxHits":5,"TickRate":0.25,"DefenseMelt":0,"ReloadTime":1,"ExplosionRadius":6,"SlowPercent":10,"DebuffLength":5},"Price":425,"Cooldown":0.5,"Range":12,"Damage":1},"Upgrades":[{
+"Image":15686418975,"Title":"Expedition Gear","Cost":225,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Chill</b></font>","Content":[{
+"Text":"â„ï¸ Max Slowness: 50% -> 60%"},{
+"Text":"Chill Slowness: 10% -> 15%"}]}],"Stats":{
+"Extras":[],"Range":12,"Attributes":{
+"SlowPercent":15,"MaxSlow":60},"Damage":2}},{
+"Image":15686418835,"Title":"Bundled Up!","Cost":650,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Chill</b></font>","Content":[{
+"Text":"ðŸ§Š Freeze Time: 0 -> 2"},{
+"Text":"Chill Slowness: 15% -> 20%"}]}],"Stats":{
+"Attributes":{
+"CanFreeze":true,"FreezeTime":2,"SlowPercent":20,"DefenseMelt":0},"Detections":{
+"2":true},"Extras":[],"Range":14,"Damage":2}},{
+"Image":15686418748,"Title":"Arctic Soldier","Cost":2000,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Burst</b></font>","Content":[{
+"Text":"Burst: 1 -> 3"},{
+"Text":"Burst Cooldown: 0.75"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Chill</b></font>","Content":[{
+"Text":"Defense Melt: 10"},{
+"Text":"â„ï¸ Max Slowness: 60% -> 75%"},{
+"Text":"Chill Slowness: 20% -> 25%"}]}],"Stats":{
+"Attributes":{
+"BurstCool":0.75,"Burst":3,"DefenseMelt":10,"FreezeTime":2.5,"SlowPercent":25,"MaxSlow":75},"Detections":{
+"2":true},"Extras":[],"Cooldown":0.15,"Damage":3}},{
+"Stats":{
+"Attributes":{
+"FreezeTime":3,"Burst":6,"DefenseMelt":10},"Detections":{
+"2":true},"Extras":["Burst: 3 -> 6","ðŸ§Š Frost Grenade Ability"],"Range":16,"Cooldown":0.15,"Damage":5},"Image":15686418571,"Title":"Frost Bite!","Cost":4500}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Chill enemies to a slow freeze!","Price":{
+"Value":1600,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Cryptid":{
+"Icon":"rbxassetid://16742072500","Rarity":"7"},"IcyTea":{
+"Icon":"rbxassetid://16742073604","Rarity":"2"},"Deep Freeze":{
+"Icon":"rbxassetid://16742072779","Rarity":"1"},"Frost Legion":{
+"Icon":"rbxassetid://80819236795571","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://16742073034","Rarity":"1"},"Foam":{
+"Icon":"rbxassetid://16742073341","Rarity":"6"},"Mint Choco":{
+"Icon":"rbxassetid://16742073860","Rarity":"2"}},"Role":"2","Category":"2","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742073034","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Elf Camp":{
+"Skins":{
+"Valentines":true,"Default":true,"Bunny":true,"Ghost":true,"Hazmat":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"SpawnTime":15,"Detections":{
+"3":false,"2":false},"Limit":2,"Cooldown":0,"Price":300,"Attributes":{
+"BasicElfSpawnTime":15},"Range":0,"Damage":0},"Upgrades":[{
+"Stats":{
+"SpawnTime":40,"Extras":["Faster spawning"],"Attributes":{
+"BasicElfSpawnTime":12}},"Image":11756694085,"Title":"Winter Training","Cost":150},{
+"Stats":{
+"Extras":["Snowball Elfs"],"Attributes":{
+"SnowballElfLimit":4,"SnowballElfSpawnTime":20}},"Image":11866247025,"Title":"Snowball Fight","Cost":325},{
+"Stats":{
+"Extras":["Bomber Elfs"],"Attributes":{
+"BomberElfSpawnTime":25}},"Image":11866247585,"Title":"Explosive Surprise","Cost":1500},{
+"Stats":{
+"Extras":["Guardian Elfs","Cannoneer Elfs"],"Attributes":{
+"CannoneerElfSpawnTime":25,"CannoneerElfLimit":4,"GuardianElfLimit":4,"GuardianElfSpawnTime":20}},"Image":11866248209,"Title":"Winter Workshop","Cost":3500},{
+"Stats":{
+"Extras":["Ripped Elfs","Gift Bombers","Gunner Elfs"],"Attributes":{
+"GunnerElfLimit":4,"GiftBomberElfLimit":2,"RippedElfSpawnTime":80,"RippedElfLimit":2,"GunnerElfSpawnTime":25,"GiftBomberElfSpawnTime":50}},"Image":11866248664,"Title":"X-Mas Army","Cost":9500}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Elf army.. ATTACK! Send out elf units to defend your base.","Class":"2","SkinData":{
+"Hazmat":{
+"Icon":4961735492,"Rarity":"1"},"Default":{
+"Icon":"rbxassetid://16742066984","Rarity":"1"},"Bunny":{
+"Icon":4863544757,"Rarity":"7"},"Valentines":{
+"Icon":4690285744,"Rarity":"7"},"Ghost":{
+"Icon":4961735492,"Rarity":"7"}},"Role":"2","Category":"5","Height":0,"Gamepass":{
+"Id":112619685},"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742066984","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Snowballer":{
+"Skins":{
+"Default":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"CanFreeze":false,"ThrowDelay":0.1,"SlowPercent":15,"FreezeTime":0,"ProjectileSpeed":20,"MaxHits":1,"ExplosionRadius":2,"MaxSlow":30,"DebuffLength":3},"Detections":[],"Price":300,"Range":9.5,"Cooldown":3,"Damage":4},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"SlowPercent":20,"MaxSlow":40},"Extras":["Max Slowness: 30% -> 40%","Chill Slowness: 15% -> 20%"],"Range":11,"Cooldown":2.5,"Damage":4},"Image":15686418975,"Title":"Snow Day","Cost":100},{
+"Stats":{
+"Attributes":{
+"DebuffLength":4,"SlowPercent":30,"MaxSlow":60},"Extras":["Max Slowness: 40% -> 60%","Chill Slowness: 20% -> 30%"],"Range":14,"Cooldown":2.5,"Damage":8},"Image":15686418835,"Title":"Frigid Temperatures","Cost":450},{
+"Stats":{
+"Attributes":{
+"CanFreeze":true,"ThrowDelay":0,"SlowPercent":30,"ExplosionRadius":4,"MaxHits":4,"FreezeTime":2},"Extras":["Freeze at Max Chill","Freeze Time: 2 Seconds"],"Range":18,"Cooldown":2,"Damage":20},"Image":15686418748,"Title":"Snowball Cannon","Cost":1850}]}},"UpgradeOptions":[],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://114134096038917","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"2","Description":"A jolly snowball fighter who prefers to fight in the best way they know how!","Category":"5","Height":0,"Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://114134096038917","Rarity":"1"}},"BoundingSize":null}},"Toxic Gunner":{
+"Skins":{
+"Default":true,"Phantom":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"PoisonTick":1,"Burst":4,"DefenseMelt":0,"ReloadSpeed":12,"Slowness":10,"PoisonDamage":1,"PoisonLength":6},"Detections":{
+"5":true,"3":false,"2":false},"Price":525,"Cooldown":0.1,"Range":10,"Damage":1},"Upgrades":[{
+"Image":5523192002,"Title":"Faster Reloading","Cost":200,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Reload</b></font>","Content":[{
+"Text":"Reload Speed: 12s > 6s"}]}],"Stats":{
+"Attributes":{
+"ReloadSpeed":6},"Range":10}},{
+"Image":5523193619,"Title":"Poisonous Bullets","Cost":800,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Weapon</b></font>","Header":"Weapon Upgrade","Content":[{
+"Text":"Burst: 4 > 8"},{
+"Text":"Poison Damage: 1 > 4"},{
+"Text":"Slowness on Hit: 20%"}]}],"Stats":{
+"Range":14,"Attributes":{
+"Burst":8,"PoisonLength":6,"Slowness":20,"ReloadSpeed":6,"PoisonDamage":4},"Extras":[]}},{
+"Image":5523195646,"Title":"Sinister Gear","Cost":3000,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Weapon</b></font>","Header":"Weapon Upgrade","Content":[{
+"Text":"Burst: 8 > 20"},{
+"Text":"Defense Melt: 3"}]}],"Stats":{
+"Attributes":{
+"Burst":20,"DefenseMelt":3,"PoisonLength":6,"Slowness":20,"ReloadSpeed":6,"PoisonDamage":4},"Range":14,"Cooldown":0.085,"Extras":[],"Damage":3}},{
+"Image":5523196519,"Title":"Going Nuclear!","Cost":14000,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Weapon</b></font>","Header":"Weapon Upgrade","Content":[{
+"Text":"Full Auto Minigun"},{
+"Text":"Poison Damage: 4 > 10"},{
+"Text":"Poison Length: 6 > 10"},{
+"Text":"Slowness on Hit: 20% > 30%"}]}],"Stats":{
+"Attributes":{
+"Burst":10,"DefenseMelt":3,"PoisonLength":10,"Slowness":30,"PoisonDamage":10,"ReloadSpeed":0},"Cooldown":0.085,"Range":18,"Extras":[],"Damage":7}}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Shoot a burst of poison bullets that slow down enemies!","Class":"2","SkinData":{
+"Phantom":{
+"Icon":"rbxassetid://16742162641","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://16742162421","Rarity":"1"}},"Role":"1","Category":"5","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742162421","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Harvester":{
+"Skins":{
+"Wasteland":true,"Default":true,"Lunar":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Abilities":[{
+"Name":"Thorns","Debounce":40,"Price":0,"Level":0,"Icon":72581350140943}],"Detections":{
+"3":true},"Limit":4,"Attributes":{
+"ThornsDamage":2,"SummoningTime":1.23,"ThornsSlowness":15,"MaxHits":2,"ProjectileSpeed":45,"ThornsGrowthTime":0.3,"ThornsDuration":8,"TickRate":0.5,"ThornsRange":10},"Price":1400,"Range":13,"Cooldown":1.2,"Damage":6},"Upgrades":[{
+"Image":84794687219284,"Title":"Thorns","Cost":650,"Tooltips":[{
+"ButtonText":"Upgrade Thorns Summoning","Header":"Active Ability","Content":[{
+"Text":"Damage per tick: 2 â†’ 4"},{
+"Text":"Range: 10 â†’ 12"}]}],"Stats":{
+"Attributes":{
+"ThornsDamage":4,"SummoningTime":1.23,"ThornsSlowness":15,"MaxHits":2,"ThornsDuration":8,"TickRate":0.5,"ThornsRange":10},"Range":15,"Cooldown":1.2,"Damage":8}},{
+"Image":128833693887182,"Title":"Early Harvest","Cost":2000,"Tooltips":[{
+"ButtonText":"Upgrade Thorns Summoning","Header":"Active Ability","Content":[{
+"Text":"Damage per tick: 4 â†’ 6"},{
+"Text":"Duration: 8 â†’ 10"},{
+"Text":"Slowness: 15% â†’ 20%"}]}],"Stats":{
+"Attributes":{
+"ThornsDamage":6,"ThornsSlowness":20,"MaxHits":3,"ThornsDuration":10,"TickRate":0.5,"ThornsRange":12},"Extras":["Max Pierce:2 â†’ 3"],"Range":15,"Cooldown":0.85,"Damage":10}},{
+"Image":140040939003373,"Title":"Nature's Vengence","Cost":5000,"Tooltips":[{
+"ButtonText":"Upgrade Thorns Summoning","Header":"Active Ability","Content":[{
+"Text":"Range: 12 â†’ 16"},{
+"Text":"Damage Per Tick: 6 â†’ 12"}]}],"Stats":{
+"Attributes":{
+"ThornsDamage":12,"ThornsSlowness":20,"MaxHits":3,"ThornsDuration":10,"TickRate":0.5,"ThornsRange":16},"Extras":[],"Range":15,"Cooldown":0.85,"Damage":20}},{
+"Image":83141210249578,"Title":"Cold-Hearted Scarecrow","Cost":8500,"Tooltips":[{
+"ButtonText":"Upgrade Thorns Summoning","Header":"Active Ability","Content":[{
+"Text":"Damage per tick: 12 â†’ 20"},{
+"Text":"Range: 16 â†’ 18"},{
+"Text":"Duration: 10 Seconds â†’ 16 Seconds"},{
+"Text":"Slowness: 20% â†’ 25%"}]}],"Stats":{
+"Attributes":{
+"ThornsDamage":20,"ThornsSlowness":25,"MaxHits":3,"ThornsDuration":16,"TickRate":0.5,"ThornsRange":18},"Range":17.5,"Cooldown":0.75,"Damage":30}},{
+"Image":117691212648454,"Title":"Reaper","Cost":20000,"Tooltips":[{
+"ButtonText":"Upgrade Thorns Summoning","Header":"Active Ability","Content":[{
+"Text":"Damage per tick: 20 â†’ 30"},{
+"Text":"Range: 18 â†’ 20"},{
+"Text":"Slowness: 25% â†’ 30%"}]}],"Stats":{
+"Attributes":{
+"ThornsDamage":30,"Summoning":1.37,"ThornsSlowness":30,"TickRate":0.5,"MaxHits":4,"ThornsDuration":16,"ThornsRange":20},"Extras":["Max Pierce: 3 â†’ 4"],"Range":22.5,"Cooldown":1.5,"Damage":90}}]}},"UpgradeOptions":[],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://87684607767207","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"2","Description":"A haunted scarecrow that fires piercing bolts and can summon thorns to slow enemies.","Category":"5","Height":0,"Class":"2","SkinData":{
+"Lunar":{
+"Icon":"rbxassetid://137379745720939","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://87684607767207","Rarity":"1"},"Wasteland":{
+"Icon":"rbxassetid://74677227259405","Rarity":"7"}},"BoundingSize":null}},"Swarmer":{
+"Skins":{
+"Default":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":[],"Abilities":[{
+"Name":"Swarm","Debounce":15,"Price":0,"Level":3,"Icon":4865025806}],"Cooldown":2,"Price":450,"Attributes":{
+"BeeDuration":4,"BeeTickRate":1,"BeeDamage":1},"Range":13,"Damage":1},"Upgrades":[{
+"Image":125107182964673,"Title":"Extra Honey","Cost":300,"Tooltips":[{
+"ButtonText":"Bee Debuff <b>Stats</b></font>","Header":"Bee Debuff","Content":[{
+"Text":"Damage: 2"},{
+"Text":"Tick Rate: 1"},{
+"Text":"Duration: 4"}]}],"Stats":{
+"Detections":[],"Attributes":{
+"BeeDuration":4,"BeeTickRate":1,"BeeDamage":2},"Cooldown":2,"Range":13,"Damage":2}},{
+"Image":119703739718324,"Title":"Agressive Bees","Cost":500,"Tooltips":[{
+"ButtonText":"Bee Debuff <b>Stats</b></font>","Header":"Bee Debuff","Content":[{
+"Text":"Damage: 2"},{
+"Text":"Tick Rate: 0.75"},{
+"Text":"Duration: 4.5"}]}],"Stats":{
+"Detections":[],"Attributes":{
+"BeeDuration":4.5,"BeeTickRate":0.75,"BeeDamage":2},"Cooldown":1.5,"Range":15,"Damage":4}},{
+"Image":111277904554322,"Title":"Bee Certified Weapons","Cost":1500,"Tooltips":[{
+"ButtonText":"Bee Debuff <b>Stats</b></font>","Header":"Bee Debuff","Content":[{
+"Text":"Damage: 2"},{
+"Text":"Tick Rate: 0.75"},{
+"Text":"Duration: 5.25"}]},{
+"ButtonText":"Bee <b>Swarm</b> Grenade","Content":[{
+"Text":"Range: 6"},{
+"Text":"Damage: 10"},{
+"Text":"Cooldown: 15s"}]}],"Stats":{
+"Detections":[],"Attributes":{
+"BeeTickRate":0.75,"BeeDamage":2,"BeeDuration":5.25,"BeeGrenadeDamage":10,"BeeGrenadeRange":6},"Cooldown":1.25,"Range":18,"Damage":10}},{
+"Image":115125540733937,"Title":"Beehive of Madness","Cost":3000,"Tooltips":[{
+"ButtonText":"Bee Debuff <b>Stats</b></font>","Header":"Bee Debuff","Content":[{
+"Text":"Damage: 3"},{
+"Text":"Tick Rate: 0.75"},{
+"Text":"Duration: 5.5"}]},{
+"ButtonText":"Bee <b>Swarm</b> Grenade","Content":[{
+"Text":"Range: 7"},{
+"Text":"Damage: 30"},{
+"Text":"Cooldown: 15s"}]}],"Stats":{
+"Detections":[],"Attributes":{
+"BeeTickRate":0.75,"BeeDamage":3,"BeeDuration":5.5,"BeeGrenadeDamage":30,"BeeGrenadeRange":7},"Cooldown":1,"Range":20,"Damage":15}},{
+"Image":115125540733937,"Title":"Beekeeper of Death","Cost":6000,"Tooltips":[{
+"ButtonText":"Bee Debuff <b>Stats</b></font>","Header":"Bee Debuff","Content":[{
+"Text":"Damage: 4"},{
+"Text":"Tick Rate: 0.5"},{
+"Text":"Duration: 8"}]},{
+"ButtonText":"Bee <b>Swarm</b> Grenade","Content":[{
+"Text":"Range: 8"},{
+"Text":"Damage: 50"},{
+"Text":"Cooldown: 15s"}]}],"Stats":{
+"Detections":[],"Attributes":{
+"BeeTickRate":0.5,"BeeDamage":4,"BeeDuration":8,"BeeGrenadeDamage":50,"BeeGrenadeRange":8},"Cooldown":0.75,"Range":20,"Damage":25}}]}},"UpgradeOptions":[],"Properties":{
+"Description":"OH NOES, THE BEES! Attack enemies with bees that do damage over time. Won Spring 2020.","Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://130558134123777","Rarity":"1"}},"Role":"1","Category":"5","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://130558134123777","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Gamepass":{
+"Id":8868555},"BoundingSize":null}},"Soldier":{
+"Skins":{
+"Beast Slayer":true,"Aerobics":true,"Dark Frost":true,"Party":true,"Holiday":true,"Red":true,"Toilet":true,"Korblox":true,"Doughboy":true,"Classic":true,"Cold Soldier":true,"Liberator":true,"Blue":true,"Golden":true,"Ducky":true,"Default":true,"Valentines":true,"Toy":true,"Stealth Ops":true,"Grand Theft":true,"Bunny":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"Burst":3,"BurstCool":1},"Range":13,"Price":350,"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":0.15,"Damage":1},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"Burst":3,"BurstCool":1},"Range":15,"Extras":[],"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":0.15,"Damage":1},"Image":5523192002,"Title":"Better Vision","Cost":100},{
+"Stats":{
+"Attributes":{
+"Burst":4,"BurstCool":1},"Range":16,"Extras":[],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.15,"Damage":2},"Image":5523193619,"Title":"Better Aiming","Cost":400},{
+"Stats":{
+"Attributes":{
+"Burst":5,"BurstCool":0.8},"Range":16,"Extras":["Increased burst (5)"],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.15,"Damage":4},"Image":5523195646,"Title":"Equipment Upgrades","Cost":1500},{
+"Stats":{
+"Attributes":{
+"Burst":7,"BurstCool":0.8},"Range":18,"Extras":["Increased burst (7)"],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.125,"Damage":8},"Image":5523196519,"Title":"Deadliest Soldier","Cost":4750}]},"Golden":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"Burst":4,"BurstCool":0.75},"Range":14,"Price":500,"Detections":{
+"5":false,"3":true,"2":false},"Cooldown":0.1,"Damage":1},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"Burst":4,"BurstCool":0.6},"Range":14,"Extras":["Decreased burst cooldown"],"Detections":{
+"5":false,"3":true,"2":false},"Cooldown":0.08,"Damage":1},"Image":5523192002,"Title":"Trigger Finger","Cost":150},{
+"Stats":{
+"Attributes":{
+"Burst":4,"BurstCool":0.6},"Range":17,"Extras":[],"Detections":{
+"5":false,"3":true,"2":true},"Cooldown":0.08,"Damage":2},"Image":5523193619,"Title":"Better Aiming","Cost":800},{
+"Stats":{
+"Attributes":{
+"Burst":20,"BurstCool":1.2},"Range":17,"Extras":["Increased burst (20)"],"Detections":{
+"5":false,"3":true,"2":true},"Cooldown":0.08,"Damage":4},"Image":5523195646,"Title":"Equipment Upgrades","Cost":3000},{
+"Stats":{
+"Attributes":{
+"Burst":30,"BurstCool":1.2},"Range":19,"Extras":["Increased burst (30)"],"Detections":{
+"5":false,"3":true,"2":true},"Cooldown":0.06,"Damage":10},"Image":5523196519,"Title":"Deadliest's Soldier","Cost":12000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"A cheap and effective burst tower. Great for beginners!","Price":{
+"Value":400,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Beast Slayer":{
+"Icon":"rbxassetid://16742158393","Rarity":"7"},"Aerobics":{
+"Icon":"rbxassetid://104435661189010","Rarity":"1"},"Dark Frost":{
+"Icon":"rbxassetid://79808121861280","Rarity":"2"},"Party":{
+"Icon":"rbxassetid://16742161040","Rarity":"6"},"Holiday":{
+"Icon":"rbxassetid://16742160760","Rarity":"7"},"Red":{
+"Icon":"rbxassetid://16742161237","Rarity":"1"},"Toilet":{
+"Icon":"rbxassetid://16997028225","Rarity":"4"},"Blue":{
+"Icon":"rbxassetid://16742158617","Rarity":"1"},"Doughboy":{
+"Icon":"rbxassetid://16742159744","Rarity":"1"},"Classic":{
+"Icon":"rbxassetid://16742158900","Rarity":"6"},"Korblox":{
+"Icon":"rbxassetid://70787227887803","Rarity":"7"},"Liberator":{
+"Icon":"rbxassetid://16997027649","Rarity":"3"},"Bunny":{
+"Icon":"rbxassetid://90125360452717","Rarity":"2"},"Golden":{
+"Icon":"rbxassetid://16742160355","Rarity":"5"},"Ducky":{
+"Icon":"rbxassetid://16742159991","Rarity":"1"},"Default":{
+"Icon":"rbxassetid://16742159440","Rarity":"1"},"Stealth Ops":{
+"Icon":"rbxassetid://100325781772079","Rarity":"3"},"Toy":{
+"Icon":"rbxassetid://16742161627","Rarity":"1"},"Valentines":{
+"Icon":"rbxassetid://16742161860","Rarity":"1"},"Grand Theft":{
+"Icon":"rbxassetid://16742160584","Rarity":"1"},"Cold Soldier":{
+"Icon":"rbxassetid://16742159220","Rarity":"2"}},"Role":"1","Category":"1","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742159440","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Brawler":{
+"Skins":{
+"Fallen":true,"Default":true,"Loader":true,"Lovestriker":true,"Rudolph":true,"Jordan":true,"Blazing":true},"Stats":{
+"Default":{
+"Immutable":true,"Defaults":{
+"Abilities":[{
+"Name":"Reposition","Debounce":20,"Price":0,"Level":3,"Icon":17408583420}],"Attributes":{
+"AbilityKnockback":25,"MaxCombo":1,"KnockbackDebounce":3},"Limit":6,"Detections":{
+"5":true},"Price":600,"Cooldown":0.6,"Range":6,"Damage":6},"Paths":0,"Upgrades":[{
+"Stats":{
+"Cooldown":0.6,"Range":6,"Damage":9},"Image":0,"Title":"Hand to Hand Training","Cost":300},{
+"Image":17522564142,"Title":"Enhanced Gauntlets","Cost":850,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Attack Combo</b></font>","Header":"Combo","Content":[{
+"Text":"Performs a 3 hit combo, dealing increased damage on the final hit."},{
+"Text":"Final Hit Damage: <font color=\"rgb(255, 0, 0)\">24</font>"}]}],"Stats":{
+"Attributes":{
+"KnockbackForce":17.5,"FinalHitCD":0.75,"MaxCombo":3,"FinalHitDmg":24},"Detections":{
+"2":true},"Cooldown":0.6,"Damage":12}},{
+"Image":17522564023,"Title":"Pack a Punch","Cost":2000,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Reposition</b></font>","Header":"Ability","Content":[{
+"Text":"Choose a new location to move the Brawler tower to. Has an AOE stun radius of 10 around where the tower drops."},{
+"Text":"Cooldown: 20 seconds"}]}],"Stats":{
+"Extras":["Final Hit Damage: 40"],"Attributes":{
+"GroundSmashDamage":0,"KnockbackForce":20,"FinalHitDmg":40,"FinalHitCD":0.65},"Damage":20}},{
+"Image":17522564307,"Title":"Prototype Frame","Cost":5000,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Reposition Damage</b></font>","Header":"Ability","Content":[{
+"Text":"Reposition now deals damage on landing!"},{
+"Text":"Reposition Damage: 100"}]}],"Stats":{
+"Attributes":{
+"GroundSmashDamage":100,"KnockbackForce":24,"FinalHitDmg":80,"FinalHitCD":0.5},"Extras":["Final Hit Damage: 80"],"Cooldown":0.5,"Range":6.5,"Damage":40}},{
+"Stats":{
+"Attributes":{
+"GroundSmashDamage":200,"FinalHitCD":0.5,"FinalHitDmg":170,"KnockbackForce":30},"Extras":["Final Hit Damage: 170","Reposition Damage: 200"],"Cooldown":0.5,"Range":7,"Damage":85},"Image":17522563932,"Title":"Faster Hydraulics","Cost":12500}]}},"UpgradeOptions":[],"Properties":{
+"Description":"A close range specialist capable of pushing back foes and moving around the battlefield!","Price":{
+"Value":1250,"Type":"3","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Fallen":{
+"Icon":"rbxassetid://18835925180","Rarity":"4"},"Lovestriker":{
+"Icon":"rbxassetid://83049730035300","Rarity":"4"},"Loader":{
+"Icon":"rbxassetid://131316320823683","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://17506304027","Rarity":"1"},"Jordan":{
+"Icon":"rbxassetid://70748904383488","Rarity":"3"},"Rudolph":{
+"Icon":"rbxassetid://122757939585280","Rarity":"4"},"Blazing":{
+"Icon":"rbxassetid://18549605468","Rarity":"4"}},"Role":"1","Category":"4","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://17506304027","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundarySize":1}},"Trapper":{
+"Skins":{
+"Mallard Duck":true,"Plushie":true,"Default":true,"Dark Frost":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"ThrowTime":0.5,"MaxTraps":4,"Velocity":15,"Traps":{
+"Spike":{
+"Health":10,"Range":1.5,"Cooldown":5.25,"Damage":10}},"TrapLifespan":75},"Limit":7,"Price":500,"Range":7,"Cooldown":5.25,"Damage":0},"Upgrades":[{
+"Image":16493201931,"Title":"Faster Throwing","Cost":500,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Max Traps</b></font>","Header":"Max Traps Upgrade","Content":[{
+"Text":"Max Traps: 5"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Spikes</b></font>","Header":"Spike Upgrade","Content":[{
+"Text":"Spike Cooldown: 5"},{
+"Text":"Spike Health: 20"},{
+"Text":"Spike Damage: 20"}]}],"Stats":{
+"Attributes":{
+"MaxTraps":5,"Traps":{
+"Spike":{
+"Health":20,"Range":1.5,"Cooldown":5,"Damage":20}}},"Cooldown":5}},{
+"Image":16493202507,"Title":"Watch your step","Cost":1500,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Max Traps</b></font>","Header":"Max Traps Upgrade","Content":[{
+"Text":"Max Traps: 6"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Spikes</b></font>","Header":"Spike Upgrade","Content":[{
+"Text":"Spike Cooldown: 5"},{
+"Text":"Spike Health: 60"},{
+"Text":"Spike Damage: 25"}]},{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Mine</b></font>","Header":"Unlock Mine","Content":[{
+"Text":"Mine Cooldown: 5"},{
+"Text":"Mine Damage: 60"},{
+"Text":"Explosion Radius: 5"}]}],"Stats":{
+"Attributes":{
+"MaxTraps":6,"Traps":{
+"Spike":{
+"Health":60,"Range":2,"Cooldown":5,"Damage":25},"Landmine":{
+"Range":1,"ExplosionRadius":5,"Cooldown":5,"Damage":60}}},"Range":9}},{
+"Image":16493202350,"Title":"Better Traps","Cost":5000,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Max Traps</b></font>","Header":"Max Traps Upgrade","Content":[{
+"Text":"Max Traps: 8"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Spikes</b></font>","Header":"Spike Upgrade","Content":[{
+"Text":"Spike Cooldown: 7.5"},{
+"Text":"Spike Health: 200"},{
+"Text":"Spike Damage: 25"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Mine</b></font>","Header":"Mine Upgrade","Content":[{
+"Text":"Mine Cooldown: 4"},{
+"Text":"Mine Damage: 80"},{
+"Text":"Explosion Radius: 5"},{
+"Text":"Causes burn damage"}]}],"Stats":{
+"Cooldown":4,"Attributes":{
+"MaxTraps":8,"Traps":{
+"Spike":{
+"Health":200,"Range":2,"Cooldown":7.5,"Damage":25},"Landmine":{
+"BurnDamage":5,"BurnTime":2,"BurnTick":0.25,"Range":1,"ExplosionRadius":5,"Cooldown":4,"Damage":80}}},"Range":10}},{
+"Image":16493202129,"Title":"Don't try this at home","Cost":13500,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Max Traps</b></font>","Header":"Max Traps Upgrade","Content":[{
+"Text":"Max Traps: 10"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Spikes</b></font>","Header":"Spike Upgrade","Content":[{
+"Text":"Spike Cooldown: 6"},{
+"Text":"Spike Health: 450"},{
+"Text":"Spike Damage: 40"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Mines</b></font>","Header":"Mine Upgrade","Content":[{
+"Text":"Mine Cooldown: 2"},{
+"Text":"Mine Damage: 140"},{
+"Text":"Explosion Radius: 7"},{
+"Text":"Burn Time: 5 Seconds"},{
+"Text":"Burn Tick: 0.25"},{
+"Text":"Burn Damage: 7"}]},{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Bear Trap</b></font>","Header":"Unlock Bear Trap","Content":[{
+"Text":"Bear Trap Cooldown: 3.5"},{
+"Text":"Bear Trap Damage: 300"},{
+"Text":"Stun Time: 4"}]}],"Stats":{
+"Attributes":{
+"MaxTraps":10,"Traps":{
+"Landmine":{
+"BurnDamage":7,"BurnTime":5,"BurnTick":0.25,"DefenseMelt":0,"Range":1,"ExplosionRadius":7,"Cooldown":2,"Damage":140},"Spike":{
+"Health":450,"Range":2,"Cooldown":6,"Damage":40},"BearTrap":{
+"StunLength":3,"Range":1,"Cooldown":3.5,"Damage":300}}},"Cooldown":2}}]}},"UpgradeOptions":[{
+"Values":[{
+"Name":"Spike","Value":"Spike","Level":0,"Icon":16493201931,"Tooltip":{
+"Content":[{
+"Text":"Creates an obstacle that deals damage to enemies! Loses health on hit"}],"Header":"Spikes","Subject":"Trap"}},{
+"Name":"Landmine","Value":"Landmine","Level":2,"Icon":16493202350,"Tooltip":{
+"Content":[{
+"Text":"Explodes on contact, deals AOE damage to enemies!"}],"Header":"Landmine","Subject":"Trap"}},{
+"Name":"Bear Traps","Value":"BearTrap","Level":4,"Icon":16493202129,"Tooltip":{
+"Content":[{
+"Text":"Triggers on contact, stuns enemies and deals massive damage!"}],"Header":"Bear Trap","Subject":"Trap"}}],"Default":"Spike","Name":"Trap","Icon":14606405886}],"Properties":{
+"Description":"Watch your step.. Place various traps on the path to damage and stun enemies!","Price":{
+"Value":3000,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Mallard Duck":{
+"Icon":"rbxassetid://128010558189605","Rarity":"3"},"Dark Frost":{
+"Icon":"rbxassetid://120378214035608","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://16742162831","Rarity":"1"},"Plushie":{
+"Icon":"rbxassetid://17362851197","Rarity":"6"}},"Role":"2","Category":"2","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742162831","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Gladiator":{
+"Skins":{
+"Cameraman":true,"Beach":true,"Phantom":true,"Pumpkin":true,"Demon":true,"Default":true,"Pirate":true,"Vigilante":true,"Galactic":true,"Umbrella":true,"Slugger":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"3":false,"2":false},"Abilities":[{
+"Name":"Warrior's Call","Debounce":30,"Price":0,"Level":3,"Icon":4118870230}],"Cooldown":1,"Price":300,"Attributes":{
+"ParryCooldown":5,"MaxHits":3,"ParryLength":1.25},"Range":5,"Damage":2},"Upgrades":[{
+"Stats":{
+"Damage":3},"Image":3356186535,"Title":"Warrior Armor","Cost":250},{
+"Stats":{
+"Detections":{
+"2":true},"Damage":5},"Image":141745478,"Title":"Dangersense","Cost":500},{
+"Stats":{
+"Extras":["Warrior's Call"],"Damage":10},"Image":4118882122,"Title":"Extra Protection","Cost":1500},{
+"Stats":{
+"Cooldown":0.75,"Damage":25},"Image":16620737,"Title":"Illumina","Cost":2500},{
+"Stats":{
+"Range":6,"Cooldown":0.5,"Damage":40},"Image":16868189,"Title":"Darkheart Swordsman","Cost":6000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Slash nearby enemies and deal area damage. Won from beating Gladiator Event 2019","Class":"2","SkinData":{
+"Cameraman":{
+"Icon":"rbxassetid://17119429753","Rarity":"4"},"Beach":{
+"Icon":"rbxassetid://16742074319","Rarity":"6"},"Phantom":{
+"Icon":"rbxassetid://16742075283","Rarity":"4"},"Pumpkin":{
+"Icon":"rbxassetid://16742075866","Rarity":"7"},"Demon":{
+"Icon":"rbxassetid://16742074780","Rarity":"7"},"Default":{
+"Icon":"rbxassetid://16742074569","Rarity":"1"},"Pirate":{
+"Icon":"rbxassetid://16742075600","Rarity":"4"},"Vigilante":{
+"Icon":"rbxassetid://16742076549","Rarity":"4"},"Galactic":{
+"Icon":"rbxassetid://16742075002","Rarity":"3"},"Umbrella":{
+"Icon":"rbxassetid://16742076293","Rarity":"6"},"Slugger":{
+"Icon":"rbxassetid://16742076100","Rarity":"4"}},"Role":"1","Category":"5","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742074569","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundarySize":1,"BoundingSize":null}},"Sniper":{
+"Skins":{
+"Davinchi":true,"Blue":true,"Bunny":true,"Redemption":true,"Valentines":true,"Ducky":true,"Default":true,"Ghillie":true,"Frost Legion":true,"Silent":true,"Red":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"3":true,"2":false},"Price":300,"Cooldown":4,"Range":27.5,"Damage":4},"Upgrades":[{
+"Stats":{
+"Cooldown":3.5,"Damage":6},"Image":3280081327,"Title":"Faster Reloading","Cost":150},{
+"Stats":{
+"Range":32.5,"Detections":{
+"2":true},"Damage":12},"Image":3280367022,"Title":"Geared Up","Cost":500},{
+"Stats":{
+"Detections":{
+"5":true},"Cooldown":3.5,"Range":35,"Damage":30},"Image":3280367963,"Title":"Frontlines Sniping","Cost":1500},{
+"Stats":{
+"Cooldown":2,"Range":45,"Damage":40},"Image":3280368786,"Title":"Spec Ops","Cost":4000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Shoot enemies from large distances. One of the starter towers.","Price":{
+"Value":100,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"3","SkinData":{
+"Davinchi":{
+"Icon":"rbxassetid://16742143675","Rarity":"7"},"Blue":{
+"Icon":"rbxassetid://16742143211","Rarity":"1"},"Bunny":{
+"Icon":"rbxassetid://16742143396","Rarity":"7"},"Redemption":{
+"Icon":"rbxassetid://16997027118","Rarity":"2"},"Valentines":{
+"Icon":"rbxassetid://16742158141","Rarity":"1"},"Ducky":{
+"Icon":"rbxassetid://16742144110","Rarity":"1"},"Default":{
+"Icon":"rbxassetid://16742143963","Rarity":"1"},"Ghillie":{
+"Icon":"rbxassetid://16742144423","Rarity":"1"},"Frost Legion":{
+"Icon":"rbxassetid://93332491661008","Rarity":"1"},"Silent":{
+"Icon":"rbxassetid://16742144921","Rarity":"1"},"Red":{
+"Icon":"rbxassetid://16742144687","Rarity":"1"}},"Role":"2","Category":"1","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742143963","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Paintballer":{
+"Skins":{
+"Green":true,"Bunny":true,"Default":true,"Red":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"5":false,"3":false,"2":false},"Attributes":{
+"MaxHits":5,"ExplosionRadius":3},"Price":400,"Cooldown":1.6,"Range":7,"Damage":2},"Upgrades":[{
+"Stats":{
+"Detections":{
+"2":true},"Range":8,"Damage":3},"Image":3280081327,"Title":"Paintball Gear","Cost":200},{
+"Stats":{
+"Attributes":{
+"ExplosionRadius":3.5},"Extras":["Explosion Radius = 3.5"],"Damage":6},"Image":3319083300,"Title":"Shoulder Pads","Cost":675},{
+"Stats":{
+"Range":8,"Cooldown":0.9},"Image":3280082028,"Title":"Double Barrel Gun","Cost":1000},{
+"Stats":{
+"Attributes":{
+"ExplosionRadius":4},"Range":9,"Cooldown":0.75,"Extras":["Explosion Radius = 4"],"Damage":10},"Image":3319084508,"Title":"Competitive Gear","Cost":2250},{
+"Stats":{
+"Attributes":{
+"ExplosionRadius":4.5},"Cooldown":0.6,"Range":10,"Extras":["Explosion Radius = 4.5"],"Damage":15},"Image":3319085582,"Title":"Paintball Champion","Cost":4000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Usually, paintball guns aren't really useful in the apocalypse but apparently this one is. Deals splash damage.","Price":{
+"Value":100,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Red":{
+"Icon":"rbxassetid://16742112218","Rarity":"1"},"Bunny":{
+"Icon":"rbxassetid://16742111855","Rarity":"7"},"Default":{
+"Icon":"rbxassetid://16742112045","Rarity":"1"},"Green":{
+"Icon":"rbxassetid://17766383428","Rarity":"1"}},"Role":"1","Category":"1","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742112045","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Cryomancer":{
+"Skins":{
+"Default":true,"Krampus Slayer":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"MaxAmmo":40,"Attributes":{
+"CanFreeze":false,"HitboxSpeed":20,"SlowPercent":5,"TurningSpeed":4,"MaxHits":3,"DebuffDamage":0,"Width":1.25,"FreezeTime":2,"DefenseMelt":10,"ReloadTime":2,"TickRate":0.25,"MaxSlow":50,"DebuffLength":2},"Range":10,"Price":300,"Detections":{
+"5":true,"3":false,"2":false},"Cooldown":0.2,"Damage":0},"Upgrades":[{
+"Stats":{
+"MaxAmmo":50,"Extras":["Ammo: 40 -> 50","â„ï¸ Max Slowness: 50% > 65%"],"Attributes":{
+"MaxSlow":65},"Range":12},"Image":15686403377,"Title":"Frosty Gear","Cost":250},{
+"Stats":{
+"MaxAmmo":80,"Extras":["Ammo: 50 -> 80","Chilled Enemies take tick-based damage","â„ï¸ Tick Damage: (1)"],"Attributes":{
+"DebuffDamage":1},"Range":13.5},"Image":15686403176,"Title":"Freezing Tanks","Cost":935},{
+"Stats":{
+"Extras":["Chill Slowness: 5% -> 10%","Larger Frost Beam","Debuff Duration: 2 -> 4","â„ï¸ Max Slowness: 65% > 75%"],"Attributes":{
+"DebuffLength":6,"SlowPercent":10,"HitboxWidth":1.75},"Damage":1},"Image":15686403037,"Title":"Ice Commando","Cost":4000},{
+"Stats":{
+"Extras":["ðŸ§Š Enemies now freeze at max 'Chill'","Even Larger Frost Beam","â„ï¸ Tick Damage: 1 -> 3","Max Hits: 3 -> 6"],"Range":15,"Attributes":{
+"CanFreeze":true,"MaxHits":6,"DebuffDamage":3,"Width":2},"Damage":2},"Image":15686402849,"Title":"Winter's Fury","Cost":9500}]}},"UpgradeOptions":[],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742059533","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"2","Description":"Chill and freeze hordes of enemies in a wave of frost.","Category":"5","Height":0,"Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://16742059533","Rarity":"1"},"Krampus Slayer":{
+"Icon":"rbxassetid://16742059785","Rarity":"7"}},"BoundingSize":null}},"Mercenary Base":{
+"Skins":{
+"Frost Legion":true,"Default":true,"Liberator":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Abilities":[{
+"Name":"Air-Drop","Debounce":75,"Price":2500,"Level":5,"Icon":17190989424}],"Attributes":{
+"RiotGuardCap":4,"RiflemanCap":10,"MedicCap":3,"GrenadierCap":7,"RiflemanUpgrade":0,"RiflemanSpawnTime":45},"Limit":3,"Detections":{
+"3":false,"2":false},"Price":2000,"Cooldown":0,"Range":6,"Damage":0},"Upgrades":[{
+"Image":17196819847,"Title":"Explosive Experts","Cost":1000,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Grenadier Mercenary</b></font>","Header":"Grenadier Mercenary","Content":[{
+"Text":"Health: <font color=\"rgb(0, 255, 0)\">40</font>"},{
+"Text":"Explosion Damage: <font color=\"rgb(255, 0, 0)\">35</font>"},{
+"Text":"Range: <font color=\"rgb(255, 255, 255)\">16</font>"},{
+"Text":"Spawn Time: <font color=\"rgb(255, 255, 255)\">40 Sec</font>"}]}],"Stats":{
+"Range":8,"Attributes":{
+"GrenadierSpawnTime":40,"GrenadierUpgrade":0}}},{
+"Image":17196820389,"Title":"Upgraded Barracks","Cost":2000,"Tooltips":[{
+"ButtonText":"Unlock new <font color=\"rgb(255,185,0)\"><b>Unit Queue</b></font>","Header":"Unit Queue","Content":[{
+"Text":"Select a mercenary unit to train and send out."}]}],"Stats":{
+"Attributes":{
+"MaxUnits":9}}},{
+"Image":17196819964,"Title":"Improved Training","Cost":7000,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>10% Damage Buff</b></font>","Header":"Damage Buff","Content":[{
+"Text":"Provides a 10% damage buff to all towers within range."}]},{
+"ButtonText":"Rifleman <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Riflemen Upgrade","Content":[{
+"Text":"Health: <font color=\"rgb(0, 255, 0)\">80</font>"},{
+"Text":"Damage: <font color=\"rgb(255, 0, 0)\">12</font>"},{
+"Text":"Burst: <font color=\"rgb(255, 255, 255)\">8</font>"},{
+"Text":"Range: <font color=\"rgb(255, 255, 255)\">20</font>"},{
+"Text":"Spawn Time: <font color=\"rgb(255, 255, 255)\">40 Sec</font>"}]},{
+"ButtonText":"Grenadier <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Grenadier Upgrade","Content":[{
+"Text":"Health: <font color=\"rgb(0, 255, 0)\">120</font>"},{
+"Text":"Damage: <font color=\"rgb(255, 0, 0)\">75</font>"},{
+"Text":"Range: <font color=\"rgb(255, 255, 255)\">18</font>"},{
+"Text":"Spawn Time: <font color=\"rgb(255, 255, 255)\">40 Sec</font>"}]}],"Stats":{
+"Attributes":{
+"DamageBuff":10,"GrenadierSpawnTime":40,"GrenadierUpgrade":1,"RiflemanUpgrade":1,"RiflemanSpawnTime":40},"Range":10}},{
+"Image":13019520315,"Title":"Riot Control","Cost":10000,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Riot Guard</b></font>","Header":"Riot Guard Mercenary","Content":[{
+"Text":"Health: <font color=\"rgb(0, 255, 0)\">1200</font>"},{
+"Text":"Defense: <font color=\"rgb(255, 255, 255)\">10</font>"},{
+"Text":"Damage: <font color=\"rgb(255, 0, 0)\">50</font>"},{
+"Text":"Knockback Force: <font color=\"rgb(255, 255, 255)\">15</font>"},{
+"Text":"Cooldown: <font color=\"rgb(255, 255, 255)\">50 Sec</font>"}]},{
+"ButtonText":"Unlock new <font color=\"rgb(255,185,0)\"><b>Unit Queue</b></font>","Header":"Unit Queue","Content":[{
+"Text":"Select a mercenary unit to train and send out."}]}],"Stats":{
+"Attributes":{
+"RiotGuardSpawnTime":50,"MaxUnits":9,"RiotGuardUpgrade":0}}},{
+"Image":17196820108,"Title":"Air Transport","Cost":15000,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Field Medic</b></font>","Header":"Field Medic Mercenary","Content":[{
+"Text":"Health: <font color=\"rgb(0, 255, 0)\">280</font>"},{
+"Text":"Heal Rate: <font color=\"rgb(0, 255, 0)\">25 HP</font>"},{
+"Text":"Max Targets: <font color=\"rgb(255, 255, 255)\">4</font>"},{
+"Text":"Cooldown: <font color=\"rgb(255, 255, 255)\">35 Sec</font>"}]},{
+"ButtonText":"Unlock new <font color=\"rgb(255,185,0)\"><b>Air Drop Ability</b></font>","Header":"Air Drop Ability","Content":[{
+"Text":"Pay cash to call in an air drop of mercenaries."}]}],"Stats":{
+"Attributes":{
+"FieldMedicUpgrade":0,"FieldMedicSpawnTime":35}}},{
+"Image":17196820275,"Title":"Enhanced Equipment","Cost":35000,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>20% Damage Buff</b></font>","Header":"Damage Buff II","Content":[{
+"Text":"Provides a 20% damage buff to all towers within range."}]},{
+"ButtonText":"Rifleman <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Riflemen Upgrade","Content":[{
+"Text":"Health: <font color=\"rgb(0, 255, 0)\">250</font>"},{
+"Text":"Damage: <font color=\"rgb(255, 0, 0)\">18</font>"},{
+"Text":"Burst: <font color=\"rgb(255, 255, 255)\">10</font>"},{
+"Text":"Range: <font color=\"rgb(255, 255, 255)\">24</font>"},{
+"Text":"Cooldown: <font color=\"rgb(255, 255, 255)\">35 Sec</font>"}]},{
+"ButtonText":"Grenadier <font color=\"rgb(255,185,0)\"><b>Upgrade</b></font>","Header":"Grenadier Upgrade","Content":[{
+"Text":"Health: <font color=\"rgb(0, 255, 0)\">300</font>"},{
+"Text":"Damage: <font color=\"rgb(255, 0, 0)\">150</font>"},{
+"Text":"Range: <font color=\"rgb(255, 255, 255)\">20</font>"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Field Medic</b></font>","Header":"Field Medic Upgrade","Content":[{
+"Text":"Health: <font color=\"rgb(0, 255, 0)\">600</font>"},{
+"Text":"Heal Rate: <font color=\"rgb(0, 255, 0)\">50 HP</font>"},{
+"Text":"Max Targets: <font color=\"rgb(255, 255, 255)\">8</font>"},{
+"Text":"Cooldown: <font color=\"rgb(255, 255, 255)\">30 Sec</font>"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Riot Guard</b></font>","Header":"Riot Guard Upgrade","Content":[{
+"Text":"Health: <font color=\"rgb(0, 255, 0)\">2500</font>"},{
+"Text":"Defense: <font color=\"rgb(255, 255, 255)\">15</font>"},{
+"Text":"Damage: <font color=\"rgb(255, 0, 0)\">50</font>"},{
+"Text":"knockback Force: <font color=\"rgb(255, 255, 255)\">25</font>"}]}],"Stats":{
+"Attributes":{
+"FieldMedicSpawnTime":30,"GrenadierSpawnTime":40,"RiflemanUpgrade":2,"RiotGuardSpawnTime":50,"DamageBuff":20,"FieldMedicUpgrade":1,"RiotGuardUpgrade":1,"GrenadierUpgrade":2,"RiflemanSpawnTime":35}}}]}},"UpgradeOptions":[{
+"Name":"Unit 1","QueueName":"Unit 1","Values":[{
+"Name":"Rifleman","Value":"Rifleman","Level":0,"Icon":17190812977,"Tooltip":{
+"Content":[{
+"Text":"Shoot at enemies in bursts of rounds!"},{
+"Text":"Max Riflemen: 10"}],"Header":"Rifleman","Subject":"Unit"}},{
+"Name":"Grenadier","Value":"Grenadier","Level":1,"Icon":17190813281,"Tooltip":{
+"Content":[{
+"Text":"Deal explosive damage to enemies!"},{
+"Text":"Max Grenadiers: 7"}],"Header":"Grenedier","Subject":"Unit"}},{
+"Name":"Riot Guard","Value":"Riot Guard","Level":4,"Icon":17190812760,"Tooltip":{
+"Content":[{
+"Text":"Rush to the front lines and stun enemies with a charged attack!"},{
+"Text":"Max Riot Guards: 4"}],"Header":"Riot Guard","Subject":"Unit"}},{
+"Name":"Field Medic","Value":"Field Medic","Level":5,"Icon":17190813144,"Tooltip":{
+"Content":[{
+"Text":"Heal and protect ally humanoid units!"},{
+"Text":"Max Field Medics: 3"}],"Header":"Field Medic","Subject":"Unit"}}],"Icon":17191733923,"Default":"nil"},{
+"Name":"Unit 2","QueueName":"Unit 2","Values":[{
+"Name":"Rifleman","Value":"Rifleman","Level":2,"Icon":17190812977,"Tooltip":{
+"Content":[{
+"Text":"Shoot at enemies in bursts of rounds!"},{
+"Text":"Max Riflemen: 10"}],"Header":"Rifleman","Subject":"Unit"}},{
+"Name":"Grenadier","Value":"Grenadier","Level":2,"Icon":17190813281,"Tooltip":{
+"Content":[{
+"Text":"Deal explosive damage to enemies!"},{
+"Text":"Max Grenadiers: 7"}],"Header":"Grenedier","Subject":"Unit"}},{
+"Name":"Riot Guard","Value":"Riot Guard","Level":4,"Icon":17190812760,"Tooltip":{
+"Content":[{
+"Text":"Rush to the front lines and stun enemies with a charged attack!"},{
+"Text":"Max Riot Guards: 4"}],"Header":"Riot Guard","Subject":"Unit"}},{
+"Name":"Field Medic","Value":"Field Medic","Level":5,"Icon":17190813144,"Tooltip":{
+"Content":[{
+"Text":"Heal and protect ally humanoid units!"},{
+"Text":"Max Field Medics: 3"}],"Header":"Field Medic","Subject":"Unit"}}],"Icon":17191733923},{
+"Name":"Unit 3","QueueName":"Unit 3","Values":[{
+"Name":"Rifleman","Value":"Rifleman","Level":4,"Icon":17190812977,"Tooltip":{
+"Content":[{
+"Text":"Shoot at enemies in bursts of rounds!"},{
+"Text":"Max Riflemen: 10"}],"Header":"Rifleman","Subject":"Unit"}},{
+"Name":"Grenadier","Value":"Grenadier","Level":4,"Icon":17190813281,"Tooltip":{
+"Content":[{
+"Text":"Deal explosive damage to enemies!"},{
+"Text":"Max Grenadiers: 7"}],"Header":"Grenedier","Subject":"Unit"}},{
+"Name":"Riot Guard","Value":"Riot Guard","Level":4,"Icon":17190812760,"Tooltip":{
+"Content":[{
+"Text":"Rush to the front lines and stun enemies with a charged attack!"},{
+"Text":"Max Riot Guards: 4"}],"Header":"Riot Guard","Subject":"Unit"}},{
+"Name":"Field Medic","Value":"Field Medic","Level":5,"Icon":17190813144,"Tooltip":{
+"Content":[{
+"Text":"Heal and protect ally humanoid units!"},{
+"Text":"Max Field Medics: 3"}],"Header":"Field Medic","Subject":"Unit"}}],"Icon":17191733923}],"Properties":{
+"Description":"Pick & choose between Riflemen, Grenadier, Medic, or Riot Guard to send out and defend the front lines!","Price":{
+"Type":"Robux","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":1800,"PreviewText":"REACH LEVEL 150 TO UNLOCK TOWER!","Eligible":null},"Class":"2","SkinData":{
+"Frost Legion":{
+"Icon":"rbxassetid://78931994632689","Rarity":"4"},"Liberator":{
+"Icon":"rbxassetid://17767106489","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://17202640474","Rarity":"1"}},"Role":"2","Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://17202640474","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Category":"3","Height":0,"Gamepass":{
+"Id":786591818,"Value":1800},"BoundarySize":2.25,"BoundingSize":null}},"Medic":{
+"Skins":{
+"Valentines":true,"Cyber":true,"Default":true,"Witch":true,"Stranded":true,"Bunny":true,"Fallen":true,"Masquerade":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"5":true,"3":false,"2":false},"Abilities":[{
+"Name":"Cleansing","Debounce":20,"Price":0,"Level":5,"Icon":231100685}],"Cooldown":1,"Price":450,"Attributes":{
+"Healing":5},"Range":12,"Damage":3},"Upgrades":[{
+"Stats":{
+"Cooldown":0.75,"Range":13,"Damage":3},"Image":4119547116,"Title":"Medical Precautions","Cost":200},{
+"Image":4119547593,"Title":"Prescribed Vitamins","Cost":400,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Healing</b></font>","Content":[{
+"Text":"Healing 5 -> 10"}]}],"Stats":{
+"Detections":{
+"2":true},"Cooldown":0.75,"Range":13,"Damage":5}},{
+"Stats":{
+"Cooldown":0.65,"Range":16,"Detections":{
+"2":true},"Damage":8},"Image":4119548000,"Title":"BIG BRAIN","Cost":800},{
+"Image":4119548431,"Title":"Medical Pack","Cost":1750,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Healing</b></font>","Content":[{
+"Text":"Healing 10 -> 25"}]}],"Stats":{
+"Cooldown":0.5,"Range":16,"Damage":12}},{
+"Image":4119548907,"Title":"Goddess of Healing","Cost":5000,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Cleansing</b></font>","Content":[{
+"Text":"Removes debuff for towers in range."},{
+"Text":"Cooldown: 20 Seconds"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Healing</b></font>","Content":[{
+"Text":"Healing 25 -> 100"}]}],"Stats":{
+"Detections":{
+"3":true},"Cooldown":0.3,"Range":18,"Damage":12}}]}},"UpgradeOptions":[],"Properties":{
+"Description":"A support tower that heals the base 5 HP per wave. At max, cleanses stunned towers.","Price":{
+"Value":1500,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Valentines":{
+"Icon":"rbxassetid://16742098928","Rarity":"7"},"Cyber":{
+"Icon":"rbxassetid://16742097565","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://16742097933","Rarity":"1"},"Witch":{
+"Icon":"rbxassetid://16742099217","Rarity":"7"},"Fallen":{
+"Icon":"rbxassetid://18960280297","Rarity":"3"},"Masquerade":{
+"Icon":"rbxassetid://16742098346","Rarity":"7"},"Bunny":{
+"Icon":"rbxassetid://16742097383","Rarity":"7"},"Stranded":{
+"Icon":"rbxassetid://16742098646","Rarity":"2"}},"Role":"3","Category":"2","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742097933","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Ace Pilot":{
+"Skins":{
+"Navy":true,"Easter":true,"Purple":true,"Pumpkin":true,"Default":true,"Green":true,"Yellow":true,"Aerial Ace":true,"Red":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"5":false,"3":true,"2":false},"Cooldown":0.2,"Limit":8,"Abilities":[{
+"Name":"Toggle Reverse","Debounce":8,"Price":0,"Level":0,"Icon":17846960799}],"Price":550,"Attributes":{
+"BombDropping":false,"ExplosionRadius":2.5,"BombTime":4,"ExplosionDamage":10},"Range":7.5,"Damage":2},"Upgrades":[{
+"Stats":{
+"Extras":[],"Damage":3},"Image":17847640091,"Title":"Greased Guns","Cost":200},{
+"Image":17847639896,"Title":"Bombs away!","Cost":350,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Bomb Dropping</b></font>","Header":"Bomb Dropping","Content":[{
+"Text":"Damage: 10"},{
+"Text":"Radius: 2.5"},{
+"Text":"Cooldown: 4s"}]},{
+"ButtonText":"Unlock <font color=\"rgb(46, 206, 255)\"><b>Figure8</b></font>","Header":"Flight Path","Content":[{
+"Text":"Will fly in a figure 8 pattern."}]}],"Stats":{
+"Attributes":{
+"BombDropping":true}}},{
+"Image":17847640366,"Title":"Aerial  Ace","Cost":1850,"Tooltips":[{
+"ButtonText":"Upgraded Bombs","Header":"Stats","Content":[{
+"Text":"Damage: <font color=\"rgb(0, 255, 0)\">20</font>"},{
+"Text":"Radius: <font color=\"rgb(0, 255, 0)\">2.5</font>"},{
+"Text":"Cooldown: 4s"}]}],"Stats":{
+"Attributes":{
+"ExplosionRadius":2.5,"ExplosionDamage":20},"Cooldown":0.1,"Range":8,"Extras":[],"Damage":4}},{
+"Image":17847640366,"Title":"Spy plane","Cost":3200,"Tooltips":[{
+"ButtonText":"Upgraded Bombs","Header":"Stats","Content":[{
+"Text":"Damage: <font color=\"rgb(0, 255, 0)\">30</font>"},{
+"Text":"Cooldown: <font color=\"rgb(0, 255, 0)\">2s</font>"},{
+"Text":"Radius: <font color=\"rgb(0, 255, 0)\">2.75</font>"}]}],"Stats":{
+"Detections":{
+"2":true},"Cooldown":0.1,"Range":8.5,"Attributes":{
+"BombTime":2,"HiddenAssist":true,"ExplosionRadius":2.75,"Buildzone":7,"ExplosionDamage":30},"Extras":["Hidden assist for nearby towers"],"Damage":7}},{
+"Image":17847640211,"Title":"The Surging Sky","Cost":8000,"Tooltips":[{
+"ButtonText":"Upgraded Bombs","Header":"Stats","Content":[{
+"Text":"Damage: <font color=\"rgb(0, 255, 0)\">40</font>"},{
+"Text":"Radius: <font color=\"rgb(0, 255, 0)\">3</font>"},{
+"Text":"Cooldown: <font color=\"rgb(0, 255, 0)\">1.5s</font>"}]}],"Stats":{
+"Attributes":{
+"SpeedMultiplier":1.35,"BombTime":1.5,"ExplosionRadius":3,"Buildzone":7,"ExplosionDamage":40},"Range":9.5,"Cooldown":0.1,"Extras":["Speed increased by 35%"],"Damage":14}}]}},"UpgradeOptions":[{
+"Values":[{
+"Value":"1","Level":0,"Name":"Default","Icon":17832548233},{
+"Value":"2","Level":2,"Name":"Figure8","Icon":17858292405}],"Default":"1","Name":"Flight Path","Icon":17832618044}],"Properties":{
+"Description":"Flies in a circular path, shooting enemies in its line of fire and dropping bombs.","Price":{
+"Value":3500,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"1","SkinData":{
+"Navy":{
+"Icon":"rbxassetid://17859247163","Rarity":"3"},"Easter":{
+"Icon":"rbxassetid://137734270861409","Rarity":"4"},"Purple":{
+"Icon":"rbxassetid://17859247791","Rarity":"1"},"Pumpkin":{
+"Icon":"rbxassetid://17859247510","Rarity":"7"},"Default":{
+"Icon":"rbxassetid://17859246260","Rarity":"1"},"Green":{
+"Icon":"rbxassetid://17859246778","Rarity":"1"},"Yellow":{
+"Icon":"rbxassetid://17859248807","Rarity":"1"},"Aerial Ace":{
+"Icon":"rbxassetid://17859245825","Rarity":"1"},"Red":{
+"Icon":"rbxassetid://17859248266","Rarity":"1"}},"Role":"2","Category":"2","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://17859246260","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Hunter":{
+"Skins":{
+"Halloween":true,"Default":true,"Pirate":true,"Vampire Slayer":true,"Ducky":true,"Blue":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"5":false,"3":true,"2":false},"Limit":12,"Price":750,"Range":18,"Cooldown":2.25,"Damage":8},"Upgrades":[{
+"Stats":{
+"Attributes":[],"Range":18,"Extras":[],"Detections":{
+"5":false,"3":true,"2":false},"Cooldown":1.75,"Damage":8},"Image":3839040358,"Title":"Faster Hands","Cost":200},{
+"Stats":{
+"Attributes":[],"Range":22,"Extras":[],"Detections":{
+"5":false,"3":true,"2":true},"Cooldown":1.75,"Damage":14},"Image":3839041547,"Title":"Experienced","Cost":800},{
+"Stats":{
+"Attributes":[],"Range":25,"Extras":[],"Detections":{
+"5":false,"3":true,"2":true},"Cooldown":1.6,"Damage":36},"Image":3839042767,"Title":"Better Gear","Cost":3250},{
+"Stats":{
+"Attributes":[],"Range":28,"Extras":[],"Detections":{
+"5":false,"3":true,"2":true},"Cooldown":2,"Damage":120},"Image":3839043838,"Title":"Deadliest Hunter","Cost":9400}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Deal medium damage to enemies with a rifle.","Price":{
+"Value":300,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Halloween":{
+"Icon":"rbxassetid://16742077487","Rarity":"6"},"Blue":{
+"Icon":"rbxassetid://16742076812","Rarity":"1"},"Pirate":{
+"Icon":"rbxassetid://16742077780","Rarity":"2"},"Default":{
+"Icon":"rbxassetid://16742077024","Rarity":"1"},"Ducky":{
+"Icon":"rbxassetid://16742077321","Rarity":"1"},"Vampire Slayer":{
+"Icon":"rbxassetid://16742078183","Rarity":"7"}},"Role":"1","Category":"1","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742077024","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Shotgunner":{
+"Skins":{
+"Dance Fever":true,"Classic":true,"Gardener":true,"Spooky":true,"Ducky":true,"Hallow Punk":true,"Phantom":true,"Vigilante":true,"Holiday":true,"Slayer":true,"Default":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"5":false,"3":false,"2":false},"Attributes":{
+"Spread":55,"ShotSize":6},"Price":300,"Cooldown":1.5,"Range":7.5,"Damage":1},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"Spread":55,"ShotSize":6},"Detections":{
+"5":false,"3":false,"2":false},"Range":7.5,"Cooldown":1.25,"Damage":1},"Image":5587697635,"Title":"Faster Reloading","Cost":125},{
+"Stats":{
+"Detections":{
+"5":false,"3":false,"2":true},"Extras":["8 Pellets","Tighter Spread"],"Cooldown":1.25,"Attributes":{
+"Spread":45,"ShotSize":8},"Range":9,"Damage":2},"Image":5587697884,"Title":"Shotgun Knowledge","Cost":1050},{
+"Stats":{
+"Detections":{
+"5":true,"3":false,"2":true},"Range":9,"Attributes":{
+"Spread":45,"ShotSize":8},"Cooldown":1.1,"Damage":4},"Image":5587698104,"Title":"Slug Madness","Cost":3000},{
+"Stats":{
+"Detections":{
+"5":true,"3":false,"2":true},"Extras":["10 Pellets","Tighter Spread"],"Cooldown":0.9,"Attributes":{
+"Spread":40,"ShotSize":10},"Range":11,"Damage":6},"Image":5587698246,"Title":"Tactical Blowback","Cost":6000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Wields a powerful pump shotgun with small range. Pierces through enemies.","Price":{
+"Value":2500,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Dance Fever":{
+"Icon":"rbxassetid://139385538174792","Rarity":"2"},"Classic":{
+"Icon":"rbxassetid://16742139792","Rarity":"1"},"Gardener":{
+"Icon":"rbxassetid://98658379166107","Rarity":"3"},"Spooky":{
+"Icon":"rbxassetid://16742141438","Rarity":"7"},"Ducky":{
+"Icon":"rbxassetid://16742140221","Rarity":"2"},"Hallow Punk":{
+"Icon":"rbxassetid://16742140448","Rarity":"7"},"Default":{
+"Icon":"rbxassetid://16742140018","Rarity":"1"},"Vigilante":{
+"Icon":"rbxassetid://16742050157","Rarity":"3"},"Slayer":{
+"Icon":"rbxassetid://16998519554","Rarity":"4"},"Holiday":{
+"Icon":"rbxassetid://16742140772","Rarity":"7"},"Phantom":{
+"Icon":"rbxassetid://16742140988","Rarity":"2"}},"Role":"1","Category":"2","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742140018","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Mortar":{
+"Skins":{
+"Mecha Ducky":true,"Dark Frost":true,"Eclipse":true,"Baseball":true,"Defender":true,"Ducky":true,"Default":true,"Pirate":true,"Vigilante":true,"Fallen":true,"Frost":true,"Bunny":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Range":20,"Attributes":{
+"CanCluster":false,"ClusterRadius":5,"ExplosionRadius":6,"ClusterCount":3,"ClusterDamage":15,"ClusterOffset":null},"Limit":5,"Price":900,"Detections":{
+"5":true,"3":true,"2":false},"Cooldown":4,"Damage":12},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"CanCluster":false,"ClusterRadius":5,"ClusterCount":3,"ClusterDamage":15,"ExplosionRadius":6},"Range":20,"Extras":[],"Detections":{
+"5":true,"3":true,"2":false},"Cooldown":3,"Damage":12},"Image":4538447265,"Title":"Improved Handling","Cost":325},{
+"Stats":{
+"Attributes":{
+"CanCluster":false,"ClusterRadius":5,"ClusterCount":3,"ClusterDamage":15,"ExplosionRadius":7.5},"Range":24,"Extras":["Explosion Radius: 6 -> 7.5"],"Detections":{
+"5":true,"3":true,"2":false},"Cooldown":3,"Damage":24},"Image":4538447347,"Title":"Upgraded Armaments","Cost":1400},{
+"Stats":{
+"Attributes":{
+"CanCluster":false,"ClusterRadius":5,"ClusterCount":3,"ClusterDamage":15,"ExplosionRadius":8.5},"Range":27,"Extras":["Explosion Radius: 7.5 -> 8.5"],"Detections":{
+"5":true,"3":true,"2":false},"Cooldown":3,"Damage":60},"Image":4538447424,"Title":"Bigger Cannon","Cost":3250},{
+"Image":4538447493,"Title":"Loaded Warhead","Cost":12000,"Tooltips":[{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Cluster Bombs</b></font>","Content":[{
+"Text":"Cluster Count: 3"},{
+"Text":"Cluster Damage: 40"},{
+"Text":"Cluster Explosion Radius: 5"}]}],"Stats":{
+"Attributes":{
+"CanCluster":true,"ClusterRadius":5,"ClusterCount":3,"ClusterDamage":40,"ExplosionRadius":8.5},"Range":27,"Extras":[],"Detections":{
+"5":true,"3":true,"2":false},"Cooldown":3,"Damage":120}},{
+"Image":4538447579,"Title":"City Buster","Cost":25000,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Cluster Bombs</b></font>","Content":[{
+"Text":"Cluster Count: 3 -> 6"},{
+"Text":"Cluster Damage: 40 -> 50"}]}],"Stats":{
+"Attributes":{
+"CanCluster":true,"ClusterRadius":5,"ClusterCount":6,"ClusterDamage":50,"ExplosionRadius":10},"Range":30,"Extras":["Explosion Radius: 8.5 -> 10","Mushroom Cloud"],"Detections":{
+"5":true,"3":true,"2":false},"Cooldown":3,"Damage":200}}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Rain fire from above! Deals extremely high splash damage!","Price":{
+"Type":"Robux","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":700,"PreviewText":"REACH LEVEL 75 TO UNLOCK TOWER!","Eligible":null},"Class":"3","SkinData":{
+"Mecha Ducky":{
+"Icon":"rbxassetid://70538066358366","Rarity":"2"},"Bunny":{
+"Icon":"rbxassetid://16742109548","Rarity":"7"},"Eclipse":{
+"Icon":"rbxassetid://16742110815","Rarity":"7"},"Baseball":{
+"Icon":"rbxassetid://18549606696","Rarity":"3"},"Dark Frost":{
+"Icon":"rbxassetid://75806838714392","Rarity":"3"},"Ducky":{
+"Icon":"rbxassetid://16742110596","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://16742109840","Rarity":"1"},"Pirate":{
+"Icon":"rbxassetid://16742111011","Rarity":"3"},"Vigilante":{
+"Icon":"rbxassetid://16742111168","Rarity":"3"},"Frost":{
+"Icon":"rbxassetid://119613427526708","Rarity":"4"},"Fallen":{
+"Icon":"rbxassetid://18835927281","Rarity":"4"},"Defender":{
+"Icon":"rbxassetid://16742110354","Rarity":"7"}},"Role":"2","Category":"3","Height":0,"Gamepass":{
+"Id":7838041,"Value":700},"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742109840","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Ranger":{
+"Skins":{
+"Partisan":true,"5ouls":true,"Steampunk":true,"Eclipse":true,"Black Ops":true,"Pumpkin":true,"Frost":true,"Railgunner":true,"Badlands":true,"Dark Matter":true,"Mecha Ducky":true,"Blue":true,"Bunny":true,"Classic":true,"Frankenstein":true,"Valentines":true,"Gun Gale":true,"Default":true,"Green":true,"Beast Slayer":true,"Phantom":true,"Wraith":true,"Propellars":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"5":true,"3":true,"2":false},"Attributes":{
+"HiddenAssist":false,"AssistTime":20,"CanExplode":false,"ExplosionRadius":5,"Buildzone":0,"ExplosionDamage":150},"Limit":7,"Price":4500,"Cooldown":4.5,"Range":50,"Damage":80},"Upgrades":[{
+"Stats":{
+"Cooldown":3.5},"Image":3280081327,"Title":"Faster Reloading","Cost":1500},{
+"Stats":{
+"Extras":["Alies get a small range boost every wave. (20 secs)"],"Attributes":{
+"Buildzone":12,"HiddenAssist":true},"Damage":140},"Image":3381734408,"Title":"Intelligence Radio","Cost":4500},{
+"Stats":{
+"Cooldown":3.25,"Damage":300},"Image":3381735232,"Title":"Trained Outlaw","Cost":13500},{
+"Stats":{
+"Extras":["Explosive Impact","150  DMG (Stacks w/ base damage)"],"Cooldown":7,"Attributes":{
+"CanExplode":true},"Damage":1050},"Image":3381735846,"Title":"Experimental Weapon of Destruction","Cost":30000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"A long-range cliff tower that deals heavy damage.","Price":{
+"Value":12000,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"3","SkinData":{
+"Partisan":{
+"Icon":"rbxassetid://16742132072","Rarity":"2"},"5ouls":{
+"Icon":"rbxassetid://18549607210","Rarity":"3"},"Steampunk":{
+"Icon":"rbxassetid://17746205236","Rarity":"2"},"Eclipse":{
+"Icon":"rbxassetid://16742131402","Rarity":"7"},"Black Ops":{
+"Icon":"rbxassetid://16742130258","Rarity":"1"},"Pumpkin":{
+"Icon":"rbxassetid://16742048328","Rarity":"6"},"Frost":{
+"Icon":"rbxassetid://16742131549","Rarity":"7"},"Railgunner":{
+"Icon":"rbxassetid://16742132622","Rarity":"4"},"Badlands":{
+"Icon":"rbxassetid://16801603418","Rarity":"3"},"Dark Matter":{
+"Icon":"rbxassetid://16742131006","Rarity":"3"},"Mecha Ducky":{
+"Icon":"rbxassetid://111106612615105","Rarity":"3"},"Blue":{
+"Icon":"rbxassetid://16742130444","Rarity":"1"},"Bunny":{
+"Icon":"rbxassetid://16742130675","Rarity":"7"},"Classic":{
+"Icon":"rbxassetid://16742130816","Rarity":"3"},"Frankenstein":{
+"Icon":"rbxassetid://123830216490388","Rarity":"2"},"Valentines":{
+"Icon":"rbxassetid://16742132842","Rarity":"7"},"Gun Gale":{
+"Icon":"rbxassetid://16742131902","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://16742131160","Rarity":"1"},"Green":{
+"Icon":"rbxassetid://16742131725","Rarity":"1"},"Beast Slayer":{
+"Icon":"rbxassetid://16742130037","Rarity":"7"},"Phantom":{
+"Icon":"rbxassetid://16742132284","Rarity":"3"},"Wraith":{
+"Icon":"rbxassetid://16742133100","Rarity":"3"},"Propellars":{
+"Icon":"rbxassetid://16742132454","Rarity":"4"}},"Role":"2","Category":"3","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742131160","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Level":30,"BoundingSize":null}},"Pyromancer":{
+"Skins":{
+"Bunny":true,"Blue":true,"Plushie":true,"Barbecue":true,"Mage":true,"Golden":true,"Scarecrow":true,"Hazmat":true,"Frost":true,"Default":true,"Valentines":true,"Vigilante":true,"Ghost":true,"Dwarf":true,"Acidic":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"HitboxSpeed":25,"EnemyBuff":0,"TurningSpeed":4,"MaxHits":3,"Width":1.25,"BurnDamage":1,"DefenseMelt":0,"BurnTick":1,"BurnTime":3},"Range":7,"Price":850,"Detections":{
+"5":true,"3":false,"2":false},"Cooldown":0.25,"Damage":1},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"BurnDamage":1,"MaxHits":3,"EnemyBuff":0,"DefenseMelt":0,"TurningSpeed":4,"BurnTick":0.75,"Width":1.5,"BurnTime":3},"Range":9,"Extras":["More range","Bigger flames"],"Detections":{
+"5":true,"3":false,"2":false},"Cooldown":0.25,"Damage":1},"Image":3280081327,"Title":"Improved Handling","Cost":350},{
+"Stats":{
+"Attributes":{
+"BurnDamage":2,"MaxHits":5,"EnemyBuff":0,"DefenseMelt":0,"TurningSpeed":4,"BurnTick":0.75,"Width":1.5,"BurnTime":3},"Range":9,"Extras":[],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.25,"Damage":2},"Image":3304823121,"Title":"Fire Fighting","Cost":950},{
+"Stats":{
+"Attributes":{
+"BurnDamage":3,"MaxHits":5,"EnemyBuff":0,"DefenseMelt":5,"TurningSpeed":4,"BurnTick":0.5,"Width":1.5,"BurnTime":5},"Range":10,"Extras":["More burn damage","Longer burn time","Defense Melting"],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.25,"Damage":2},"Image":3304823988,"Title":"Fire Hazard","Cost":1500},{
+"Stats":{
+"Attributes":{
+"BurnDamage":4,"MaxHits":5,"EnemyBuff":0,"DefenseMelt":5,"TurningSpeed":4,"BurnTick":0.5,"Width":1.75,"BurnTime":7.5},"Range":10,"Extras":["More fire damage","Longer burn time"],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.25,"Damage":3},"Image":3304824958,"Title":"Napalm Thrower","Cost":3800},{
+"Stats":{
+"Attributes":{
+"BurnDamage":8,"MaxHits":8,"EnemyBuff":0,"DefenseMelt":10,"TurningSpeed":4,"BurnTick":0.5,"Width":2.5,"BurnTime":10},"Range":12,"Extras":["More burn damage","Longer burn time","More defense melting","Bigger flames"],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.25,"Damage":6},"Image":3304825822,"Title":"Pyromaniac","Cost":9000}]},"Golden":{
+"Paths":0,"Defaults":{
+"Attributes":{
+"HitboxSpeed":25,"EnemyBuff":0,"TurningSpeed":4,"MaxHits":4,"Width":1.25,"BurnDamage":1,"DefenseMelt":0,"BurnTick":1,"BurnTime":3},"Range":7.5,"Price":800,"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.25,"Damage":1},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"BurnDamage":1,"MaxHits":4,"EnemyBuff":0,"DefenseMelt":0,"TurningSpeed":4,"BurnTick":0.75,"Width":1.5,"BurnTime":3},"Range":10,"Extras":["More range","Bigger flames"],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.25,"Damage":1},"Image":3280081327,"Title":"Better Handling","Cost":350},{
+"Stats":{
+"Attributes":{
+"BurnDamage":2,"MaxHits":6,"EnemyBuff":0,"DefenseMelt":0,"TurningSpeed":4,"BurnTick":0.75,"Width":1.5,"BurnTime":3},"Range":10,"Extras":["Stronger Flames"],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.25,"Damage":2},"Image":3304823121,"Title":"Golden Flare","Cost":750},{
+"Stats":{
+"Attributes":{
+"BurnDamage":3,"MaxHits":6,"EnemyBuff":0,"DefenseMelt":5,"TurningSpeed":4,"BurnTick":0.5,"Width":1.5,"BurnTime":6},"Range":10,"Extras":["More burn damage","Longer burn time","Defense Melting"],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.25,"Damage":3},"Image":3304823988,"Title":"Ring Of Fire","Cost":1750},{
+"Stats":{
+"Attributes":{
+"BurnDamage":6,"MaxHits":6,"EnemyBuff":0,"DefenseMelt":10,"TurningSpeed":4,"BurnTick":0.5,"Width":1.75,"BurnTime":12},"Range":10,"Extras":["More fire damage","Longer burn time","Better tick speed","More Defense Melting"],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.25,"Damage":4},"Image":3304824958,"Title":"Gilded Arsonist","Cost":5750},{
+"Stats":{
+"Attributes":{
+"BurnDamage":8,"MaxHits":10,"EnemyBuff":0,"DefenseMelt":10,"TurningSpeed":4,"BurnTick":0.5,"Width":2.5,"BurnTime":20},"Range":12,"Extras":["More burn damage","Longer burn time","Bigger flames"],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.25,"Damage":8},"Image":3304825822,"Title":"Kagutsuchi's Fury","Cost":9500}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Burn multiple enemies at once and chip away defense.","Price":{
+"Value":3500,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Dwarf":{
+"Icon":"rbxassetid://16742114045","Rarity":"7"},"Blue":{
+"Icon":"rbxassetid://16742113148","Rarity":"1"},"Bunny":{
+"Icon":"rbxassetid://16742113383","Rarity":"7"},"Barbecue":{
+"Icon":"rbxassetid://16742112955","Rarity":"7"},"Mage":{
+"Icon":"rbxassetid://16742129185","Rarity":"4"},"Plushie":{
+"Icon":"rbxassetid://110949683234465","Rarity":"6"},"Scarecrow":{
+"Icon":"rbxassetid://16742129397","Rarity":"7"},"Hazmat":{
+"Icon":"rbxassetid://16742128975","Rarity":"1"},"Frost":{
+"Icon":"rbxassetid://16742114293","Rarity":"7"},"Default":{
+"Icon":"rbxassetid://16742113730","Rarity":"1"},"Ghost":{
+"Icon":"rbxassetid://16742114699","Rarity":"7"},"Vigilante":{
+"Icon":"rbxassetid://16742129830","Rarity":"2"},"Valentines":{
+"Icon":"rbxassetid://16742129623","Rarity":"7"},"Golden":{
+"Icon":"rbxassetid://16742128811","Rarity":"5"},"Acidic":{
+"Icon":"rbxassetid://16742112759","Rarity":"2"}},"Role":"1","Category":"2","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742113730","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Turret":{
+"Skins":{
+"Crossbow":true,"XR500":true,"Default":true,"XR300":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"5":false,"3":false,"2":false},"Range":15,"Price":6000,"Limit":3,"Cooldown":0.3,"Damage":10},"Upgrades":[{
+"Stats":{
+"Attributes":[],"Range":20,"Extras":[],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.3,"Damage":10},"Image":149177741,"Title":"Radar","Cost":1000},{
+"Stats":{
+"Attributes":[],"Range":20,"Extras":[],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.3,"Damage":15},"Image":149177741,"Title":"Stronger Ammunition","Cost":4250},{
+"Stats":{
+"Attributes":[],"Range":22,"Extras":[],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.15,"Damage":15},"Image":3584258139,"Title":"Dual Turret","Cost":12000},{
+"Stats":{
+"Attributes":[],"Range":24,"Extras":[],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.15,"Damage":32},"Image":3584280869,"Title":"Even Heavier Ammo","Cost":26000},{
+"Stats":{
+"Attributes":[],"Range":26,"Extras":[],"Detections":{
+"5":true,"3":false,"2":true},"Cooldown":0.12,"Damage":55},"Image":3584258608,"Title":"XR-200 Turret","Cost":56250}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Shoots extremely strong bullets and chews bosses.","Price":{
+"Type":"Robux","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":800,"PreviewText":"REACH LEVEL 50 TO UNLOCK TOWER!","Eligible":null},"Class":"2","SkinData":{
+"Crossbow":{
+"Icon":"rbxassetid://16742163059","Rarity":"7"},"XR300":{
+"Icon":"rbxassetid://16742163484","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://16742163291","Rarity":"1"},"XR500":{
+"Icon":"rbxassetid://16742163611","Rarity":"4"}},"Role":"1","Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742163291","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Category":"3","Height":0,"Gamepass":{
+"Id":6935538,"Value":800},"BoundarySize":2,"BoundingSize":null}},"Scout":{
+"Skins":{
+"Intern":true,"Haz3mn":true,"Prime Raven":true,"Phantom":true,"King of Rock":true,"Black Ops":true,"Survivor":true,"Party":true,"Valhalla":true,"Golden":true,"Holiday":true,"Red":true,"Toilet":true,"Beach":true,"Blue":true,"Plushie":true,"Valentines":true,"Frost Hunter":true,"Cookie":true,"Skull Trooper":true,"Guest":true,"Ducky":true,"Default":true,"Green":true,"Masquerade":true,"Fallen":true,"Bunny":true,"Eclipse":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"3":false,"2":false},"Price":150,"Cooldown":1.1,"Range":12,"Damage":1},"Upgrades":[{
+"Stats":{
+"Range":12,"Cooldown":0.8,"Damage":1},"Image":3278746120,"Title":"Faster Reloading","Cost":50},{
+"Stats":{
+"Cooldown":0.8,"Range":14,"Detections":{
+"2":true},"Damage":2},"Image":3278749117,"Title":"Precise Aiming","Cost":200},{
+"Stats":{
+"Range":14,"Cooldown":0.7,"Damage":6},"Image":3278741672,"Title":"Stronger Equipment","Cost":950},{
+"Stats":{
+"Cooldown":0.35,"Range":16,"Damage":8},"Image":3279537687,"Title":"Akimbo Handguns","Cost":2500}]},"Golden":{
+"Paths":0,"Defaults":{
+"Detections":{
+"3":false,"2":false},"Price":300,"Cooldown":1,"Range":14,"Damage":3},"Upgrades":[{
+"Stats":{
+"Cooldown":1,"Range":14,"Damage":4},"Image":3032133716,"Title":"Higher Caliber","Cost":100},{
+"Stats":{
+"Range":16,"Cooldown":0.75,"Detections":{
+"2":true},"Damage":6},"Image":115730014,"Title":"Precise Aiming","Cost":500},{
+"Stats":{
+"Detections":{
+"5":true},"Range":18,"Cooldown":0.6,"Damage":12},"Image":3278741672,"Title":"Golden Deagle","Cost":1500},{
+"Stats":{
+"Cooldown":0.3,"Range":18,"Damage":16},"Image":3279537687,"Title":"Double Tap","Cost":4500}]}},"UpgradeOptions":[],"Properties":{
+"Description":"The starter tower of the game.","Price":{
+"Value":0,"Type":"1","IsEligible":{
+"kind":"Value","type":"State","dependentSet":{
+"<Table> (table: 0x6c8ef03192ddbf96)":true},"_value":true}},"Class":"2","SkinData":{
+"Intern":{
+"Icon":"rbxassetid://16742137311","Rarity":"3"},"Haz3mn":{
+"Icon":"rbxassetid://130252324129434","Rarity":"7"},"Prime Raven":{
+"Icon":"rbxassetid://16742138286","Rarity":"4"},"Phantom":{
+"Icon":"rbxassetid://16742137918","Rarity":"2"},"Eclipse":{
+"Icon":"rbxassetid://16742136452","Rarity":"7"},"Black Ops":{
+"Icon":"rbxassetid://16742135175","Rarity":"1"},"Survivor":{
+"Icon":"rbxassetid://16742139178","Rarity":"3"},"Party":{
+"Icon":"rbxassetid://16742137715","Rarity":"6"},"Valhalla":{
+"Icon":"rbxassetid://16742139584","Rarity":"7"},"Plushie":{
+"Icon":"rbxassetid://16742138111","Rarity":"6"},"Holiday":{
+"Icon":"rbxassetid://16742137176","Rarity":"7"},"Red":{
+"Icon":"rbxassetid://16742138539","Rarity":"1"},"Toilet":{
+"Icon":"rbxassetid://16997026586","Rarity":"4"},"King of Rock":{
+"Icon":"rbxassetid://117402710044000","Rarity":"1"},"Blue":{
+"Icon":"rbxassetid://16742135394","Rarity":"1"},"Bunny":{
+"Icon":"rbxassetid://16742135669","Rarity":"7"},"Fallen":{
+"Icon":"rbxassetid://18739982633","Rarity":"3"},"Masquerade":{
+"Icon":"rbxassetid://16742137522","Rarity":"7"},"Cookie":{
+"Icon":"rbxassetid://16742135838","Rarity":"6"},"Skull Trooper":{
+"Icon":"rbxassetid://16742138815","Rarity":"6"},"Guest":{
+"Icon":"rbxassetid://17571579155","Rarity":"6"},"Ducky":{
+"Icon":"rbxassetid://16742136236","Rarity":"1"},"Default":{
+"Icon":"rbxassetid://16742136020","Rarity":"1"},"Green":{
+"Icon":"rbxassetid://16742136919","Rarity":"1"},"Frost Hunter":{
+"Icon":"rbxassetid://16742136608","Rarity":"1"},"Valentines":{
+"Icon":"rbxassetid://16742139334","Rarity":"1"},"Beach":{
+"Icon":"rbxassetid://16742135002","Rarity":"7"},"Golden":{
+"Icon":"rbxassetid://16742136768","Rarity":"5"}},"Role":"1","Category":"1","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742136020","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Crook Boss":{
+"Skins":{
+"Intern":true,"Dark Frost":true,"Alien Focus":true,"Necromancer":true,"Demon":true,"Checker":true,"Cupid":true,"Xmas":true,"Holiday":true,"Red":true,"Easter":true,"Blue":true,"Spooky":true,"Golden":true,"Game Master":true,"Cybernetic":true,"Default":true,"Corso":true,"Pirate":true,"Soviet":true,"SteamPunk":true,"DRKSHDW":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Range":12.5,"Attributes":{
+"BackupCallTime":1.5,"TommyCrookCap":4,"PistolCrookSpawnTime":50,"PistolCrookCap":10},"Limit":5,"Price":600,"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":0.9,"Damage":3},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"PistolCrookSpawnTime":50},"Range":12.5,"Cooldown":0.75,"Extras":[],"Damage":4},"Image":3032133716,"Title":"Quick Getaway","Cost":300},{
+"Stats":{
+"Attributes":{
+"DoublePistolCrooks":true},"Range":14,"Detections":{
+"3":true,"2":true},"Cooldown":0.75,"Extras":["2 Pistol Crooks spawn at a time."],"Damage":6},"Image":3444643559,"Title":"Double Trouble","Cost":900},{
+"Stats":{
+"Attributes":{
+"TommyCrookSpawnTime":50,"PistolCrookSpawnTime":50},"Range":15,"Extras":["Tommy Crooks (50s Spawn Time)","4 Damage, 0.2 Firerate"],"Cooldown":0.2,"Damage":6},"Image":3838914605,"Title":"Tommy Goons","Cost":4250},{
+"Stats":{
+"Attributes":{
+"TommyCrookSpawnTime":50,"TommyDrum":true,"PistolCrookSpawnTime":50},"Range":16.5,"Extras":["Upgraded Tommy Crooks","10 Damage, 0.12 Firerate"],"Cooldown":0.12,"Damage":18},"Image":3444644903,"Title":"The Godfather","Cost":20000}]},"Golden":{
+"Paths":0,"Defaults":{
+"Range":14,"Attributes":{
+"BackupCallTime":1.5,"TommyCrookCap":4,"PistolCrookSpawnTime":50,"PistolCrookCap":10},"Limit":5,"Price":800,"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":0.9,"Damage":4},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"PistolCrookSpawnTime":50},"Range":14,"Cooldown":0.7,"Extras":[],"Damage":6},"Image":3032133716,"Title":"Lvl 1. Broke","Cost":500},{
+"Stats":{
+"Attributes":{
+"DoublePistolCrooks":true},"Range":15,"Detections":{
+"3":true,"2":true},"Cooldown":0.7,"Extras":["2 Pistol Crooks spawn at a time."],"Damage":10},"Image":3444643559,"Title":"Lvl. 2 Normie","Cost":1500},{
+"Stats":{
+"Attributes":{
+"TommyCrookSpawnTime":50},"Range":16,"Extras":["Golden Tommy Crooks (50s Spawn Time)","5 Damage, 0.18 Firerate"],"Cooldown":0.18,"Damage":10},"Image":3838914605,"Title":"Lvl 3. Gamer","Cost":6000},{
+"Stats":{
+"Attributes":{
+"TommyDrum":true},"Range":17.5,"Extras":["Upgraded Gold Tommy Crooks","12 Damage, 0.1 Firerate"],"Cooldown":0.1,"Damage":20},"Image":3444644903,"Title":"Lvl. 4 GOD","Cost":30000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Command henchmen to fight for you while looking cool!","Price":{
+"Value":400,"Type":"Robux","Eligible":null,"IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false}},"Class":"2","SkinData":{
+"Intern":{
+"Icon":"rbxassetid://16742036260","Rarity":"6"},"Dark Frost":{
+"Icon":"rbxassetid://125130339305089","Rarity":"3"},"Alien Focus":{
+"Icon":"rbxassetid://133134889361359","Rarity":"3"},"Necromancer":{
+"Icon":"rbxassetid://16742036503","Rarity":"6"},"Demon":{
+"Icon":"rbxassetid://16742035383","Rarity":"7"},"Checker":{
+"Icon":"rbxassetid://16742034068","Rarity":"1"},"Cupid":{
+"Icon":"rbxassetid://16742034551","Rarity":"4"},"Xmas":{
+"Icon":"rbxassetid://16742038000","Rarity":"7"},"Holiday":{
+"Icon":"rbxassetid://16742036050","Rarity":"7"},"Red":{
+"Icon":"rbxassetid://16742036972","Rarity":"1"},"Easter":{
+"Icon":"rbxassetid://101408307745429","Rarity":"3"},"Blue":{
+"Icon":"rbxassetid://16742033877","Rarity":"1"},"DRKSHDW":{
+"Icon":"rbxassetid://16742034843","Rarity":"2"},"Game Master":{
+"Price":{
+"Value":749,"Type":"4","Id":2828558111,"GiftId":2828558207},"Icon":"rbxassetid://75261782948960","Rarity":"9"},"Golden":{
+"Icon":"rbxassetid://16742035712","Rarity":"5"},"Cybernetic":{
+"Icon":"rbxassetid://16996940813","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://16742035067","Rarity":"1"},"Pirate":{
+"Icon":"rbxassetid://16742036700","Rarity":"3"},"Corso":{
+"Icon":"rbxassetid://16742034286","Rarity":"3"},"Soviet":{
+"Icon":"rbxassetid://17363278550","Rarity":"4"},"SteamPunk":{
+"Icon":"rbxassetid://16742037752","Rarity":"3"},"Spooky":{
+"Icon":"rbxassetid://16742037577","Rarity":"7"}},"Role":"1","Category":"2","Height":0,"Gamepass":{
+"Id":6757455,"Value":400},"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742035067","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Elementalist":{
+"Skins":{
+"Default":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Limit":5,"Attributes":{
+"FrostDebuff":{
+"CanFreeze":false,"FreezeTime":0,"SlowPercent":5,"DefenseMelt":0,"TickRate":0.5,"Duration":2,"MaxSlow":45,"Damage":0},"BurstCooldown":0.2,"BurstSize":3,"BurnDebuff":{
+"BurnDamage":5,"BurnTickRate":0.5,"EnemyBuff":0,"DefenseMelt":0,"Duration":2}},"Abilities":[{
+"Name":"Ice Turret","Debounce":50,"Price":0,"Level":2,"Icon":90574233330483},{
+"Name":"Heatwave","Debounce":40,"Price":0,"Level":2,"Icon":102536701896068}],"Price":2000,"Cooldown":0.6,"Range":12,"Damage":3},"Upgrades":[{
+"Image":136223791844063,"Title":"Elemental Armory","Cost":1500,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Burst</b></font>","Header":"Burst Upgrade","Content":[{
+"Text":"Burst Size: 3 -> 4"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Frost</b></font>","Header":"Frost Upgrade","Content":[{
+"Text":"Chill Percent on hit: 5% -> 7.5% Seconds"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Fire</b></font>","Header":"Fire Upgrade","Content":[{
+"Text":"Burn Duration: 2 -> 3 Seconds"},{
+"Text":"Burn Damage: 5 -> 8"}]}],"Stats":{
+"Attributes":{
+"FrostDebuff":{
+"CanFreeze":false,"FreezeTime":0,"SlowPercent":7.5,"DefenseMelt":0,"TickRate":0.5,"Duration":2,"MaxSlow":45,"Damage":0},"BurstCooldown":0.2,"BurstSize":4,"BurnDebuff":{
+"BurnDamage":8,"BurnTickRate":0.5,"EnemyBuff":0,"DefenseMelt":0,"Duration":3}},"Extras":[],"Cooldown":0.6,"Range":15,"Damage":5}},{
+"Image":124219033045691,"Title":"Experimental Tech","Cost":4000,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Frost</b></font>","Header":"Frost Upgrade","Content":[{
+"Text":"Max Chill: 45% -> 50%"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Fire</b></font>","Header":"Fire Upgrade","Content":[{
+"Text":"Burn Duration: 3 -> 4 Seconds"}]},{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Ice Turret</b></font>","Header":"Ice Turret","Content":[{
+"Text":"Damage: 10"},{
+"Text":"Cooldown: 0.45"},{
+"Text":"Range: 10"},{
+"Text":"Duration: 40 seconds"},{
+"Text":"Chill Percent on hit: 25%"},{
+"Text":"Max Chill: 50%"},{
+"Text":"Can Freeze"}]},{
+"ButtonText":"Unlock <font color=\"rgb(255,185,0)\"><b>Heatwave</b></font>","Header":"Heatwave","Content":[{
+"Text":"Damage: 150"},{
+"Text":"Range: 12.5"},{
+"Text":"Burn Duration: 5 Seconds"},{
+"Text":"Burn Tick Rate: 0.5 Seconds"},{
+"Text":"Burn Damage: 10"},{
+"Text":"Knockback: 20"}]}],"Stats":{
+"Attributes":{
+"HeatWave":{
+"Radius":12.5,"EnemyBuff":0,"Duration":5,"BurnDamage":10,"DefenseMelt":0,"Speed":2,"Knockback":20,"BurnTickRate":0.5,"Damage":150},"FrostDebuff":{
+"CanFreeze":false,"FreezeTime":0,"SlowPercent":7.5,"DefenseMelt":0,"TickRate":0.5,"Duration":2,"MaxSlow":50,"Damage":0},"BurstCooldown":0.2,"BurstSize":4,"BurnDebuff":{
+"BurnDamage":8,"BurnTickRate":0.5,"EnemyBuff":0,"DefenseMelt":0,"Duration":4}},"Detections":{
+"2":true},"Extras":[],"Cooldown":0.6,"Range":17,"Damage":10}},{
+"Image":77890912829468,"Title":"Improved Exhaust Systems","Cost":8000,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Burst</b></font>","Header":"Burst Upgrade","Content":[{
+"Text":"Burst Size: 4 -> 5"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Frost</b></font>","Header":"Frost Upgrade","Content":[{
+"Text":"Chill Percent on hit: 7.5% -> 10% Seconds"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Fire</b></font>","Header":"Fire Upgrade","Content":[{
+"Text":"Burn Duration: 4 -> 2 Seconds"},{
+"Text":"Burn Damage: 8 -> 10"},{
+"Text":"Burn Tick Rate: 0.5 -> 0.25"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Ice Turret</b></font>","Header":"Ice Turret","Content":[{
+"Text":"Damage: 10 -> 20"},{
+"Text":"Range: 10 -> 12.5"},{
+"Text":"Cooldown: 0.45 -> 0.35"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Heatwave</b></font>","Header":"Heatwave","Content":[{
+"Text":"Damage: 150 -> 250"},{
+"Text":"Range: 12.5 -> 13.5"},{
+"Text":"Burn Damage: 10 -> 15"},{
+"Text":"Knockback: 20 -> 22.5"}]}],"Stats":{
+"Cooldown":0.5,"Range":17,"Attributes":{
+"HeatWave":{
+"Radius":13.5,"EnemyBuff":0,"Duration":5,"BurnDamage":15,"DefenseMelt":0,"Speed":2,"Knockback":22.5,"BurnTickRate":0.5,"Damage":250},"FrostDebuff":{
+"CanFreeze":false,"FreezeTime":0,"SlowPercent":10,"DefenseMelt":0,"TickRate":0.5,"Duration":2,"MaxSlow":50,"Damage":0},"BurstCooldown":0.2,"BurstSize":5,"BurnDebuff":{
+"BurnDamage":10,"BurnTickRate":0.25,"EnemyBuff":0,"DefenseMelt":0,"Duration":2}},"Damage":13}},{
+"Image":90889171304008,"Title":"Frost Fire Specialist","Cost":15000,"Tooltips":[{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Burst</b></font>","Header":"Burst Upgrade","Content":[{
+"Text":"Burst Size: 5 -> 7"},{
+"Text":"Burst Cooldown: 0.2 -> 0.125"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Frost</b></font>","Header":"Frost Upgrade","Content":[{
+"Text":"Chill Percent on hit: 10% -> 12.5%"},{
+"Text":"Max Chill: 50% -> 60%"}]},{
+"ButtonText":"Upgraded <font color=\"rgb(255,185,0)\"><b>Fire</b></font>","Header":"Fire Upgrade","Content":[{
+"Text":"Burn Duration: 2 -> 4 Seconds"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Ice Turret</b></font>","Header":"Ice Turret","Content":[{
+"Text":"Damage: 20 -> 30"},{
+"Text":"Cooldown: 0.35 -> 0.3"},{
+"Text":"Range: 12.5 -> 15"},{
+"Text":"Chill Percent on hit: 25% -> 30%"},{
+"Text":"Max Chill: 50% -> 60%"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Heatwave</b></font>","Header":"Heatwave","Content":[{
+"Text":"Damage: 250 -> 400"},{
+"Text":"Range: 13.5 -> 15"},{
+"Text":"Burn Damage: 15 -> 20"},{
+"Text":"Knockback: 22.5 -> 25"}]}],"Stats":{
+"Cooldown":0.4,"Range":17,"Attributes":{
+"HeatWave":{
+"Radius":15,"EnemyBuff":0,"Duration":5,"BurnDamage":20,"DefenseMelt":0,"Speed":2,"Knockback":25,"BurnTickRate":0.5,"Damage":400},"FrostDebuff":{
+"CanFreeze":false,"FreezeTime":0,"SlowPercent":12.5,"DefenseMelt":0,"TickRate":0.5,"Duration":2,"MaxSlow":60,"Damage":0},"BurstCooldown":0.125,"BurstSize":7,"BurnDebuff":{
+"BurnDamage":10,"BurnTickRate":0.25,"EnemyBuff":0,"DefenseMelt":0,"Duration":4}},"Damage":18}}]}},"UpgradeOptions":[{
+"Name":"Element","Values":[{
+"Value":"1","Level":0,"Name":"Frost","Icon":90574233330483},{
+"Value":"2","Level":0,"Name":"Fire","Icon":102536701896068}],"Default":"1","Icon":90574233330483,"CoolDown":5}],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://78382857674962","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"2","Description":"An elemental specialist capabale of switching between frost and fire modes to apply debuffs.","Category":"5","Height":0,"Class":"2","SkinData":{
+"Default":{
+"Icon":"rbxassetid://78382857674962","Rarity":"1"}},"BoundingSize":null}},"Militant":{
+"Skins":{
+"Easter":true,"Davinchi":true,"John":true,"Ghost":true,"Star Spartan":true,"Chocolatier":true,"Beach":true,"Ducky":true,"Hazmat":true,"Fallen":true,"Default":true,"Pumpkin":true,"Ace Pilot":true,"Arsenal":true,"Wasteland":true,"Lumberjack":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"3":false,"2":false},"Price":700,"Cooldown":0.2,"Range":13,"Damage":1},"Upgrades":[{
+"Stats":{
+"Range":16,"Cooldown":0.18,"Detections":{
+"3":true,"2":true},"Damage":1},"Image":5523212631,"Title":"Radio Comms","Cost":200},{
+"Stats":{
+"Range":16,"Cooldown":0.18,"Damage":2},"Image":5523215135,"Title":"Bigger Rifle","Cost":900},{
+"Stats":{
+"Cooldown":0.15,"Range":18,"Damage":4},"Image":5523216332,"Title":"Upskill","Cost":2750},{
+"Stats":{
+"Cooldown":0.15,"Range":21,"Damage":12},"Image":5523217773,"Title":"Stealth Mercenary","Cost":9000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Trained with an assault rifle, this tower deals medium damage at a fast firerate.","Price":{
+"Value":1500,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Fallen":{
+"Icon":"rbxassetid://18835926439","Rarity":"3"},"Davinchi":{
+"Icon":"rbxassetid://16742100635","Rarity":"7"},"John":{
+"Icon":"rbxassetid://16742101804","Rarity":"6"},"Ghost":{
+"Icon":"rbxassetid://16742101377","Rarity":"7"},"Star Spartan":{
+"Icon":"rbxassetid://76196766882530","Rarity":"3"},"Chocolatier":{
+"Icon":"rbxassetid://16742100398","Rarity":"2"},"Easter":{
+"Icon":"rbxassetid://86436209069316","Rarity":"3"},"Wasteland":{
+"Icon":"rbxassetid://140245000984082","Rarity":"3"},"Hazmat":{
+"Icon":"rbxassetid://16742101622","Rarity":"1"},"Ducky":{
+"Icon":"rbxassetid://16742101071","Rarity":"2"},"Default":{
+"Icon":"rbxassetid://16742100840","Rarity":"1"},"Pumpkin":{
+"Icon":"rbxassetid://16742102372","Rarity":"7"},"Ace Pilot":{
+"Icon":"rbxassetid://16742099577","Rarity":"3"},"Arsenal":{
+"Icon":"rbxassetid://16742099799","Rarity":"6"},"Beach":{
+"Icon":"rbxassetid://16742100038","Rarity":"7"},"Lumberjack":{
+"Icon":"rbxassetid://16742102093","Rarity":"2"}},"Role":"1","Category":"2","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742100840","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}},"Slasher":{
+"Skins":{
+"Spooky":true,"Spring Time":true,"Default":true,"Jason":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Limit":12,"Attributes":{
+"SliceAngle":280,"CritChance":25,"CritMult":2.5},"Detections":[],"Cooldown":0.4,"Price":1250,"Range":5,"Extras":[],"Damage":5},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"CritMult":3},"Detections":{
+"2":true},"Extras":["Critcal Damage Multipler (2.5x -> 3x)"],"Range":5,"Cooldown":0.35,"Damage":6},"Image":92740435796975,"Title":"Sleight of Hands","Cost":800},{
+"Stats":{
+"Attributes":{
+"BleedStack":1},"Detections":{
+"2":true},"Extras":["Bleed Debuff"],"Cooldown":0.7,"Range":5.5,"Damage":20},"Image":93224058728799,"Title":"Bloodlust","Cost":3000},{
+"Stats":{
+"Attributes":{
+"CritMult":3.5,"BleedStack":1},"Extras":["Critcal Damage Multipler (3x -> 3.5x)"],"Detections":{
+"2":true},"Range":5.5,"Cooldown":0.6,"Damage":45},"Image":102669883500047,"Title":"Swords Dance","Cost":6500},{
+"Stats":{
+"Attributes":{
+"CritMult":4,"BleedStack":2},"Detections":{
+"2":true},"Extras":["Bleed Stack (1 -> 2) per hit","Critcal Damage Multipler (3.5x -> 4x)"],"Cooldown":0.5,"Range":6,"Damage":60},"Image":102686099141752,"Title":"Serial Killer","Cost":20000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Stabs nearby enemies and applies bleed on critical hits. Exclusive tower.","Class":"2","SkinData":{
+"Spooky":{
+"Icon":"rbxassetid://87446356234317","Rarity":"7"},"Jason":{
+"Icon":"rbxassetid://80815511240891","Rarity":"7"},"Default":{
+"Icon":"rbxassetid://85826790424914","Rarity":"1"},"Spring Time":{
+"Icon":"rbxassetid://100945870370166","Rarity":"6"}},"Role":"1","Category":"5","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://85826790424914","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundarySize":1,"BoundingSize":null}},"Electroshocker":{
+"Skins":{
+"Korblox":true,"Dark Frost":true,"Classic":true,"Frankenstein":true,"Valentines":true,"Ducky":true,"Default":true,"Hazmat":true,"Vigilante":true,"Ghost":true,"TeeVee":true,"Bunny":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Range":7.5,"Attributes":{
+"DefenseMelt":5,"MaxStun":0.3,"MaxHits":2,"MinStun":0.3,"ChainRange":7},"Limit":4,"Price":725,"Detections":{
+"5":true,"3":false,"2":false},"Cooldown":0.85,"Damage":3},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"DefenseMelt":5,"MaxStun":0.3,"MaxHits":2,"MinStun":0.3,"ChainRange":7},"Range":9,"Extras":[],"Detections":{
+"5":true,"3":false,"2":false},"Cooldown":0.75,"Damage":3},"Image":3280081327,"Title":"Improved Handling","Cost":300},{
+"Stats":{
+"Attributes":{
+"DefenseMelt":5,"MaxStun":0.3,"MaxHits":3,"MinStun":0.3,"ChainRange":7},"Range":10,"Extras":["4 Max Hits"],"Detections":{
+"5":true,"3":true,"2":false},"Cooldown":0.75,"Damage":4},"Image":4675534331,"Title":"Outside Support","Cost":600},{
+"Stats":{
+"Attributes":{
+"DefenseMelt":10,"MaxStun":0.3,"MaxHits":4,"MinStun":0.3,"ChainRange":7},"Range":12,"Extras":[],"Detections":{
+"5":true,"3":true,"2":false},"Cooldown":0.75,"Damage":8},"Image":4675521746,"Title":"Faraday's Vest","Cost":2000},{
+"Stats":{
+"Attributes":{
+"DefenseMelt":15,"MaxStun":1,"MaxHits":6,"MinStun":1,"ChainRange":10},"Range":14,"Extras":["6 Max Hits","Stuns enemies longer","Increased chain range"],"Detections":{
+"5":true,"3":true,"2":false},"Cooldown":2.5,"Damage":50},"Image":4675504505,"Title":"Lightning Cannon","Cost":5000},{
+"Stats":{
+"Attributes":{
+"DefenseMelt":15,"MaxStun":1.25,"MaxHits":8,"MinStun":1.25,"ChainRange":10},"Range":14,"Extras":["8 Max Hits","Longer stuns","Reduce defense"],"Detections":{
+"5":true,"3":true,"2":false},"Cooldown":2.5,"Damage":100},"Image":4675504640,"Title":"Zeus Cannon","Cost":15000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Zap! Stun enemies and chain your effects!","Price":{
+"Value":3000,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Korblox":{
+"Icon":"rbxassetid://122538908879439","Rarity":"7"},"Bunny":{
+"Icon":"rbxassetid://16742064560","Rarity":"7"},"Classic":{
+"Icon":"rbxassetid://17744633836","Rarity":"3"},"Frankenstein":{
+"Icon":"rbxassetid://16742065631","Rarity":"7"},"Valentines":{
+"Icon":"rbxassetid://16742066423","Rarity":"7"},"Ducky":{
+"Icon":"rbxassetid://16742065360","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://16742064918","Rarity":"1"},"Dark Frost":{
+"Icon":"rbxassetid://92937669662901","Rarity":"3"},"Vigilante":{
+"Icon":"rbxassetid://16742066740","Rarity":"2"},"TeeVee":{
+"Icon":"rbxassetid://16997023926","Rarity":"4"},"Ghost":{
+"Icon":"rbxassetid://16742065873","Rarity":"7"},"Hazmat":{
+"Icon":"rbxassetid://16742066166","Rarity":"1"}},"Role":"2","Category":"3","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742064918","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Level":10,"BoundingSize":null}},"Jester":{
+"Skins":{
+"The Beast":true,"Default":true,"The Flea":true,"Clown":true,"Heartbreak":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Range":10,"Detections":{
+"5":true,"3":false,"2":false},"Attributes":{
+"PoisonStats":{
+"DefenseMelt":1,"Radius":3.5,"Length":10,"TickRate":0.5},"AnimTimes":{
+"0":{
+"Equip":0.23,"Fire":0.57},"4":{
+"Equip":0.46,"Right":0.6,"Left":0.6}},"Velocity":30,"AimTime":0.2,"EquipTime":0.4,"MaxHits":5,"IceStats":{
+"DefenseMelt":0,"Length":2,"SlowPercent":30,"TickRate":0.25},"FireStats":{
+"BurnTick":1,"BurnTime":3},"ExplosionRadius":3,"BombCount":1,"ConfuseStats":{
+"Debounce":8,"Length":2}},"Abilities":[{
+"Name":"Equip Bombs","Debounce":5,"Price":0,"Level":0,"Icon":14606405886}],"Price":500,"Limit":8,"Cooldown":1.5,"Damage":2},"Upgrades":[{
+"Stats":{
+"Cooldown":1,"Range":12},"Image":15332518871,"Title":"Trained Juggling","Cost":100},{
+"Stats":{
+"Extras":["Fire Time: 3 -> 4","Ice Bomb","1/2 Base Damage, 30% Chill, 60% Max Chill"],"Attributes":{
+"FireStats":{
+"BurnTime":4,"BurnTick":1}},"Damage":4},"Image":15332518503,"Title":"Cold Humor","Cost":550},{
+"Stats":{
+"Extras":["Fire Time: 4 -> 6","Acid Puddle Bomb","3/10 Base Damage, 0.5 Tick, 10s Duration, Defense Melt"],"Attributes":{
+"FireStats":{
+"BurnTime":6,"BurnTick":1}},"Detections":{
+"2":true},"Damage":12},"Image":15332518237,"Title":"Potent Bombs","Cost":2250},{
+"Stats":{
+"Attributes":{
+"FireStats":{
+"BurnTime":6,"BurnTick":0.5},"BombCount":2},"Extras":["Double Bombs","Confusion Bomb","No Damage, makes enemies walk backwards for 2s"],"Cooldown":0.75,"Range":14,"Damage":22},"Image":15332519184,"Title":"Harlequin of Doom","Cost":8500}]}},"UpgradeOptions":[{
+"Values":[{
+"Name":"Fire","Value":"Fire","Level":0,"Icon":15332760498,"Tooltip":{
+"Content":[{
+"Text":"Applies burn to enemies, dealing damage over time."}],"Header":"Fire","Subject":"Bomb"}},{
+"Name":"Ice","Value":"Ice","Level":2,"Icon":15332760300,"Tooltip":{
+"Content":[{
+"Text":"Applies slow to enemies, reducing their movement speed."}],"Header":"Freeze","Subject":"Bomb"}},{
+"Name":"Poison","Value":"Poison","Level":3,"Icon":15332760148,"Tooltip":{
+"Content":[{
+"Text":"Creates a pool of poison dealing damage over time."}],"Header":"Poison","Subject":"Bomb"}},{
+"Name":"Confusion","Value":"Confusion","Level":4,"Icon":15332760639,"Tooltip":{
+"Content":[{
+"Text":"Confuses enemies, causing them to walk backwards."}],"Header":"Confusion","Subject":"Bomb"}}],"Default":"1","Name":"Bomb 1","Icon":15332760498},{
+"Values":[{
+"Name":"Fire","Value":"Fire","Level":4,"Icon":15332760498,"Tooltip":{
+"Content":[{
+"Text":"Applies burn to enemies, dealing damage over time."}],"Header":"Fire","Subject":"Bomb"}},{
+"Name":"Ice","Value":"Ice","Level":4,"Icon":15332760300,"Tooltip":{
+"Content":[{
+"Text":"Applies slow to enemies, reducing their movement speed."}],"Header":"Freeze","Subject":"Bomb"}},{
+"Name":"Poison","Value":"Poison","Level":4,"Icon":15332760148,"Tooltip":{
+"Content":[{
+"Text":"Creates a pool of poison dealing damage over time."}],"Header":"Poison","Subject":"Bomb"}},{
+"Name":"Confusion","Value":"Confusion","Level":4,"Icon":15332760639,"Tooltip":{
+"Content":[{
+"Text":"Confuses enemies, causing them to walk backwards."}],"Header":"Confusion","Subject":"Bomb"}}],"Name":"Bomb 2","Icon":15332760498}],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742096294","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"2","Description":"I have a ton of tricks in my pockets! Cycle through and throw debuff bombs at enemies!","Category":"5","Height":0,"Class":"2","SkinData":{
+"The Beast":{
+"Icon":"rbxassetid://75863398247354","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://16742096294","Rarity":"1"},"The Flea":{
+"Icon":"rbxassetid://105377590942476","Rarity":"4"},"Clown":{
+"Icon":"rbxassetid://17744634147","Rarity":"4"},"Heartbreak":{
+"Icon":"rbxassetid://119670783538459","Rarity":"3"}},"BoundingSize":null}},"Engineer":{
+"Skins":{
+"Heartbreak":true,"Dark Frost":true,"Phantom":true,"Wikia":true,"Holiday":true,"Fallen":true,"Grave Digger":true,"Ducky":true,"Default":true,"Mechanic":true,"DraxRex":true,"Plushie":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Range":13,"Attributes":{
+"BuildTime":2,"MaxUnits":1,"UnitToSend":"Sentry1","SentryShield":false,"SpawnTime":1,"Buildzone":4,"Deadzone":1},"Limit":6,"Price":750,"Detections":{
+"5":true,"3":false,"2":false},"Cooldown":1.2,"Damage":4},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"BuildTime":2,"MaxUnits":1,"UnitToSend":"Sentry1","SentryShield":false,"SpawnTime":1,"Buildzone":4,"Deadzone":1},"Range":15,"Extras":[],"Detections":{
+"5":true,"3":false,"2":false},"Cooldown":1.2,"Damage":6},"Image":4517035597,"Title":"Precise Calculations","Cost":250},{
+"Stats":{
+"Attributes":{
+"BuildTime":2,"MaxUnits":2,"UnitToSend":"Sentry1","SentryShield":false,"SpawnTime":1,"Buildzone":4,"Deadzone":1},"Range":17,"Extras":["2 Max Units"],"Detections":{
+"5":true,"3":true,"2":true},"Cooldown":1.2,"Damage":6},"Image":149177741,"Title":"Makeshift Radar","Cost":400},{
+"Stats":{
+"Attributes":{
+"BuildTime":2,"MaxUnits":2,"UnitToSend":"Sentry2","SentryShield":false,"SpawnTime":1,"Buildzone":4,"Deadzone":1},"Range":17,"Extras":["Rifle Sentry"],"Detections":{
+"5":true,"3":true,"2":true},"Cooldown":1.2,"Damage":12},"Image":8998290803,"Title":"Auto Converter","Cost":1800},{
+"Stats":{
+"Attributes":{
+"BuildTime":2,"MaxUnits":3,"UnitToSend":"Sentry2","SentryShield":true,"SpawnTime":1,"Buildzone":4,"Deadzone":1},"Range":18,"Extras":["3 Max Units","Sentry Shield"],"Detections":{
+"5":true,"3":true,"2":true},"Cooldown":0.75,"Damage":18},"Image":31857714,"Title":"Improved Blueprints","Cost":3000},{
+"Stats":{
+"Attributes":{
+"BuildTime":2,"MaxUnits":3,"UnitToSend":"Sentry3","SentryShield":true,"SpawnTime":1,"Buildzone":4,"Deadzone":1},"Range":18,"Extras":["Minigun Sentry"],"Detections":{
+"5":true,"3":true,"2":true},"Cooldown":0.75,"Damage":30},"Image":155526941,"Title":"Heavy Construction","Cost":12500},{
+"Stats":{
+"Attributes":{
+"BuildTime":2,"MaxUnits":4,"UnitToSend":"Sentry4","SentryShield":true,"SpawnTime":1,"Buildzone":4,"Deadzone":0.5},"Range":20,"Extras":["War Machine Sentry","4 Max Units"],"Detections":{
+"5":true,"3":true,"2":true},"Cooldown":0.6,"Damage":50},"Image":7852911857,"Title":"Illegal Gun Parts","Cost":35000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Sentry comin' up!","Price":{
+"Type":"3","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":4500,"Eligible":null,"PreviewText":"REACH LEVEL 60 TO UNLOCK TOWER OR BUY WITH GAMEPASS!"},"Class":"2","SkinData":{
+"Heartbreak":{
+"Icon":"rbxassetid://16742067565","Rarity":"4"},"Plushie":{
+"Icon":"rbxassetid://16742068525","Rarity":"6"},"Phantom":{
+"Icon":"rbxassetid://16742068314","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://16742067184","Rarity":"1"},"Dark Frost":{
+"Icon":"rbxassetid://72967186484602","Rarity":"4"},"Ducky":{
+"Icon":"rbxassetid://16742040216","Rarity":"4"},"Grave Digger":{
+"Icon":"rbxassetid://16742067352","Rarity":"7"},"Fallen":{
+"Icon":"rbxassetid://18950630600","Rarity":"4"},"DraxRex":{
+"Rarity":"3","Icon":"rbxassetid://18549606104","DisplayName":"CrazRex"},"Mechanic":{
+"Icon":"rbxassetid://16742068076","Rarity":"4"},"Holiday":{
+"Icon":"rbxassetid://16742067797","Rarity":"7"},"Wikia":{
+"Icon":"rbxassetid://16742068760","Rarity":"3"}},"Role":"2","Category":"4","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742067184","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Level":60,"BoundingSize":null}},"Farm":{
+"Skins":{
+"Booth":true,"Arcade":true,"Wasteland":true,"Crypto":true,"Tycoon":true,"Vendor":true,"PNG":true,"Cozy Camp":true,"Ducky":true,"Default":true,"Pirate":true,"Xmas":true,"Present":true,"Graveyard":true,"Lemonade Stand":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Income":50,"Limit":8,"Detections":{
+"3":false,"2":false},"Price":250,"Cooldown":0,"Range":5,"Damage":0},"Upgrades":[{
+"Stats":{
+"Income":100},"Image":3294497195,"Title":"Carrot Farm","Cost":200},{
+"Stats":{
+"Income":250},"Image":3294496318,"Title":"Wheat Farm","Cost":550},{
+"Stats":{
+"Income":500},"Image":3294498124,"Title":"Tree Farm","Cost":1000},{
+"Stats":{
+"Income":750},"Image":3294499153,"Title":"Apple Farm","Cost":2500},{
+"Stats":{
+"Income":1500},"Image":3294500097,"Title":"Space Fruit Farm","Cost":5000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Earn extra cash per wave. The higher the upgrade, the higher the income.","Price":{
+"Value":2500,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Lemonade Stand":{
+"Rarity":"3","Icon":"rbxassetid://81915340530819","DisplayName":"Vendor"},"Arcade":{
+"Icon":"rbxassetid://16742069471","Rarity":"3"},"Wasteland":{
+"Icon":"rbxassetid://115389901462450","Rarity":"3"},"Crypto":{
+"Icon":"rbxassetid://16742069733","Rarity":"4"},"Tycoon":{
+"Icon":"rbxassetid://16742071421","Rarity":"3"},"Vendor":{
+"Icon":"rbxassetid://16742071670","Rarity":"6"},"PNG":{
+"Rarity":"2","Icon":"rbxassetid://102229660485968","DisplayName":"PNG"},"Cozy Camp":{
+"Icon":"rbxassetid://140408163540785","Rarity":"2"},"Ducky":{
+"Icon":"rbxassetid://16742070242","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://16742069981","Rarity":"1"},"Pirate":{
+"Icon":"rbxassetid://16742070778","Rarity":"4"},"Xmas":{
+"Icon":"rbxassetid://16742072101","Rarity":"7"},"Graveyard":{
+"Icon":"rbxassetid://16742070511","Rarity":"7"},"Present":{
+"Icon":"rbxassetid://16742071112","Rarity":"6"},"Booth":{
+"Icon":"rbxassetid://114387520669997","Rarity":"7"}},"Role":"3","Category":"2","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742069981","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundarySize":1.75,"BoundingSize":null}},"Commando":{
+"Skins":{
+"Trooper":true,"Default":true,"Pirate":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Limit":8,"Abilities":[{
+"MaxAmmo":2,"Level":3,"Name":"Missile","Debounce":0,"Price":0,"Ammo":2,"Cooldown":20,"Icon":80456675021529}],"Attributes":{
+"MissileRangeMultiplier":2,"ReloadTime":2.5,"Pierce":2,"BurstCooldown":0.2,"BurstSize":3,"StunCooldown":3.5},"Cooldown":0.5,"Price":2250,"Ammo":30,"Range":12,"Damage":6},"Upgrades":[{
+"Stats":{
+"MaxAmmo":30,"Attributes":{
+"ReloadTime":2.5,"Pierce":2,"BurstCooldown":0.2,"BurstSize":3,"StunCooldown":3.5},"Extras":[],"Cooldown":0.5,"Ammo":30,"Range":12,"Damage":8},"Image":119448063654848,"Title":"Recon Mission","Cost":935},{
+"Image":72540829223100,"Title":"Titanium Rounds","Cost":3250,"Tooltips":[{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Burst</b></font>","Header":"Burst Upgrade","Content":[{
+"Text":"Burst Size: 3 -> 5"},{
+"Text":"Reload Time: 2.5 -> 2"}]}],"Stats":{
+"MaxAmmo":45,"Detections":{
+"2":true},"Attributes":{
+"ReloadTime":2,"Pierce":2,"BurstCooldown":0.2,"BurstSize":5,"StunCooldown":3.5},"Extras":[],"Cooldown":0.5,"Ammo":45,"Range":13.5,"Damage":12}},{
+"Image":111526844050563,"Title":"Jericho Missiles","Cost":8500,"Tooltips":[{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Burst</b></font>","Header":"Burst Upgrade","Content":[{
+"Text":"Burst Size: 5 -> 6"},{
+"Text":"Pierce: 2 -> 3"},{
+"Text":"Reload Time: 2 -> 1.5"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Concussive Missiles</b></font>","Header":"Concussive Missiles","Content":[{
+"Text":"Damage: 150"},{
+"Text":"Stun Time: 1.5 Seconds"},{
+"Text":"Radius: 4"},{
+"Text":"Cooldown: 20 Seconds"}]}],"Stats":{
+"MaxAmmo":60,"Attributes":{
+"Pierce":3,"BurstSize":6,"StunTime":1.5,"MissileExplosionRadius":4,"MissileExpireTime":60,"ReloadTime":1.5,"MissileDamage":150,"BurstCooldown":0.15,"StunCooldown":3.5},"Cooldown":0.35,"Ammo":60,"Range":15,"Damage":15}},{
+"Image":113494545335861,"Title":"Death & Taxes","Cost":20000,"Stats":{
+"MaxAmmo":80,"Attributes":{
+"Pierce":3,"BurstSize":10,"StunTime":2,"MissileExplosionRadius":6,"MissileExpireTime":60,"ReloadTime":1.25,"MissileDamage":200,"BurstCooldown":0.125,"StunCooldown":3.5},"Extras":["Quad missiles"],"Cooldown":0.3,"Ammo":80,"Range":17,"Damage":20},"Tooltips":[{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Burst</b></font>","Header":"Burst Upgrade","Content":[{
+"Text":"Burst Size: 6 -> 10"},{
+"Text":"Burst Cooldown: 0.15 -> 0.125"},{
+"Text":"Reload Time: 1.5 -> 1.25"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Missile Upgrade</b></font>","Header":"Concussive Missiles","Content":[{
+"Text":"Missile Count: 2 -> 4"},{
+"Text":"Stun Time: 2 Seconds"},{
+"Text":"Damage: 200"},{
+"Text":"Radius: 6"},{
+"Text":"Cooldown: 10 Seconds"}]},{
+"ButtonText":"Upgrade <font color=\"rgb(255,185,0)\"><b>Really Cool Armor</b></font>","Content":[{
+"Text":"May or may not be stolen from Area 51"}]}],"AbilityUpgrades":[{
+"Name":"Missile","Stats":{
+"Interval":10,"MaxAmmo":4}}]}]}},"UpgradeOptions":[],"Properties":{
+"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://140552401698797","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Role":"1","Description":"Shoots enemies with dual laser guns and launches missiles. Won from the Area 51 event.","Category":"5","Height":0,"Class":"2","SkinData":{
+"Trooper":{
+"Icon":"rbxassetid://81411979969960","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://140552401698797","Rarity":"1"},"Pirate":{
+"Icon":"rbxassetid://135452131994371","Rarity":"3"}},"BoundingSize":null}},"Gatling Gun":{
+"Skins":{
+"Default":true,"Easter":true},"Stats":{
+"Default":{
+"Immutable":true,"Defaults":{
+"Detections":{
+"3":true},"Price":5750,"Ammo":50,"Range":25,"Attributes":{
+"SpreadAdd":10,"ReloadTime":2.5,"Angle":40,"WindDownTime":2,"Recoil":0.08},"Abilities":[{
+"Name":"FPS","Debounce":0.5,"Price":0,"Level":0,"Icon":94564306265259}],"Limit":1,"Cooldown":0.15,"Damage":5},"Paths":0,"Upgrades":[{
+"Image":70569444235865,"Stats":{
+"Detections":[],"Attributes":{
+"ReloadTime":2.5,"Angle":40,"SpreadAdd":10,"Recoil":0.08},"Range":30,"Ammo":50,"Cooldown":0.15,"Damage":8},"Title":"Heavier Bullets","Cost":3000},{
+"Image":104227180979769,"Stats":{
+"Attributes":{
+"SpreadAdd":9,"ReloadTime":2,"Angle":45,"DeadZone":0,"Recoil":0.08},"Extras":["Increased Ammo Size (50 -> 100)"],"Range":30,"Ammo":100,"Cooldown":0.15,"Damage":10},"Title":"Bigger Magazine","Cost":7250},{
+"Image":71764582498505,"Stats":{
+"Extras":["Angle (35 -> 40)","Improved Spread","Increased Ammo Size (100 -> 200)"],"Attributes":{
+"ReloadTime":2,"Angle":55,"SpreadAdd":7.5,"Recoil":0.08},"Detections":{
+"2":true},"Cooldown":0.12,"Ammo":200,"Range":35,"Damage":15},"Title":"Extra Barrel","Cost":17500},{
+"Image":128136625170591,"Stats":{
+"Attributes":{
+"ReloadTime":2,"SpreadAdd":6.5,"WindUpTime":0,"WindDownTime":2,"Angle":55,"DeadZone":1.25,"Recoil":0.06},"Extras":["Improved Recoil","Improved Spread"],"Range":45,"Ammo":200,"Cooldown":0.09,"Damage":25},"Title":"Minigun Barrel","Cost":35000},{
+"Image":125372339735512,"Stats":{
+"Extras":["Increased Ammo Size (200 -> 400)","Increased Reload Time (2 -> 6)","Increased Firing Angle (45 -> 50)","Improved Recoil","Improved Spread"],"Detections":[],"Attributes":{
+"ReloadTime":6,"SpreadAdd":6.5,"WindUpTime":0,"WindDownTime":2,"Angle":65,"DeadZone":2,"Recoil":0.03},"Range":50,"Ammo":400,"Cooldown":0.09,"Damage":45},"Title":"Impenetrable Fortress","Cost":60000},{
+"Image":139181863986914,"Stats":{
+"Attributes":{
+"SpreadAdd":6.5,"WindUpTime":0,"ReloadTime":6,"Angle":70,"WindDownTime":2,"Recoil":0.03},"Extras":["Increased Ammo Size (400 -> 600)","Increased Reload Time (2 -> 6)","Improved Recoil","Improved Spread"],"Range":50,"Ammo":600,"Cooldown":0.09,"Damage":75},"Title":"Destruction-Oriented Output Machine","Cost":100000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"A cliff tower that you take personal control of. Time to take matters into your own hands","Price":{
+"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":35000,"Eligible":null,"PreviewText":"REACH LEVEL 175 TO UNLOCK TOWER!"},"Class":"4","SkinData":{
+"Default":{
+"Icon":"rbxassetid://81281360352088","Rarity":"1"},"Easter":{
+"Icon":"rbxassetid://102642733564095","Rarity":"2"}},"Role":"1","Preview":{
+"FieldOfView":70,"Thumbnail":0,"Icon":"rbxassetid://81281360352088","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"Category":"3","Height":0,"Gamepass":{
+"Id":924927232},"BoundarySize":2,"BoundingSize":null}},"Military Base":{
+"Skins":{
+"Classic":true,"Cyber":true,"Default":true,"Wasteland":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Detections":{
+"3":false,"2":false},"Cooldown":50,"Abilities":[{
+"Name":"Airstrike","Debounce":45,"Price":500,"Level":4,"Icon":16899461518}],"Attributes":{
+"SpawnTime":50,"UnitToSend":"Humvee"},"Price":400,"Limit":5,"Range":0,"Damage":0},"Upgrades":[{
+"Stats":{
+"Attributes":{
+"SpawnTime":35,"UnitToSend":"Humvee"},"Cooldown":35,"Extras":[]},"Image":3877874591,"Title":"Mechanics","Cost":200},{
+"Stats":{
+"Extras":["Health: 30 -> 60"],"Attributes":{
+"UnitToSend":"Humvee 2"}},"Image":3877875003,"Title":"Barbed Wire","Cost":400},{
+"Stats":{
+"Attributes":{
+"UnitToSend":"Humvee 3"},"Extras":["Mounted gunner","Health: 60 -> 90"],"Damage":3},"Image":3877873543,"Title":"Mounted Gunner","Cost":1600},{
+"Stats":{
+"Attributes":{
+"AirstrikeDamage":75,"Bombs":6,"UnitToSend":"Tank","AirstrikeRange":4,"AirstrikeExplosionRange":8},"Extras":["Health: 90 -> 500","Explosive damage: 50","Airstrike ability","Airstrike damage: 450"],"Damage":10},"Image":3444568329,"Title":"Tank","Cost":8000},{
+"Stats":{
+"Attributes":{
+"AirstrikeDamage":125,"Bombs":6,"UnitToSend":"Railgun Tank","AirstrikeRange":6,"AirstrikeExplosionRange":12},"Extras":["Health: 500 -> 1500","Explosive damage: 50 -> 80","Airstrike damage: 450 -> 750","Airstrike explosion range: 8 -> 12"],"Damage":24},"Image":3444568580,"Title":"Railgun Tank","Cost":24000}]}},"UpgradeOptions":[],"Properties":{
+"Description":"Send out a vehicle every couple of seconds to run over and shoot enemies.","Price":{
+"Value":4000,"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":true}},"Class":"2","SkinData":{
+"Classic":{
+"Icon":"rbxassetid://16997024256","Rarity":"3"},"Cyber":{
+"Icon":"rbxassetid://109839701132351","Rarity":"3"},"Default":{
+"Icon":"rbxassetid://16997024735","Rarity":"1"},"Wasteland":{
+"Icon":"rbxassetid://78972347785643","Rarity":"3"}},"Role":"2","Category":"2","Height":0,"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16997024735","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundarySize":2.25,"BoundingSize":null}},"Cowboy":{
+"Skins":{
+"Dark Frost":true,"Kasodus":true,"Cop":true,"Pumpkin":true,"Fallen":true,"Badlands":true,"Noir":true,"Masquerade":true,"Bounty Hunter":true,"Holiday":true,"Plushie":true,"Redemption":true,"Megalodon":true,"Retired":true,"Spring Time":true,"Golden":true,"Ducky":true,"Default":true,"Valentines":true,"Cyberpunk":true,"Agent":true,"Mecha Bunny":true,"Bandit":true},"Stats":{
+"Default":{
+"Paths":0,"Defaults":{
+"Limit":12,"Range":11,"Attributes":{
+"MaxAmmo":6,"SpinDuration":1.7},"Income":25,"Price":450,"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":1,"Damage":2},"Upgrades":[{
+"Stats":{
+"Range":14,"Attributes":{
+"MaxAmmo":6,"SpinDuration":1.7},"Income":25,"Extras":[],"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":0.8,"Damage":3},"Image":4999425200,"Title":"Steady Hand","Cost":250},{
+"Stats":{
+"Range":16,"Attributes":{
+"MaxAmmo":6,"SpinDuration":1.7},"Income":40,"Extras":[],"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":0.8,"Damage":4},"Image":5523233366,"Title":"Lucky Shot","Cost":300},{
+"Stats":{
+"Range":18,"Attributes":{
+"MaxAmmo":6,"SpinDuration":1.2},"Income":40,"Extras":["Spin: 1.7 > 1.2 secs"],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.7,"Damage":8},"Image":5523231844,"Title":"Faster Instincts","Cost":1500},{
+"Stats":{
+"Range":18,"Attributes":{
+"MaxAmmo":12,"SpinDuration":1.2},"Income":120,"Extras":[],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.35,"Damage":10},"Image":5523234030,"Title":"Double Tap","Cost":4000},{
+"Stats":{
+"Range":18,"Attributes":{
+"MaxAmmo":12,"SpinDuration":0.85},"Income":180,"Extras":["Spin: 1.2 > 0.85 secs"],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.3,"Damage":20},"Image":5523234990,"Title":"Outlawed","Cost":7500}]},"Golden":{
+"Paths":0,"Defaults":{
+"Limit":12,"Range":14,"Attributes":{
+"MaxAmmo":6,"SpinDuration":1.75},"Income":30,"Price":600,"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":1,"Damage":3},"Upgrades":[{
+"Stats":{
+"Range":16,"Attributes":{
+"MaxAmmo":6,"SpinDuration":1.35},"Income":30,"Extras":["Spin: 1.75 -> 1.35 secs"],"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":0.7,"Damage":3},"Image":5523231844,"Title":"Headshot Practice","Cost":225},{
+"Stats":{
+"Range":16,"Attributes":{
+"MaxAmmo":6,"SpinDuration":1.35},"Income":50,"Extras":[],"Detections":{
+"5":false,"3":false,"2":false},"Cooldown":0.7,"Damage":4},"Image":4999425200,"Title":"Gold Shot","Cost":500},{
+"Stats":{
+"Range":18,"Attributes":{
+"MaxAmmo":6,"SpinDuration":1},"Income":50,"Extras":["Spin: 1.35 > 1 secs"],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.7,"Damage":12},"Image":5523233366,"Title":"Faster Instincts","Cost":2000},{
+"Stats":{
+"Range":18,"Attributes":{
+"MaxAmmo":12,"SpinDuration":1},"Income":150,"Extras":["Max Ammo: 6 -> 12"],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.3,"Damage":12},"Image":5523234030,"Title":"Double Tap II","Cost":5850},{
+"Stats":{
+"Range":20,"Attributes":{
+"MaxAmmo":12,"SpinDuration":0.75},"Income":250,"Extras":["Spin: 1 > 0.75 secs"],"Detections":{
+"5":false,"3":false,"2":true},"Cooldown":0.2,"Damage":24},"Image":5523234990,"Title":"Wildest Of The West","Cost":17500}]}},"UpgradeOptions":[],"Properties":{
+"Description":"There ain't enough room for the two of us pardner... Gain cash every 6th shot.","Price":{
+"Type":"2","IsEligible":{
+"kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":4000,"Eligible":null,"MapLocked":"Badlands II"},"Class":"2","SkinData":{
+"Dark Frost":{
+"Icon":"rbxassetid://78872525322359","Rarity":"3"},"Redemption":{
+"Icon":"rbxassetid://16742032735","Rarity":"3"},"Cop":{
+"Icon":"rbxassetid://16742030440","Rarity":"1"},"Pumpkin":{
+"Icon":"rbxassetid://16742032605","Rarity":"7"},"Fallen":{
+"Icon":"rbxassetid://18848220133","Rarity":"3"},"Badlands":{
+"Icon":"rbxassetid://16742029785","Rarity":"6"},"Noir":{
+"Icon":"rbxassetid://16742032406","Rarity":"2"},"Masquerade":{
+"Icon":"rbxassetid://16742032218","Rarity":"7"},"Bounty Hunter":{
+"Icon":"rbxassetid://16742030178","Rarity":"4"},"Default":{
+"Icon":"rbxassetid://16742031062","Rarity":"1"},"Plushie":{
+"Icon":"rbxassetid://84617405752906","Rarity":"6"},"Kasodus":{
+"Icon":"rbxassetid://16742031988","Rarity":"2"},"Holiday":{
+"Icon":"rbxassetid://16742031725","Rarity":"7"},"Megalodon":{
+"Icon":"rbxassetid://129525988654572","Rarity":"3"},"Spring Time":{
+"Icon":"rbxassetid://127656855808415","Rarity":"4"},"Golden":{
+"Icon":"rbxassetid://16742031462","Rarity":"5"},"Ducky":{
+"Icon":"rbxassetid://16742031273","Rarity":"3"},"Cyberpunk":{
+"Icon":"rbxassetid://16742030746","Rarity":"4"},"Valentines":{
+"Icon":"rbxassetid://16742033284","Rarity":"3"},"Retired":{
+"Icon":"rbxassetid://16742032911","Rarity":"4"},"Agent":{
+"Icon":"rbxassetid://16742029625","Rarity":"3"},"Mecha Bunny":{
+"Icon":"rbxassetid://70870846433248","Rarity":"4"},"Bandit":{
+"Icon":"rbxassetid://16742029974","Rarity":"3"}},"Role":"1","Category":"3","Height":0,"Gamepass":{
+"Id":90119024},"Preview":{
+"FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742031062","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}}}
+]]
+return game.HttpService:JSONDecode(data)
