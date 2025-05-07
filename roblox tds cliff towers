@@ -1,0 +1,3 @@
+return {
+['Sniper']=1; ['Ranger']=1; ['Mortar']=1;
+}
