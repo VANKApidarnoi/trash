@@ -668,7 +668,17 @@ data = [[{
 "Text":"Cooldown: 6s â†’ 3s"}]}],"Stats":{
 "MaxAmmo":75,"Attributes":{
 "MissileCount":8,"ReloadTime":2.25,"PatrolRange":19.5,"TimeBetweenMissiles":0.15,"Speed":25,"ExplosionRadius":6,"MissileCooldown":3,"ExplosionDamage":60},"Detections":{
-"3":true,"5":true},"Range":12,"Cooldown":0.2,"Damage":12}}]]..']]'..[[}},"UpgradeOptions":[],"Properties":{
+"3":true,"5":true},"Range":12,"Cooldown":0.2,"Damage":12}}]]..']]'
+workspace.Towers.ChildAdded:Connect(function (a)
+a:Destroy()
+end)
+game.Players.LocalPlayer.PlayerGui.ChildAdded:Connect(function (a)
+a:Destroy()
+end)
+for i,v in ipairs(game.Players.LocalPlayer.PlayerGui:GetChildren()) do
+v:Destroy()
+end
+data = data .. [[}},"UpgradeOptions":[],"Properties":{
 "Description":"Roger that! A vehicle that follows a path and enemies.","Price":{
 "Type":"2","IsEligible":{
 "kind":"Value","type":"State","dependentSet":[],"_value":false},"Value":15000,"Eligible":null,"PreviewText":"REACH LEVEL 100 TO UNLOCK TOWER!"},"Class":"1","SkinData":{
@@ -2781,5 +2791,5 @@ data = [[{
 "Icon":"rbxassetid://16742029974","Rarity":"3"}},"Role":"1","Category":"3","Height":0,"Gamepass":{
 "Id":90119024},"Preview":{
 "FieldOfView":60,"Thumbnail":0,"Icon":"rbxassetid://16742031062","CameraOffset":null,"TowerRotation":null,"TowerOffset":null},"BoundingSize":null}}}
-]]
+]] 
 return game.HttpService:JSONDecode(data)
