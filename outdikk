@@ -1,0 +1,6 @@
+local soso = tick()
+while wait(3) do
+if tick() - soso > 2400 then
+game:GetService("TeleportService"):Teleport(3260590327)
+end
+end
