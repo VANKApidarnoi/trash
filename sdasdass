@@ -287,6 +287,10 @@ function render()
     textBox.TextEditable = false
     textBox.TextWrapped = false
     textBox.Parent = textFrame
+    textBox.ClearTextOnFocus = false
+    textBox.MultiLine = true
+    textBox.TextEditable = true
+    textBox.AutoLocalize = false
 
     local lineNumberBox = Instance.new("TextBox")
     lineNumberBox.TextXAlignment = Enum.TextXAlignment.Right
