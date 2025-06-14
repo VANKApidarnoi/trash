@@ -1,4 +1,4 @@
 return {
 'Brawler', 'Necromancer', 'Accelerator', 'Engineer',
-'Warden', 'Cowboy', 'Crook Boss'
+'Warden', 'Cowboy'
 }
